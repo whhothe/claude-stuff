@@ -21,7 +21,7 @@ This pitch is designed to prove that AD2 can produce original standalone content
 
 ### The Gap
 
-Across all 327 videos in the Abyssal network, the words "elevator," "escalator," and "lift" appear **zero times**. Meanwhile:
+Across all 330 videos in the Abyssal network, the words "elevator," "escalator," and "lift" appear **zero times**. Meanwhile:
 
 - An estimated 30 deaths and 17,000 injuries occur annually in US elevators alone (Miller & Hine Law)
 - The 2015 Jingzhou escalator death (Xiang Liujuan swallowed by escalator in China) became one of the most viewed CCTV clips in internet history — billions of impressions across all platforms
@@ -76,8 +76,8 @@ An office worker named Nicholas White was trapped in an elevator in Manhattan's 
 
 **Case types:** Elevators dropping several floors before emergency brakes engage, escalator panels collapsing under passengers, elevator doors closing on people with children or luggage.
 
-**Verified case — The India Elevator Surge (2026):**
-A man in Gujarat, India was stepping out of an elevator when it suddenly surged upward without warning. CCTV footage captured him stumbling backward as the elevator shot past the floor — missing being pinned between the rising cab and the ceiling by less than a second. He escaped with minor injuries. Reported by TMZ and Jerusalem Post, March 2026.
+**Verified case — Vatsalbhai Panchal, Valsad, Gujarat (March 2026):**
+Vatsalbhai Panchal was stepping out of an elevator at the Sabarmati Building in the Sardar Heights residential complex in Valsad, Gujarat, India, when the elevator suddenly surged upward without warning. CCTV footage captured him being thrown to the ground as the elevator shot past the floor — narrowly avoiding being pinned between the rising platform and the ceiling, which would almost certainly have been fatal. He suffered head trauma and internal injuries but survived. Investigators pointed to an electrical fault and a suspected failure within the drive system. The footage went viral worldwide. Reported by TMZ, Jerusalem Post, The Nightly, and The Independent.
 
 **Verified case — The Chile Elevator Freefall (2013):**
 A man in Santiago, Chile entered an elevator in a commercial building. The elevator suddenly accelerated upward, rocketing 31 floors in 15 seconds — a speed far beyond any safety parameter. The man was thrown to the floor by the G-force. CCTV captured the entire incident. He survived with serious injuries but was hospitalized. Reported by CBS News, over 1 million views on the original news clip alone.
@@ -98,11 +98,11 @@ Five construction workers were killed when a construction-site elevator in Sundb
 
 **Case types:** Elevator free-falls in residential and commercial buildings, escalator entrapment deaths, elevator shaft falls.
 
-**Verified case — Samuel Waisbren, Milwaukee (April 2018):**
-Samuel Waisbren, a 39-year-old man, was exiting the elevator on the ground floor of his apartment building in Milwaukee when the elevator suddenly dropped. Waisbren was partially in and partially out of the cab when it descended, and he was crushed between the elevator car and the shaft wall. Security camera footage from the lobby captured other residents' horrified reactions. The building's elevator had been flagged for safety issues in a prior inspection. Waisbren's family filed a wrongful death lawsuit. Reported by Milwaukee Journal Sentinel and national media.
+**Verified case — Samuel Waisbren, New York City (August 2019):**
+Samuel Waisbren, a 30-year-old man originally from the Milwaukee area, was exiting the elevator on the ground floor of his apartment building on Third Avenue in the Kips Bay neighborhood of Manhattan when the elevator suddenly dropped. Waisbren was partially in and partially out of the cab when it descended, and he was crushed between the elevator car and the shaft wall. Security camera footage from the lobby captured other residents' horrified reactions. Records showed the elevator had 16 violations issued by the Department of Buildings between 2017 and 2018, and the building was fined $1,300 in May after inspectors found a safety feature on one of its elevators had been disabled or tampered with. Waisbren's family filed a wrongful death lawsuit. Reported by CBS New York, PIX11, Fox 6 Milwaukee, and national media.
 
-**Verified case — Jared Mauldin, Georgia (September 2021):**
-An 18-year-old student-athlete at Clark Atlanta University died when an elevator in his residence hall suddenly plunged while he was attempting to step out. Surveillance footage, later released by the university, showed the elevator dropping rapidly. Mauldin was trapped between the top of the elevator cab and the floor of the shaft for nearly an hour before emergency crews could reach him. He was pronounced dead at the scene. The university was later sued. Reported by FOX 5 Atlanta, WSB-TV, and national media.
+**Verified case — Jaumarcus McFarland, Atlanta (August 2021):**
+Jaumarcus McFarland, an 18-year-old Champion Prep Academy student-athlete, died when an elevator at 444 Highland Housing — a building used as temporary student housing near Clark Atlanta University — collapsed while he was attempting to step out. The elevator crushed him as it descended, and it took firefighters over an hour to free him. He was pronounced dead at the scene from cardiac arrest caused by the compression. Investigations revealed the elevator was more than a year overdue for inspection — its last check was in 2019, with the next one due in August 2020. Students had previously complained about concerning conditions at the building. A wrongful death lawsuit was filed against the property, elevator company, and school. The incident sparked new elevator safety legislation in Georgia. Reported by FOX 5 Atlanta, NBC News, NewsOne, and national media.
 
 ### Level 6 — Mass Casualties (Abyss)
 *When elevators don't just fail — they fail catastrophically.*
@@ -261,7 +261,7 @@ The brand-wide analysis identified six systemic failures across the Abyssal netw
 3. ✅ Convergence → AD2 gets its own lane, not AD1's leftovers
 4. ✅ Universal sequel decay → standalone video, no volume number
 5. ✅ Unsustainable viewer time → 30-35 min vs 48 min
-6. ✅ Topic exhaustion → brand new topic never covered in 327 videos
+6. ✅ Topic exhaustion → brand new topic never covered in 330 videos
 
 If this single video hits even 300K views (2.4x AD2's current ~125K avg), it validates the entire strategic thesis. And based on the Jingzhou escalator's viral history, the Chile elevator's 1M+ views as a short clip, and the sheer universality of elevator fear — 300K is a conservative floor.
 
@@ -302,7 +302,7 @@ Elevator/escalator CCTV footage has a consistent visual language: fixed camera a
 
 AD2's identity crisis is its biggest problem. This pitch doesn't fix the whole channel — but it demonstrates that AD2 can produce original content that competes with or beats its sequels. The elevator/escalator topic is:
 
-1. **Original** — first across all 327 Abyssal network videos
+1. **Original** — first across all 330 Abyssal network videos
 2. **Universal** — everyone uses elevators, everyone fears the malfunction
 3. **Footage-rich** — every elevator has CCTV, the footage always exists
 4. **Naturally escalating** — malfunction → entrapment → near-miss → death → catastrophe

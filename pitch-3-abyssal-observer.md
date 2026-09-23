@@ -38,7 +38,7 @@ This pitch doubles down on the winning formula with the single most algorithmica
 
 Yet despite this massive built-in audience, no one — not AO, not any competitor — has produced a structured, long-form Kitchen Nightmares iceberg. The clips exist. The audience exists. The deep lore exists. What's missing is the CURATION.
 
-**The gap across all 327 Abyssal videos:**
+**The gap across all 330 Abyssal videos:**
 - "Kitchen Nightmares" — zero results
 - "Kitchen" — zero results
 - "Gordon Ramsay" — zero results
@@ -116,8 +116,8 @@ The owner of Sabatiello's, featured on Kitchen Nightmares, was arrested and char
 **Verified case — Joe Cerniglia (Campania, Fairlawn, New Jersey):**
 Joseph Cerniglia, 39, owner of Campania restaurant, appeared on Kitchen Nightmares in 2007. During the episode, Ramsay told him: "Your business is about to f***ing swim down the Hudson." Three years later, on September 24, 2010, Cerniglia jumped to his death from the George Washington Bridge. He was more than $80,000 in debt at the time of his Kitchen Nightmares appearance, and financial pressures had continued to mount. Documented by ABC News, Fox News, Extra TV, and Unilad.
 
-**Verified case — Rachel Brown (Seven, Dallas, Texas):**
-Rachel Brown, owner of Seven Restaurant in Dallas, appeared on Kitchen Nightmares in 2013. In 2015, she died of a reported accidental overdose at the age of 41. Documented by Talent Recap and reality TV news outlets.
+**Verified pattern — The "Gordon Ramsay Curse" Narrative:**
+Joe Cerniglia was not the only death connected to Gordon Ramsay's TV empire. Rachel Brown, a contestant on Hell's Kitchen Season 2 (2006), died of a self-inflicted gunshot wound in her Dallas home in May 2007. The media coined the phrase "the Gordon Ramsay curse" — a narrative linking multiple deaths across his various shows. While Kitchen Nightmares and Hell's Kitchen are separate programs, the pattern raised public questions about the psychological toll of appearing on high-pressure reality TV with Ramsay, and whether the shows adequately screened or supported vulnerable participants. Documented by CBS News, Hollywood Reporter, and Fox News.
 
 *Note on editorial approach: These cases must be handled with sensitivity. The iceberg format allows for a tonal shift at this level — the narration slows down, the music drops, the editing becomes more restrained. This is not "content" — these are real people who died. The value of including them is the contrast with the show's entertaining surface: what the audience watches for laughs had real, devastating consequences for the people inside it.*
 
@@ -307,7 +307,7 @@ From the brand-wide analysis, this single video addresses:
 1. ✅ Title monoculture → keeps the formula BUT with a 10M-subscriber show name (the formula works when the topic is strong)
 2. ✅ Volume death spiral → standalone, no Vol. number
 3. ✅ Channel convergence → 100% AO-lane content (TV/reality show iceberg), zero overlap with AD1's footage format
-4. ✅ Topic exhaustion → brand new topic, never covered across 327 videos
+4. ✅ Topic exhaustion → brand new topic, never covered across 330 videos
 5. ✅ Unsustainable viewer time → 45-50 min, within sweet spot but below 57-min avg
 6. ✅ Sequel fatigue → original content, not a sequel
 
@@ -363,7 +363,7 @@ AO is the strongest channel in the Abyssal network by revenue, RPM, and niche di
 Kitchen Nightmares is the ideal vehicle for that return because it is:
 
 1. **Recognizable** — 10M+ YouTube subscribers on the official channel, one of the most quoted shows in internet history
-2. **Untapped** — zero coverage across all 327 Abyssal network videos, no competitor iceberg exists
+2. **Untapped** — zero coverage across all 330 Abyssal network videos, no competitor iceberg exists
 3. **Deep** — 9 seasons, 97 restaurants, decades of aftermath, lawsuits, deaths, criminal records
 4. **Naturally escalating** — comedy → horror → moral reckoning, without any artificial ordering
 5. **On-brand** — 100% within AO's TV/entertainment lane, zero overlap with AD1 or AD2
