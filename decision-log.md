@@ -186,3 +186,11 @@ first volume, nine of thirteen series are down 88–98%, but two grew (Cheapskat
 +94%) and the declines match each channel's own fall. Presented descriptively; the recommendation is
 now a series rule (extend only if the last volume beat the channel average), which is a named JD
 responsibility.
+
+
+## Video age — every "now" number rebuilt (24 Sep 2026)
+
+The views in the CSVs are lifetime-to-date, and the "current" month averages were made of videos that were days old. They were set against videos with more than a year of views. That inflated the headline drop, and it made four days-old AO videos look like flops. All recent figures now use videos at least ~2 months old. The rebuild changed three findings:
+- AO's decline isn't show-first topics. It's two February mega-hits followed by decaying accident follow-ups, with the rest of the channel falling too.
+- "Convergence" disappeared. The real shared signal is that all three channels dropped between April and May 2026. That points partly to a shared cause (the algorithm, or network cannibalisation as output rose from 13 to 23 a month), which needs traffic-source data to settle.
+- The series rule "renew if the last volume beat average" failed on Asian Internet. It's replaced by "pitch every follow-up like a new topic".

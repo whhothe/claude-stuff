@@ -9,19 +9,19 @@ Hi, I'm [YOUR NAME]. The brief says the format's aging, and I agree — just not
 
 → the-collapse
 
-First, the numbers. Abyssal Detective peaked at just over two million average views a video back in March 2025, and right now it's at 139,000. That's down 93 percent. Observer went from 1.39 million to 141,000, so down 90, and Detective 2 went from 601,000 to 133,000, down 78. Now, to be fair, each of those peaks was a month with one huge video in it, so a better comparison is 2025 as a whole — and against that, the last three months are still down 82, 67 and 55 percent. Either way, that's all happened inside eighteen months, and the format hasn't changed.
+First, the numbers. Abyssal Detective's 2025 videos average about 830,000 views each. Its videos from May to July this year — so ones that have had a couple of months to collect views — average about 160,000. That's down around 80 percent. On the same comparison, Observer and Detective 2 are both down 56. Older videos have had longer to build up views, so that overstates it a little, but the videos from the last few weeks are already landing in the same range as the summer ones, so most of that drop is real. And the timing's different by channel. AD's been sliding since spring last year. Observer and Detective 2 actually had their best quarter ever at the start of this year, and then fell off from May.
 
 → what-it-is-not
 
-There are a few easy explanations for that, and I don't think they hold up. It's not the titles — 98 percent of your videos use the same formula, and that includes the peaks, Footage Caught on Camera at 4.03 million and CCTV Incidents at 3.17 million. Something that never changed can't explain a change. The titles cap the upside, but they didn't cause the drop. It's not volume either. Once you control for which channel and which month it was, the number of uploads made no measurable difference to views per video — every tier sits within about seven percent of what you'd expect — and the busier months actually brought in more total views, so cutting output would just lose you reach. And it's not quality. On AD, the like-to-view ratio went from 1.86 percent in 2024 to 2.91 percent this June. The people who still click are enjoying it more than ever. So this is a reach problem.
+There are a few easy explanations for that, and I don't think they hold up. It's not the titles — 98 percent of your videos use the same formula, and that includes the peaks, Footage Caught on Camera at 4.03 million and CCTV Incidents at 3.17 million. Something that never changed can't explain a change. The titles cap the upside, but they didn't cause the drop. It's not a channel uploading too much either. Once you account for which channel and which month it was, the number of uploads made no measurable difference to views per video. And I don't think it's quality. On AD, the like-to-view ratio went from 1.86 percent in 2024 to 2.91 percent this June. Some of that is just a smaller, more loyal audience, but it does say the people who still click are happy with what they get. So this is a reach problem — the videos aren't getting past the core audience.
 
 → curiosity
 
-What I think it actually is comes straight out of your premise doc. It says the viewer "gets their morbid curiosity closed just by sitting and watching." And that's the whole thing — a topic only works if there's morbid curiosity already there to close. Your biggest videos had that built in: Footage Caught on Camera at 4.03 million, CCTV at 3.17 million, Internet Mysteries at 2.2 million. The recent ones just don't. Amazon Incidents did 71,000, Fishing Encounters 65,000, Biblical Horrors 60,000, Chinese Shows 54,000. Nobody's walking around with some unresolved morbid curiosity about fishing.
+What I think it actually is comes straight out of your premise doc. It says the viewer "gets their morbid curiosity closed just by sitting and watching." And that's the whole thing — a topic only works if there's morbid curiosity already there to close. Your biggest videos had that built in: Footage Caught on Camera at 4.03 million, CCTV at 3.17 million, Internet Mysteries at 2.2 million. The recent ones just don't. Amazon Incidents did 71,000, Fishing Encounters 65,000 and Biblical Horrors 60,000. Nobody's walking around with some unresolved morbid curiosity about fishing.
 
 → three-tests
 
-And when I ran those four through your three greenlight tests, all four failed on depth and on whether the descent goes somewhere people can't find on their own. Biblical Horrors also sits right on the religion line from your gray-zone rule. So the filter's there — it's just not being applied.
+And when I ran those three through your three greenlight tests, all three failed on depth and on whether the descent goes somewhere people can't find on their own. Biblical Horrors also sits right on the religion line from your gray-zone rule. So the filter's there — it's just not being applied.
 
 → the-runtime
 
@@ -29,23 +29,23 @@ I think I know why, and it's what I'd say you're protecting for the wrong reason
 
 → series
 
-A few other things I found. On series — out of the thirteen multi-volume series where I've got both the first and the latest volume, nine are down 88 to 98 percent. That's CCTV, Dashcam, Theme Park, Live TV, Talent Show — and they're still getting new volumes. But two actually grew. Cheapskates' second volume beat its first by 18 percent, and Things on Asian Internet's beat its first by 94. So the call on which series deserve another volume can be made from the data — it's just not being made right now.
+A few other things I found. On series — of the 26 that have had a follow-up, 20 lost more than half their audience by the latest volume. Footage Caught on Camera went from 4.03 million to 261,000 by its fifth. Warning Signs went from 907,000 to 90,000 in one. But a few held up or grew. Movie Accidents is still near 490,000 on its fourth, Cheapskates' second beat its first, and Movies Based on Real Events more than tripled. So some series have more in them and most don't, and that call can be made series by series, from the data.
 
-→ same-floor
+→ same-month
 
-Then there's convergence. Your three channels have a fourfold spread in subscribers, and they're all sitting between 133 and 141 thousand views a video right now. Three different audiences landing on the same floor points to one shared cause.
+Then there's the timing. All three channels fell hard between April and May — Detective by 43 percent, Observer by 48, Detective 2 by 58 — with different audiences and a fourfold gap in subscribers. Something that hits all three in the same month is at least partly shared. It could be the algorithm, or it could be the three channels competing for the same viewers — the network went from 13 uploads in January to 23 in June. From the outside I can't separate those. Traffic sources and returning-viewer data would, and that's one of the first things I'd want to look at.
 
 → the-ask
 
-There's also the size of the ask. Together, the channels are asking for about seventeen hours of viewing a month. The channels in this niche that average 2.6 to 3.2 million views a video — Chilling Scares, Nexpo, Nick Crowley — each ask for an hour or less. And since upload count isn't what's costing you views, the lever that's left is runtime. The million-view videos in this niche cluster around 28 minutes, and AD averages 59. Sixty percent of a 35-minute video is the same 21 minutes as thirty-five percent of a 60-minute one, but the shorter video shows the better retention.
+There's also the size of the ask. Together, the channels are asking for about seventeen hours of viewing a month. The channels in this niche that average 2.6 to 3.2 million views a video — Chilling Scares, Nexpo, Nick Crowley — each ask for an hour or less. And since a channel's upload count doesn't seem to be what's costing it views, the lever I'd test first is runtime. The million-view videos in this niche cluster around 28 minutes, and AD averages 59. Sixty percent of a 35-minute video is the same 21 minutes as thirty-five percent of a 60-minute one, but the shorter video shows the better retention.
 
-And on titles — AD's one non-iceberg title, 4chan Threads That Triggered FBI Investigations, did 407,000, which is 61 percent above AD's 2026 average. It's one data point, but titles are the strategist's lever, and it's the cheapest thing there is to test.
+And on titles — AD's one non-iceberg title, 4chan Threads That Triggered FBI Investigations, did 407,000, which is about 40 percent above AD's average this year. It's one data point, but titles are the strategist's lever, and it's the cheapest thing there is to test.
 
 So what's fatiguing about Abyssal isn't the iceberg. It's the topics, the repeats, and how much you're asking of people.
 
 → observer
 
-Now channel by channel, starting with Observer. Three of AO's four weakest videos this year are show-first topics that break its own rule — Marvel at 39,545, Anime Based on Real Events at 45,563, Chinese Shows at 54,395 — and Directors Behind Famous Films did 60,218. Those four average 49,930. Meanwhile its consequence-led named shows — TLC, To Catch a Predator, Intervention, My Strange Addiction, 90 Day Fiancé, Extreme Cheapskates — average 777,580. And that holds across the whole channel: TV and reality topics average 483,000 a video, animation and franchise topics 210,000. So AO isn't exhausted — as recently as June, Cheapskates' second volume did 590,000. Its baseline is falling because show-first topics are getting through greenlight, and the fix is a rule it already has.
+Now channel by channel, starting with Observer. Half the views in its best quarter came from two videos in February — Talent Show Accidents at 4.67 million and TV Accidents at 2.4 million. What followed was about a dozen more accident videos — sports, Survivor, Olympics, magic, WWE, plus the follow-up volumes — and they went from around 500,000 a video in March to under 200,000 by May, and stayed there. Talent Show's third volume did 77,000. To be fair, Observer's other topics fell over the same months too, so that's not the whole story. But it's the part AO controls: it found a hit and kept cutting it thinner. And the audience is still there for the right topic — Asylum TV Documentaries did 609,000 in April, and Cheapskates' second volume did 590,000 in June.
 
 → detective
 
@@ -53,11 +53,11 @@ Abyssal Detective has the steepest fall and the broadest territory, and I think 
 
 → detective-2
 
-Detective 2 has actually repositioned. The recent half of its catalogue is 55 percent disaster and accident topics, up from 28, and volume numbering is down from 80 percent to 25. The problem is what it's being fed, because both of its supply lines are running dry. One is the later volumes of AD1's series — Theme Park and Live TV Moments each did about two million on AD1, and their latest volumes on AD2 did 91,000 and 107,000. The other is new setting topics nobody was curious about — storms at 44,705, home invasions at 40,518, fishing at 64,708. Fourteen of its fifteen weakest videos are from this year. The one exception is Things on Asian Internet, which nearly doubled on its second volume — but the other language lanes didn't repeat that. Hispanic Internet did 40,671.
+Detective 2 has actually repositioned. Its best quarter, at the start of this year, was almost entirely numbered series volumes — fourteen of fifteen videos. Since then, volume numbering's dropped to about a quarter of uploads, and disaster and accident topics went from 28 percent of its uploads to 55. The problem is what it's being fed. The series volumes it kept stopped working — Live TV's fifth did 107,000, Theme Park's fifth did 91,000, and Asian Internet, which nearly doubled on its second volume, fell to 155,000 on its third. And the new setting topics are ones nobody was curious about — storms at 44,705, home invasions at 40,518, fishing at 64,708. The other language lanes didn't repeat Asian Internet either. Hispanic TV Moments did 48,930.
 
 → four-changes
 
-So what would I change? Four things. First, enforce the three-test filter at greenlight, in writing, with every no written down along with the reason. Second, a series only gets another volume if its last one beat the channel's average — otherwise it's retired. Third, rotate three title frameworks, drop the "Vol." numbers, and keep "Iceberg" for one or two premium uploads per channel a month — so "Dashcam Vol. 5" becomes something like "The Dashcam Footage From Russia Nobody Can Explain." And fourth, end every segment on the document that already existed, so the depth comes from the record instead of from volume — that's what all three of my pitches are built on. The first three are testable inside two months, against today's floor of 133 to 141 thousand a video, channel by channel. Each test gets a written prediction before it ships and a review after, and that's the start of the playbook.
+So what would I change? Four things. First, enforce the three-test filter at greenlight, in writing, with every no written down along with the reason. Second, stop treating a hit as a series by default — a follow-up gets pitched like a new topic, with its own case for why there's curiosity left. Third, rotate three title frameworks, drop the "Vol." numbers, and keep "Iceberg" for one or two premium uploads per channel a month — so "Dashcam Vol. 5" becomes something like "The Dashcam Footage From Russia Nobody Can Explain." And fourth, end every segment on the document that already existed, so the depth comes from the record instead of from volume — that's what all three of my pitches are built on. The first three are testable inside two months, against each channel's recent average — about 160,000 a video on AD, 175,000 on AO and 110,000 on AD2. Each test gets a written prediction before it ships and a review after, and that's the start of the playbook.
 
 → format-test
 
@@ -103,7 +103,7 @@ What I'd change is the direction. AO's named-show icebergs start with a show and
 
 On monetization — done badly, this is just a gawk-at-criminals list. Done right, the thing on trial is the casting process. No crime-scene material is needed, and Patreon gets the court filings themselves. Level 6 is the exception, because offences against children are the hardest category on the platform. My call would be two sentences per case, charge and sentence only, nothing extra behind the paywall — and if the limited-ads rate says otherwise after one video, cut the level.
 
-So, to wrap up. The format isn't failing because it got old. It's failing because the runtime took over topic selection, the filter you've already written down stopped being applied, and series kept getting volumes after the data said stop. Enforce the filter, make every series earn its next volume, test the titles — and compete on depth instead of topic novelty, with every segment ending on the document.
+So, to wrap up. The format isn't failing because it got old. Part of the drop hit all three channels at once, and I'd want the traffic data to pin that down. But the part you control is clear: the runtime took over topic selection, the filter you've already written down stopped being applied, and hits kept getting follow-ups after the follow-ups stopped working. Enforce the filter, pitch every follow-up like a new topic, test the titles — and compete on depth instead of topic novelty, with every segment ending on the document.
 
 Thanks for watching.
 
@@ -111,24 +111,27 @@ Thanks for watching.
 
 # STAT SHEET — keep on the second monitor
 
-**Peak → now (monthly per-video avg)** AD1 2,035,346 (Mar 25) → 138,757 = **−93%** · AO 1,390,590 (Feb 26) → 141,082 = **−90%** · AD2 601,402 (Oct 25) → 133,382 = **−78%**
-**2025 avg → Jul–Sep 2026 (views ÷ videos)** AD1 831,906 → 153,354 = **−82%** · AO 393,720 → 129,871 = **−67%** · AD2 (Jun–Dec 25) 252,927 → 112,768 = **−55%**
-Each peak month contained one mega-video (FCoC 4.03M · Talent Show 4.67M + TV Accidents 2.40M · Theme Park Vol 3 1.19M)
+*Source: channel upload CSVs (views as of export, 23 Sep 2026). Views are lifetime-to-date, so any "recent" figure uses only videos at least ~2 months old — videos from the last few weeks are still collecting views and are never cited as flops.*
 
-**Volume, if challenged** 2026, 27 channel-months. Model log(views) ~ uploads + channel + month: **+5.7% per upload, t = 0.69** (excl. AO Feb 2026 outlier: −3.4%, t = −0.49). Residual by uploads: 3–5 −6% · 6 +7% · 7 +2% · 8 −2%. All six 8-upload months fell Jun–Aug 2026; in that window 8-upload months averaged 135,872/video vs 115,858 for 7. **No cliff.** Totals: busier months still bring more total views (≥7/mo 2.05M vs ≤5/mo 1.22M; 1.35M excl. AO Feb)
-**Quality** AD like-to-view 1.86% (2024) → 2.91% (Jun 2026)
-**Titles** 321 of 328 at audit = **98%** · AD's one non-iceberg title, *4chan Threads That Triggered FBI Investigations*, **407K** vs AD 2026 avg 252K = **+61%**
+**2025 → May–Jul 2026 (avg views per video, videos ≥ ~60 days old)** AD 831,906 (66 videos) → 161,591 (21) = **−81%** · AO 393,721 (56) → 174,001 (20) = **−56%** · AD2 252,927 (26, Jun–Dec) → 112,309 (19) = **−56%**
+**Age check** videos under 60 days old average AD 132,107 · AO 138,498 · AD2 125,720 — same range as May–Jul, so late accumulation is small relative to the gap
+**Timing** AO Jan–Mar 2026 avg 829,545 (median 488,689) and AD2 469,853 (median 458,477) = both channels' best quarter · AD peaked Mar 2025 (2,035,347, one month incl. FCoC 4.03M) and slid from May 2025
+**Same month** Apr → May 2026 avg per video: AD 263,583 → 151,275 (**−43%**) · AO 349,382 → 180,491 (**−48%**) · AD2 402,090 → 168,153 (**−58%**) · network uploads/month 2026: Jan 13 · Feb 17 · Mar 19 · Apr 17 · May 19 · Jun 23 · Jul 22 · Aug 23 · subs 494K / 274K / 123K
 
-**Topic collapse** Footage Caught on Camera 4.03M · CCTV 3.17M · Internet Mysteries 2.20M → Amazon Incidents 70,529 (AD) · Fishing Encounters 64,708 (AD2) · Biblical Horrors 60,277 (AD) · Chinese Shows 54,395 (AO)
+**Volume, if challenged** Jan–Jul 2026, 21 channel-months. log(avg views) ~ uploads + channel + month: **+5.7% per upload, t = 0.57** (excl. AO Feb 2026 outlier: −3.7%, t = −0.43). No measurable effect *within a month*; says nothing about network-wide cadence (absorbed by the month term). Don't claim busier months bring more total views — only true with AO Feb included.
+**Quality** AD like-to-view 1.86% (2024) → 2.91% (Jun 2026). Rising ratio partly = smaller, more loyal audience.
+**Titles** 321 of 328 at audit = **98%** · *4chan Threads That Triggered FBI Investigations* **406,992** vs AD 2026 avg 286,099 (videos ≥60 days) = **+42%**
 
-**Series (first vol → latest)** Talent Show 4.67M→77K −98% · CCTV 3.17M→132K −96% · Theme Park 2.00M (AD1)→91K (AD2) −95% · Dashcam 1.19M→61K −95% · Live TV 2.05M (AD1)→107K (AD2) −95% · FCoC 4.03M (AD1)→261K (AD2) −94% · TV Accidents 2.40M→192K −92% · Warning Signs 907K→90K −90% · Banned Movies 660K→82K −88% · Documentaries 1.40M→733K −48% · To Catch a Predator 954K→618K −35% · **Cheapskates 498K→590K +18%** · **Asian Internet 603K→1.17M +94%**. Confounded with channel decline — descriptive only.
+**Topic collapse** Footage Caught on Camera 4.03M · CCTV 3.17M · Internet Mysteries 2.20M → Amazon Incidents 70,529 (AD, Jun) · Fishing Encounters 64,708 (AD2, Jul) · Biblical Horrors 60,277 (AD, May)
 
-**Convergence** subs 494K / 274K / 123K → Sep 2026 per-video AD1 138,757 · AO 141,082 · AD2 133,382
+**Series (first → latest volume ≥ ~2 months old; 26 series, 20 down >50%)** Talent Show 4.67M→77K −98 · Live TV 2.05M→107K −95 · Theme Park 2.00M→91K −95 · FCoC 4.03M→261K −94 · TV Accidents 2.40M→192K −92 · Videos Before Disaster 2.07M→194K −91 · Warning Signs 907K→90K −90 · Banned Movies 660K→82K −88 · Last Moment 579K→68K −88 · Doorbell 1.08M→151K −86 · TLC 1.44M→200K −86 · Encounters 1.14M→187K −84 · CCTV 3.17M→531K (Vol 3) −83 · Documentaries 1.40M→234K −83 · Dashcam 1.19M→256K (Vol 5) −79 · Body Horror −78 · Reality Shows −78 · Asian Internet 603K→**1.17M (Vol 2)**→155K (Vol 3) −74 · 90 Day −63 · Found Footage −62 · Movie Endings −37 · TCAP −35 · Lost Movies −11 · **Movie Accidents 536K→489K (Vol 4) −9** · **Cheapskates 498K→590K +18** · **Movies Based on Real Events 294K→1.06M +262**. Excluded: MSA, 600-lb (unnumbered repeat titles); CCTV Vol 4 and Dashcam Vol 6 (days old). Confounded with channel decline — descriptive only.
+
 **Viewing ask** Abyssal 18.5 videos × 54.8 min = **16.9 hrs/mo** · Chilling Scares 22 min / 11.2 days = 1.0 · Nexpo 49 min / 25 days = 1.0 · Paint Explainer 13 min / 7 days = 0.9 · Nick Crowley 32 min / 20 days = 0.8 · SIRIUS 49 min / 77 days = 0.3 (channel averages 1.9–3.2M/video) · 1M+ outlier videos avg ~28 min · AD1 59 · AO 57 · AD2 48
 
-**AO** 4 show-first flops (all Aug–Sep 2026): Marvel 39,545 · Anime Based on Real Events 45,563 · Chinese Shows 54,395 · Directors 60,218 = avg 49,930 · 6 named shows: TLC 1,440,848 · TCAP 953,849 · Intervention 631,353 · MSA 613,773 · 90 Day 527,895 · Extreme Cheapskates 497,762 = avg 777,580 (selected comparison; excludes Talent Show 4.67M, Reality Shows 1.02M) · **Channel-wide:** TV/Reality 482,823 avg (53 videos) vs Animation/Anime/Franchise 210,413 (7) · Cheapskates Vol 2 589,708 (Jun 2026)
-**AD** Biblical Horrors 60,277 (May 26) · Amazon Incidents 70,529 (Jun 26) · Faith Shattering Cases 123K
-**AD2** recent half 55% disaster/accident topics vs 28% early · Vol. N 80% → 25% · 14 of 15 weakest are 2026: Hispanic Internet 40,671 · Home Invasions 40,518 · Storms 44,705 · Hispanic TV 48,930 · Police Traffic 63,793 · Fishing 64,708 · Trains 74,055 · Russian Internet 68,947 · Japanese Footage 78,889
+**AO** Feb 2026: Talent Show 4,665,487 + TV Accidents 2,401,370 = 50% of Q1 views (14.10M) · accident videos Mar–Jul (12): avg per month Mar 497,696 · Apr 286,402 · May 192,986 · Jun 83,301 · Jul 122,004 · Talent Show Vol 2 455,230 (6 wks later) · Vol 3 77,478 (7 wks after that) · TV Accidents Vol 2 380,644 · Vol 3 191,530 · non-accident videos fell too (Mar 447,932 → Jul 103,610) · Asylum TV Documentaries 609,285 (Apr) · Cheapskates Vol 2 589,708 (Jun)
+**AD** Biblical Horrors 60,277 (May 26) · Amazon Incidents 70,529 (Jun 26) · 59 min average in 2026
+**AD2** Q1 2026: 14 of 15 videos numbered volumes = 97% of the quarter's views · recent half: Vol. N 79% → 25%, disaster/accident topics 28% → 55% · Live TV Vol 5 106,570 · Theme Park Vol 5 91,033 · Asian Internet Vol 3 154,662 · Storms 44,705 · Home Invasions 40,518 · Fishing 64,708 · Hispanic TV Moments 48,930 (May)
+**Recent averages (test baselines)** AD ~160K · AO ~175K · AD2 ~110K
 
 **Format spec** 7 levels · 5–7 cases/level · **35–50 cases** · 45–60 min · 60–120 s/case · **30+ s usable footage per case** · no true crime without a footage anchor · only AD has a Patreon Level 8
 

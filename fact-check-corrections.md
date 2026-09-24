@@ -476,3 +476,17 @@ AD1 −93.2% · AO −89.9% · AD2 −77.8% · 2026 ≤5/mo 284,952 vs ≥7/mo 2
 | Case counts | bare "about 44" | + "anchors verified, full inventory is week-one work" | fact-check H5 |
 | JD metrics | missing | Patreon per pitch (L8 = the reports for AD), level-transition retention, predicted-vs-actual playbook | jd-alignment-audit.md T3 |
 | Hooks | "forty seconds" of footage; certificate "in the lobby"; "casting tape" | untimed static shot; certificate "somewhere in your building"; "his intro from the show" | production realism |
+
+## K. Video-age correction (24 Sep 2026)
+
+Every "now" figure in the script had been an average of videos that were days old (the Sep 2026 uploads were 4–20 days old at export), compared against videos that had had 12–18 months to accumulate views. Rebuilt everything on videos at least ~2 months old:
+- Opening: "peak 2.04M → 139K, −93/−90/−78%" replaced with 2025 avg → May–Jul 2026 avg: AD −81%, AO −56%, AD2 −56%. Added the age caveat, and that AO and AD2 had their best quarter in Q1 2026.
+- AO diagnosis: Marvel, Anime, Chinese Shows and Directors (4–33 days old) removed, along with the cherry-picked 777,580 six-show average and the show-first claim. Replaced with the Feb 2026 hits → accident follow-ups decaying (Mar 498K → May 193K), noting that other topics fell too.
+- Series: CCTV Vol 4 and Dashcam Vol 6 were days old. Asian Internet "latest" was really Vol 2; its Vol 3 did 155K. Now 26 series, 20 down more than half; Movie Accidents, Cheapskates and Movies Based on Real Events held up or grew.
+- Convergence ("all three at 133–141K") removed: it came from days-old videos. Replaced with the network-wide Apr → May 2026 drop (−43/−48/−58%).
+- Volume: rerun on Jan–Jul 2026 (+5.7%, t = 0.57). Removed "every tier within 7%" and "busier months bring more total views" (the latter holds only with AO Feb 2026).
+- 4chan: +61% → +42% vs AD's 2026 average of settled videos.
+- AD2: "14 of 15 weakest are 2026" removed (not significant once young videos are excluded). Hispanic Internet (18 days old) swapped for Hispanic TV Moments 48,930.
+- Chinese Shows (12 days old) removed from the topic examples.
+- Series rule "renew if the last volume beat average" dropped: Asian Internet Vol 2 beat average and Vol 3 still fell 87%.
+
