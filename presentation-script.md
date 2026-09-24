@@ -1,5 +1,5 @@
 # NIA Production — Creative Strategist (Abyssal Network)
-## Loom script · 27–31 min depending on pace
+## Loom script · 29 min at 150 wpm, 31 at 140 — section timings below are measured, not estimated
 
 *Speak it, don't read it — the slides carry the ladders, so don't narrate them. ~4,340 words:
 about 27 min at a brisk conversational pace, 31 if you read it. The brief asks for 20–30, so
@@ -13,7 +13,7 @@ number and does not soften anything.*
 
 ---
 
-## INTRO — 1 min
+## INTRO — 45 sec
 
 I'm [YOUR NAME]. I went through all 330 videos, the month-by-month numbers for every one, the
 competitive set and the premise doc.
@@ -30,9 +30,9 @@ time arguing otherwise. But I don't think it's aging the way it looks like it is
 
 # QUESTION 1 — WHERE ARE WE FAILING
 
-## Pass one: the brand — 8 min
+## Pass one: the brand — 7 min
 
-### The number — 1 min
+### The number — 30 sec
 
 *[SLIDE: the-collapse.png]*
 
@@ -45,7 +45,7 @@ Detective 2, **601,000** down to **133,000** — **minus 78**.
 Eighteen months. The flagship lost 93 percent of its per-video reach. Nothing in the format
 changed in that window. That's the thing to explain.
 
-### What it is not — 45 sec
+### What it is not — 1.5 min
 
 Two comfortable answers, both wrong, and I want them off the table before I give you mine.
 
@@ -69,7 +69,7 @@ about to recommend cutting output by forty percent, and it would have cost you m
 higher-cadence months produced **2.05 million** total views against **1.22 million**. There's a
 real finding inside that and it's sharper than the one I started with. I'll get to it.
 
-### What it actually is — 2.5 min
+### What it actually is — 1.75 min
 
 *[SLIDE: curiosity-to-close.png]*
 
@@ -101,7 +101,7 @@ line in your own gray-zone rule.
 The filter exists. It isn't being applied. That is the whole diagnosis, and everything else is
 downstream of it.
 
-### Why the filter stopped being applied — 1.5 min
+### Why the filter stopped being applied — 1 min
 
 *[SLIDE: the-35-case-trap.png]*
 
@@ -121,7 +121,7 @@ fifty clips of." And *Fishing Encounters* is what that question returns.
 You are not protecting the iceberg. The iceberg is genuinely good — nobody else builds this
 depth. **You're protecting the runtime**, and the runtime is picking your topics for you.
 
-### The rest of it — 2 min
+### The rest of it — 2.5 min
 
 Four more, quickly, all real but all secondary to that.
 
@@ -150,9 +150,10 @@ number by coincidence.
 
 **And the size of the ask.** Three channels, about eighteen and a half videos a month, at a
 weighted average of fifty-five minutes. That's **roughly seventeen hours of video a month** from
-one brand. Chilling Scares asks for about **1.1**. You are asking fifteen times more of
-someone's week than your nearest competitor, and the videos in this niche that clear a million
-views cluster around **28 minutes** while AD averages **59**.
+one brand. The nearest competitor in the set, GOHA, asks for **1.8**. Chilling Scares asks
+**1.1** — so you are asking **fifteen times** what Chilling Scares does and nine times what
+GOHA does. And the videos in this niche that clear a million views cluster around **28 minutes**
+while AD averages **59**.
 
 The retention maths is the part that matters. Sixty percent of a 35-minute video and thirty-five
 percent of a 60-minute video are the same twenty-one minutes watched — but YouTube rewards the
@@ -248,14 +249,14 @@ is what the number costs you.
 **Four. Put three title frameworks into rotation** and reserve "Iceberg" for one or two premium
 uploads per channel per month, so it means something again.
 
-**Five. Change what a level means.** This is the one that matters, and I'll spend Q2 on it
-rather than describing it twice — so here it is in one sentence. Right now a level is a
-severity tier, which is why the videos need fifty clips to feel deep. Make the level about
-**what was written down before it happened** instead, and the depth stops coming from volume and
-starts coming from the record. All three of my pitches are that same change applied three
-times.
+**Five. Change what a segment ends on.** This is the one that matters, and I'll spend Q2 on it
+rather than describing it twice — so here it is in one sentence. Right now a segment ends on the
+footage and the toll, so severity is the only thing stacking, which is why the videos need fifty
+clips to feel deep. Make every segment end on **the document that already existed** instead —
+the levels still escalate on harm, but the depth stops coming from volume and starts coming from
+the record. All three of my pitches are that same change applied three times.
 
-### And the thing I'd want to test, once I'd earned it — 45 sec
+### And the thing I'd want to test, once I'd earned it — 1 min
 
 *[SLIDE: next-format.png]*
 
@@ -298,7 +299,7 @@ topic novelty any more.** That era is over.
 So I'm not going to pitch you three untouched subjects, because I don't believe they exist. I'm
 going to pitch you one change to the format, applied three times.
 
-## The change: every segment ends on the paperwork — 2 min
+## The change: every segment ends on the paperwork — 2.5 min
 
 *[SLIDE: the-document-axis.png]*
 
@@ -330,7 +331,7 @@ One thing I'm not going to do is apply it to all three channels. Two of them sit
 mandatory inspection regimes that generate paper by law. The third doesn't, and its problem is
 different anyway — so it gets a different answer.
 
-## Pitch 1 · Abyssal Detective — "the Most Disturbing Structural Collapses Iceberg" — 3.5 min
+## Pitch 1 · Abyssal Detective — "the Most Disturbing Structural Collapses Iceberg" — 2.75 min
 
 *[SLIDE: pitch-collapses.png]*
 
@@ -374,7 +375,7 @@ footage is public, the report is not.
 isn't built on one nation's legal system, and it touches no religion or political debate.
 Cleanest of the three to ship.
 
-## Pitch 2 · Abyssal Detective 2 — "the Most Disturbing Lift & Cable Failures Iceberg" — 3.5 min
+## Pitch 2 · Abyssal Detective 2 — "the Most Disturbing Lift & Cable Failures Iceberg" — 3 min
 
 *[SLIDE: pitch-lifts.png]*
 
@@ -483,7 +484,7 @@ the fly. My call: keep it, two sentences per case, charge and sentence and nothi
 extra behind the paywall. If the limited-ads rate says otherwise after one video, cut the level
 rather than soften the rest.
 
-## CLOSE — 45 sec
+## CLOSE — 1 min
 
 The short version. You're not failing because the format got old. You're failing because the
 runtime requirement quietly took over topic selection, and the filter you already wrote down
