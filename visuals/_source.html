@@ -1,302 +1,191 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title>Abyssal figures</title>
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Abyssal side panels</title>
 <style>
 :root{--bg:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--ink3:#8a8880;--grid:#2e2e2c;--red:#e66767;--blue:#3987e5;--aqua:#199e70;--amber:#c98500;--mute:#4a4945}
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#0e0e0d;font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;padding:20px}
-.fig{width:1600px;background:var(--bg);color:var(--ink);padding:60px 76px 56px;margin-bottom:24px}
-h1{font-size:40px;font-weight:700;letter-spacing:-.6px;line-height:1.15}
-.sub{font-size:20px;color:var(--ink3);margin-top:10px}
-.chart{margin-top:44px}
-.src{font-size:16px;color:var(--ink3);margin-top:30px;line-height:1.5}
+.fig{width:960px;height:1080px;background:var(--bg);color:var(--ink);padding:88px 76px 80px;margin-bottom:24px;display:flex;flex-direction:column}
+h1{font-size:50px;font-weight:750;letter-spacing:-1px;line-height:1.1}
+.k{font-size:22px;color:var(--ink3);margin-top:14px}
+.c{flex:1;display:flex;flex-direction:column;justify-content:center}
 svg{display:block;overflow:visible} text{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
-table{border-collapse:collapse;width:100%;font-size:22px}
-th{text-align:left;font-size:15px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--ink3);padding:0 24px 16px 0;border-bottom:1px solid var(--grid)}
-td{padding:22px 24px 22px 0;border-bottom:1px solid var(--grid);color:var(--ink2);vertical-align:middle;line-height:1.35}
-td.k{color:var(--ink);font-weight:600}
-td.num{font-variant-numeric:tabular-nums}
-.x{color:var(--red);font-weight:700;font-size:26px}.ok{color:var(--ink3);font-size:26px}
-.legend{display:flex;gap:30px;font-size:18px;color:var(--ink2);margin-top:26px}
-.legend i{display:inline-block;width:14px;height:14px;border-radius:3px;margin-right:9px;vertical-align:-1px}
-.flow{display:flex;align-items:center;gap:0;margin-top:48px}
-.node{background:#242423;border-radius:12px;padding:22px 24px;font-size:22px;color:var(--ink);font-weight:600;line-height:1.3;text-align:center}
-.node small{display:block;font-size:15px;color:var(--ink3);font-weight:500;margin-top:6px;letter-spacing:.3px}
-.arrow{color:var(--ink3);font-size:28px;padding:0 16px}
-.rowlab{font-size:15px;letter-spacing:1.2px;text-transform:uppercase;font-weight:700;color:var(--ink3);width:130px;flex:none}
-.lrow{display:grid;grid-template-columns:96px 1fr 90px;column-gap:28px;align-items:center;padding:14px 0;border-bottom:1px solid var(--grid)}
-.lhead{display:grid;grid-template-columns:96px 1fr 90px;column-gap:28px;font-size:14px;font-weight:700;letter-spacing:1.2px;color:var(--ink3);padding-bottom:12px;border-bottom:1px solid var(--grid)}
-.chip{border-radius:7px;text-align:center;font-weight:800;font-size:18px;padding:10px 0}
-.lvn{font-size:22px;font-weight:650;color:var(--ink)}
-.lvd{font-size:17px;color:var(--ink3);margin-top:4px}
-.cnt{font-size:20px;color:var(--ink2);text-align:right;font-variant-numeric:tabular-nums}
-.meta{font-size:21px;color:var(--ink2);margin-top:12px}.meta b{color:var(--aqua)}
-.ptitle{font-size:15px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--ink3);margin-bottom:20px}
-.bignum{font-size:92px;font-weight:800;letter-spacing:-3px;line-height:1;color:var(--ink)}
-.plab{font-size:18px;color:var(--ink2);margin-top:16px;line-height:1.45}
+.tile{padding:30px 0;border-bottom:1px solid var(--grid)} .tile:last-child{border-bottom:none}
+.big{font-size:88px;font-weight:800;letter-spacing:-3px;line-height:1}
+.lab{font-size:26px;color:var(--ink2);margin-top:12px}
+.dot{display:inline-block;width:16px;height:16px;border-radius:4px;margin-right:12px;vertical-align:1px}
+.row{display:flex;align-items:center;gap:26px;padding:24px 0;border-bottom:1px solid var(--grid);font-size:30px}
+.row:last-child{border-bottom:none}
+.num{font-size:34px;font-weight:800;color:var(--aqua);width:44px}
+.chip{width:78px;border-radius:8px;text-align:center;font-weight:800;font-size:22px;padding:10px 0;flex:none}
+.ln{font-size:28px;font-weight:650;flex:1}.an{font-size:22px;color:var(--ink3);text-align:right}
+.node{background:#242423;border-radius:14px;padding:26px 30px;font-size:30px;font-weight:650;text-align:center}
+.arr{text-align:center;color:var(--ink3);font-size:34px;padding:10px 0}
+table{border-collapse:collapse;width:100%;font-size:28px} th{font-size:17px;letter-spacing:1.2px;text-transform:uppercase;color:var(--ink3);text-align:left;padding:0 0 18px;border-bottom:1px solid var(--grid)}
+td{padding:26px 0;border-bottom:1px solid var(--grid)} td.x{color:var(--red);font-weight:800;font-size:34px}
 </style></head><body>
 
-<div class="fig" id="the-collapse"><h1>Per-video views fell 78–93% in eighteen months</h1>
-<div class="sub">Monthly average views per video. Against 2025 as a whole, the last three months are down 82% (AD), 67% (AO) and 55% (AD2).</div>
-<div class="legend"><span><i style="background:var(--blue)"></i>Abyssal Detective</span><span><i style="background:var(--aqua)"></i>Abyssal Observer</span><span><i style="background:var(--amber)"></i>Abyssal Detective 2</span></div>
-<div class="chart"><svg id="c-collapse" width="1448" height="560"></svg></div></div>
+<div class="fig" id="the-collapse"><h1>Peak → now</h1><div class="k">Avg views per video, by month</div>
+<div class="c"><svg id="c1" width="808" height="470"></svg>
+<div style="display:flex;justify-content:space-between;margin-top:44px">
+<div><div class="big" style="font-size:72px">−93%</div><div class="lab"><span class="dot" style="background:var(--blue)"></span>Detective</div></div>
+<div><div class="big" style="font-size:72px">−90%</div><div class="lab"><span class="dot" style="background:var(--aqua)"></span>Observer</div></div>
+<div><div class="big" style="font-size:72px">−78%</div><div class="lab"><span class="dot" style="background:var(--amber)"></span>Detective 2</div></div></div></div></div>
 
-<div class="fig" id="what-it-is-not"><h1>Not the titles. Not volume. Not quality.</h1>
-<div class="chart" style="display:grid;grid-template-columns:0.95fr 1.3fr 1fr;gap:64px;align-items:start">
-<div><div class="ptitle">Titles</div><div class="bignum">98%</div><div class="plab">of videos use one formula, including the 4.03M and 3.17M peaks. A constant can't explain a change.</div></div>
-<div><div class="ptitle">Volume</div><svg id="c-resid" width="560" height="300"></svg><div class="plab">2026 per-video views vs what that channel and month predict, by uploads that month</div></div>
-<div><div class="ptitle">Quality</div><svg id="c-likes" width="400" height="300"></svg><div class="plab">Abyssal Detective like-to-view ratio</div></div>
+<div class="fig" id="what-it-is-not"><h1>It's not…</h1>
+<div class="c">
+<div class="tile"><div class="big">98%</div><div class="lab">Titles — same formula, peaks included</div></div>
+<div class="tile"><div class="big">±7%</div><div class="lab">Volume — upload count, controlled</div></div>
+<div class="tile"><div class="big">1.86 → 2.91%</div><div class="lab">Quality — like-to-view is rising</div></div>
 </div></div>
 
-<div class="fig" id="curiosity-to-close"><h1>Curiosity already there vs curiosity that isn't</h1>
-<div class="sub">Views per video</div>
-<div class="chart"><svg id="c-curio" width="1448" height="470"></svg></div></div>
+<div class="fig" id="curiosity"><h1>Curiosity to close?</h1><div class="k">Views per video</div>
+<div class="c"><svg id="c3" width="808" height="620"></svg></div></div>
 
-<div class="fig" id="three-tests"><h1>Four recent topics, two failed tests each</h1>
-<div class="sub">Against the brief's greenlight tests</div>
-<div class="chart"><table>
-<tr><th>Topic</th><th>Channel</th><th>Views</th><th>Real depth</th><th>Descent they can't find alone</th></tr>
-<tr><td class="k">Amazon Incidents</td><td>AD</td><td class="num">70,529</td><td class="x">✕</td><td class="x">✕</td></tr>
-<tr><td class="k">Fishing Encounters</td><td>AD2</td><td class="num">64,708</td><td class="x">✕</td><td class="x">✕</td></tr>
-<tr><td class="k">Biblical Horrors</td><td>AD</td><td class="num">60,277</td><td class="x">✕</td><td class="x">✕</td></tr>
-<tr><td class="k">Chinese Shows</td><td>AO</td><td class="num">54,395</td><td class="x">✕</td><td class="x">✕</td></tr>
-</table></div>
-<div class="src">Biblical Horrors also sits on the gray-zone religion line.</div></div>
+<div class="fig" id="three-tests"><h1>Two of three tests failed</h1>
+<div class="c"><table>
+<tr><th>Topic</th><th>Real depth</th><th>Can't find alone</th></tr>
+<tr><td>Amazon Incidents</td><td class="x">✕</td><td class="x">✕</td></tr>
+<tr><td>Fishing Encounters</td><td class="x">✕</td><td class="x">✕</td></tr>
+<tr><td>Biblical Horrors</td><td class="x">✕</td><td class="x">✕</td></tr>
+<tr><td>Chinese Shows</td><td class="x">✕</td><td class="x">✕</td></tr>
+</table></div></div>
 
-<div class="fig" id="the-35-case-trap"><h1>The runtime is choosing the topics</h1>
-<div class="flow">
-<div class="node">7 levels × 5–7 cases</div><div class="arrow">→</div>
-<div class="node">30+ seconds of<br>footage per case</div><div class="arrow">→</div>
-<div class="node">35–50 filmed<br>incidents needed</div><div class="arrow">→</div>
-<div class="node" style="background:#3a2322;color:var(--red)">“What can we find<br>50 clips of?”</div><div class="arrow">→</div>
-<div class="node" style="background:#3a2322;color:var(--red)">Fishing Encounters<small>65K VIEWS</small></div>
+<div class="fig" id="the-runtime"><h1>The runtime picks the topic</h1>
+<div class="c">
+<div class="node">35–50 cases per video</div><div class="arr">↓</div>
+<div class="node">30+ seconds of footage each</div><div class="arr">↓</div>
+<div class="node">~50 filmed incidents needed</div><div class="arr">↓</div>
+<div class="node" style="background:#3a2322;color:var(--red)">“What can we find 50 clips of?”</div>
 </div></div>
 
-<div class="fig" id="series-check"><h1>Nine big series down 88–98%. Two grew.</h1>
-<div class="sub">First volume → latest volume, every series with both in the data</div>
-<div class="chart"><svg id="c-series" width="1448" height="700"></svg></div>
-<div class="src">Each channel fell 55–82% against its 2025 average over the same period, so the volume number isn't the whole cause. The point is the call: extend what holds, retire what doesn't.</div></div>
+<div class="fig" id="series"><h1>First volume → latest</h1><div class="k">13 series</div>
+<div class="c"><svg id="c6" width="808" height="700"></svg></div></div>
 
-<div class="fig" id="convergence"><h1>A 4× audience gap, one floor</h1>
-<div class="chart" style="display:flex;gap:110px"><svg id="c-subs" width="660" height="420"></svg><svg id="c-views" width="660" height="420"></svg></div></div>
+<div class="fig" id="same-floor"><h1>Same floor</h1>
+<div class="c"><svg id="c7" width="808" height="700"></svg></div></div>
 
-<div class="fig" id="the-ask"><h1>Seventeen hours a month vs an hour or less</h1>
-<div class="sub">Monthly viewing asked of someone who watches every upload · average duration × uploads per month</div>
-<div class="chart"><svg id="c-ask" width="1448" height="430"></svg></div>
-<div class="src">Runtime: Abyssal Detective averages 59 min. Million-view videos in this niche average ~28 min.</div></div>
+<div class="fig" id="the-ask"><h1>Hours asked per month</h1>
+<div class="c"><svg id="c8" width="808" height="330"></svg>
+<div style="display:flex;gap:80px;margin-top:70px">
+<div><div class="big" style="font-size:80px">59 min</div><div class="lab">AD average</div></div>
+<div><div class="big" style="font-size:80px;color:var(--aqua)">~28 min</div><div class="lab">million-view videos</div></div></div></div></div>
 
-<div class="fig" id="ao-rule"><h1>AO: consequence-led topics beat show-first ones</h1>
-<div class="sub">Views per video</div>
-<div class="chart"><svg id="c-ao" width="1448" height="640"></svg></div>
-<div class="src">Channel-wide: TV and reality topics average 482,823 a video (53 videos); animation and franchise topics 210,413 (7).</div></div>
+<div class="fig" id="observer"><h1>Observer</h1><div class="k">Avg views per video</div>
+<div class="c">
+<div class="tile"><div class="big">777,580</div><div class="lab"><span class="dot" style="background:var(--aqua)"></span>Consequence-led named shows</div></div>
+<div class="tile"><div class="big">49,930</div><div class="lab"><span class="dot" style="background:var(--red)"></span>Show-first topics</div></div>
+<div class="tile"><div class="big" style="font-size:60px">483K vs 210K</div><div class="lab">TV &amp; reality vs franchise, channel-wide</div></div>
+</div></div>
 
-<div class="fig" id="per-channel"><h1>Why each baseline is falling</h1>
-<div class="chart"><table>
-<tr><th style="width:20%">Channel</th><th style="width:22%">Peak → Sep 2026</th><th style="width:9%">vs peak</th><th style="width:12%">vs 2025 avg</th><th>Cause</th></tr>
-<tr><td class="k">Abyssal Observer</td><td class="num">1,390,590 → 141,082</td><td class="num" style="color:var(--red);font-weight:700">−90%</td><td class="num" style="color:var(--red);font-weight:700">−67%</td><td>Show-first topics getting past its own rule</td></tr>
-<tr><td class="k">Abyssal Detective</td><td class="num">2,035,346 → 138,757</td><td class="num" style="color:var(--red);font-weight:700">−93%</td><td class="num" style="color:var(--red);font-weight:700">−82%</td><td>Territory so wide greenlight can't say no</td></tr>
-<tr><td class="k">Abyssal Detective 2</td><td class="num">601,402 → 133,382</td><td class="num" style="color:var(--red);font-weight:700">−78%</td><td class="num" style="color:var(--red);font-weight:700">−55%</td><td>Fed spent AD1 series and setting topics with no pull</td></tr>
-</table></div>
-<div class="src">vs 2025 avg: the last three months (Jul–Sep 2026) against each channel's 2025 per-video average (views ÷ videos).</div></div>
+<div class="fig" id="detective"><h1>Detective</h1>
+<div class="c">
+<div class="tile"><div class="big">−82%</div><div class="lab">vs its 2025 average — steepest of the three</div></div>
+<div class="tile"><div class="big">59 min</div><div class="lab">longest runtime in the network</div></div>
+<div class="tile"><div class="big" style="font-size:60px">60K · 71K</div><div class="lab">Biblical Horrors · Amazon Incidents</div></div>
+</div></div>
 
-<div class="fig" id="ad2-shift"><h1>AD2 has repositioned. Its new topics aren't landing.</h1>
-<div class="chart" style="display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start">
-<div><div class="ptitle">Repositioning · earlier 40 videos vs latest 40</div>
-<div class="legend" style="margin-top:0"><span><i style="background:var(--mute)"></i>Earlier half</span><span><i style="background:var(--aqua)"></i>Latest half</span></div>
-<svg id="c-ad2a" width="660" height="300" style="margin-top:26px"></svg></div>
-<div><div class="ptitle">2026 setting and language topics · views</div><svg id="c-ad2b" width="660" height="400"></svg></div>
+<div class="fig" id="detective-2"><h1>Detective 2</h1>
+<div class="c">
+<div class="tile"><div class="big" style="color:var(--aqua)">28% → 55%</div><div class="lab">on-territory topics</div></div>
+<div class="tile"><div class="big">2M → ~100K</div><div class="lab">Theme Park, Live TV — AD1 → AD2</div></div>
+<div class="tile"><div class="big" style="font-size:72px">40–65K</div><div class="lab">2026 setting topics: storms, home invasions, fishing</div></div>
 </div></div>
 
 <div class="fig" id="four-changes"><h1>Four changes</h1>
-<div class="chart"><table>
-<tr><th style="width:5%">#</th><th style="width:48%">Change</th><th>Evidence</th></tr>
-<tr><td class="k">1</td><td class="k">Three-test filter at greenlight, in writing</td><td>All four recent flops fail two of the three tests</td></tr>
-<tr><td class="k">2</td><td class="k">A next volume only if the last one beat the channel average</td><td>9 of 13 series down 88–98% · two grew</td></tr>
-<tr><td class="k">3</td><td class="k">Rotate three title frameworks, drop "Vol." numbers</td><td>98% one formula · AD's one non-iceberg title +61%</td></tr>
-<tr><td class="k" style="color:var(--aqua)">4</td><td class="k" style="color:var(--aqua)">End every segment on the document</td><td>The basis of all three pitches</td></tr>
-</table></div>
-<div class="src">1–3 testable within two months against today's 133–141K per video, channel by channel. Each test: a written prediction before it ships, a review after.</div></div>
+<div class="c">
+<div class="row"><span class="num">1</span>Three-test filter, in writing</div>
+<div class="row"><span class="num">2</span>Series earn their next volume</div>
+<div class="row"><span class="num">3</span>Test titles, drop “Vol.”</div>
+<div class="row"><span class="num">4</span>End every segment on the document</div>
+</div></div>
 
-<div class="fig" id="next-format"><h1>One format worth testing</h1>
-<div class="sub">One video, one channel, one month</div>
-<div class="chart"><table>
-<tr><th style="width:28%"></th><th style="width:36%">Today</th><th style="color:var(--aqua)">To test</th></tr>
-<tr><td class="k">Cases per video</td><td class="num">35–50</td><td class="num" style="color:var(--ink)">1</td></tr>
-<tr><td class="k">Runtime</td><td class="num">45–60 min</td><td class="num" style="color:var(--ink)">25–35 min</td></tr>
-<tr><td class="k">Depth means</td><td>More incidents</td><td style="color:var(--ink)">Further into one incident</td></tr>
-<tr><td class="k">Main risk</td><td>Needs 35–50 filmable incidents</td><td style="color:var(--ink)">The single case has to hold</td></tr>
+<div class="fig" id="format-test"><h1>One format to test</h1>
+<div class="c"><table>
+<tr><th></th><th>Today</th><th style="color:var(--aqua)">Test</th></tr>
+<tr><td style="color:var(--ink3)">Cases</td><td>35–50</td><td style="font-weight:750">1</td></tr>
+<tr><td style="color:var(--ink3)">Runtime</td><td>45–60 min</td><td style="font-weight:750">25–35 min</td></tr>
+<tr><td style="color:var(--ink3)">Depth</td><td>more incidents</td><td style="font-weight:750">further into one</td></tr>
 </table></div></div>
 
-<div class="fig" id="five-invariants"><h1>What makes it an Abyssal video</h1>
-<div class="chart"><svg id="c-mind" width="1448" height="470"></svg></div></div>
+<div class="fig" id="what-makes-it-abyssal"><h1>What makes it Abyssal</h1>
+<div class="c">
+<div class="row" style="color:var(--ink2)">Real and verified</div>
+<div class="row" style="color:var(--ink2)">Disturbing but survivable</div>
+<div class="row" style="color:var(--aqua);font-weight:750;font-size:34px">Forbidden or obscure <span style="font-size:18px;letter-spacing:1.2px;margin-left:auto;font-weight:700">THE PRODUCT</span></div>
+<div class="row" style="color:var(--ink2)">A moral frame</div>
+<div class="row" style="color:var(--ink2)">A human guide</div>
+</div></div>
 
-<div class="fig" id="the-document-axis"><h1>Every segment ends on the paperwork</h1>
-<div class="flow" style="margin-top:52px"><div class="rowlab">Today</div>
-<div class="node">Footage</div><div class="arrow">→</div><div class="node">Toll</div><div class="arrow">→</div><div class="node" style="color:var(--ink3)">Next clip</div></div>
-<div class="flow" style="margin-top:22px"><div class="rowlab" style="color:var(--aqua)">Change</div>
-<div class="node">Footage</div><div class="arrow">→</div><div class="node">Toll</div><div class="arrow">→</div><div class="node" style="background:#13352a;color:var(--aqua)">The document that already existed</div></div>
-<div class="chart" style="margin-top:48px"><table>
-<tr><th style="width:34%">Channel</th><th>The document</th></tr>
-<tr><td class="k">Abyssal Detective</td><td>The engineering report</td></tr>
-<tr><td class="k">Abyssal Detective 2</td><td>The inspection certificate</td></tr>
-<tr><td class="k">Abyssal Observer</td><td>The background check</td></tr>
-</table></div>
-<div class="src">Levels still escalate on harm. The document is how every case ends, not what defines the level. Measured on retention at level transitions.</div></div>
+<div class="fig" id="the-document"><h1>Every segment ends on the document</h1>
+<div class="c">
+<div style="display:flex;align-items:center;justify-content:center;gap:18px;font-size:28px">
+<div class="node" style="padding:22px 24px">Footage</div><span style="color:var(--ink3)">→</span>
+<div class="node" style="padding:22px 24px">Toll</div><span style="color:var(--ink3)">→</span>
+<div class="node" style="padding:22px 24px;background:#13352a;color:var(--aqua)">Document</div></div>
+<div style="margin-top:80px">
+<div class="row"><span style="color:var(--ink3);width:110px">AD</span>the engineering report</div>
+<div class="row"><span style="color:var(--ink3);width:110px">AD2</span>the inspection certificate</div>
+<div class="row"><span style="color:var(--ink3);width:110px">AO</span>the background check</div></div>
+</div></div>
 
-<div class="fig" id="pitch-collapses"><h1>AD · The Most Disturbing Structural Collapses Iceberg</h1>
-<div class="meta"><b>The engineering report</b> &nbsp;·&nbsp; 7 levels + Patreon Level 8: the reports &nbsp;·&nbsp; ~44 cases &nbsp;·&nbsp; 55 min &nbsp;·&nbsp; anchors verified, full inventory week one</div>
-<div class="chart" id="l-col"></div></div>
-
-<div class="fig" id="pitch-lifts"><h1>AD2 · The Most Disturbing Lift &amp; Cable Failures Iceberg</h1>
-<div class="meta"><b>The inspection certificate</b> &nbsp;·&nbsp; 7 levels &nbsp;·&nbsp; ~40 cases &nbsp;·&nbsp; 48 min &nbsp;·&nbsp; anchors verified, full inventory week one</div>
-<div class="chart" id="l-lift"></div></div>
-
-<div class="fig" id="pitch-casting"><h1>AO · The Most Disturbing Reality TV Casting Iceberg</h1>
-<div class="meta"><b>The background check</b> &nbsp;·&nbsp; 7 levels &nbsp;·&nbsp; ~42 cases, one person each &nbsp;·&nbsp; 50 min &nbsp;·&nbsp; anchors verified, full inventory week one</div>
-<div class="chart" id="l-cast"></div></div>
+<div class="fig" id="pitch-collapses"><h1>Structural Collapses</h1><div class="k">AD · the engineering report · ~44 cases · 55 min</div>
+<div class="c" id="l1"></div></div>
+<div class="fig" id="pitch-lifts"><h1>Lift &amp; Cable Failures</h1><div class="k">AD2 · the inspection certificate · ~40 cases · 48 min</div>
+<div class="c" id="l2"></div></div>
+<div class="fig" id="pitch-casting"><h1>Reality TV Casting</h1><div class="k">AO · the background check · ~42 cases · 50 min</div>
+<div class="c" id="l3"></div></div>
 
 <script>
 const C={blue:'#3987e5',aqua:'#199e70',amber:'#c98500',red:'#e66767',ink:'#fff',ink2:'#c3c2b7',ink3:'#8a8880',grid:'#2e2e2c',bg:'#1a1a19',mute:'#4a4945'};
 const NS='http://www.w3.org/2000/svg';
 const el=(t,a={})=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e;};
-const tx=(svg,s,x,y,o={})=>{const t=el('text',Object.assign({x,y,fill:C.ink2,'font-size':18},o));t.textContent=s;svg.appendChild(t);return t;};
-const K=v=>v>=1e6?(v/1e6).toFixed(2).replace(/0$/,'')+'M':v>=1e3?Math.round(v/1e3)+'K':String(v);
-const rbar=(svg,x,y,w,h,fill,dir='r')=>{ // rounded data-end, square at baseline
-  const r=Math.min(4,w/2,h/2); let d;
-  if(dir==='r') d=`M${x},${y}h${w-r}q${r},0 ${r},${r}v${h-2*r}q0,${r} -${r},${r}h-${w-r}z`;
-  else if(dir==='l') d=`M${x+w},${y}h-${w-r}q-${r},0 -${r},${r}v${h-2*r}q0,${r} ${r},${r}h${w-r}z`;
-  else d=`M${x},${y+h}v-${h-r}q0,-${r} ${r},-${r}h${w-2*r}q${r},0 ${r},${r}v${h-r}z`;
-  svg.appendChild(el('path',{d,fill}));};
+const tx=(svg,s,x,y,o={})=>{const t=el('text',Object.assign({x,y,fill:C.ink2,'font-size':24},o));t.textContent=s;svg.appendChild(t);return t;};
+const rbar=(svg,x,y,w,h,fill,dir='r')=>{const r=Math.min(5,w/2,h/2);let d;
+ if(dir==='r') d=`M${x},${y}h${w-r}q${r},0 ${r},${r}v${h-2*r}q0,${r} -${r},${r}h-${w-r}z`;
+ else if(dir==='l') d=`M${x+w},${y}h-${w-r}q-${r},0 -${r},${r}v${h-2*r}q0,${r} ${r},${r}h${w-r}z`;
+ else d=`M${x},${y+h}v-${h-r}q0,-${r} ${r},-${r}h${w-2*r}q${r},0 ${r},${r}v${h-r}z`;svg.appendChild(el('path',{d,fill}));};
 
-// 1 collapse
-(function(){
-const AD1=[["2024-10",552251],["2024-11",1610295],["2024-12",992020],["2025-01",1591864],["2025-02",917264],["2025-03",2035346],["2025-04",1290425],["2025-05",606122],["2025-06",430328],["2025-07",473586],["2025-08",896587],["2025-09",601935],["2025-10",313102],["2025-11",286277],["2025-12",506158],["2026-01",420292],["2026-02",334253],["2026-03",539597],["2026-04",263582],["2026-05",151275],["2026-06",142267],["2026-07",199391],["2026-08",127950],["2026-09",138757]];
-const AD2=[["2025-06",438167],["2025-07",208013],["2025-08",214199],["2025-09",220107],["2025-10",601402],["2025-11",117466],["2025-12",215069],["2026-01",410304],["2026-02",548438],["2026-03",421041],["2026-04",402089],["2026-05",168153],["2026-06",89952],["2026-07",84402],["2026-08",130827],["2026-09",133382]];
-const AO=[["2025-01",693116],["2025-02",737419],["2025-03",481416],["2025-04",732808],["2025-05",400668],["2025-06",376459],["2025-07",266624],["2025-08",207279],["2025-09",296746],["2025-10",219029],["2025-11",440700],["2025-12",528545],["2026-01",370368],["2026-02",1390590],["2026-03",481107],["2026-04",349382],["2026-05",180491],["2026-06",217328],["2026-07",112457],["2026-08",141764],["2026-09",141082]];
-const svg=document.getElementById('c-collapse'),L=90,R=1120,T=10,B=510,max=2200000;
-const mi=m=>{const[y,mo]=m.split('-').map(Number);return (y-2024)*12+mo-10;};
-const X=m=>L+mi(m)/23*(R-L),Y=v=>B-v/max*(B-T);
-[0,500000,1000000,1500000,2000000].forEach(v=>{svg.appendChild(el('line',{x1:L,x2:R,y1:Y(v),y2:Y(v),stroke:C.grid}));tx(svg,v?(v/1e6)+'M':'0',L-16,Y(v)+6,{'text-anchor':'end',fill:C.ink3,'font-size':16});});
-['2024-10','2025-01','2025-04','2025-07','2025-10','2026-01','2026-04','2026-07'].forEach(m=>{const[y,mo]=m.split('-');tx(svg,['Jan','Apr','Jul','Oct'][[1,4,7,10].indexOf(+mo)]+' '+y.slice(2),X(m),B+34,{'text-anchor':'middle',fill:C.ink3,'font-size':16});});
-const S=[[AD1,C.blue,'AD','−93%'],[AO,C.aqua,'AO','−90%'],[AD2,C.amber,'AD2','−78%']];
-S.forEach(([d,c])=>{svg.appendChild(el('path',{d:'M'+d.map(p=>X(p[0])+','+Y(p[1])).join('L'),fill:'none',stroke:c,'stroke-width':2.5,'stroke-linejoin':'round'}));});
-S.forEach(([d,c])=>{const pk=d.reduce((a,b)=>b[1]>a[1]?b:a);svg.appendChild(el('circle',{cx:X(pk[0]),cy:Y(pk[1]),r:7,fill:c,stroke:C.bg,'stroke-width':2.5}));
-  tx(svg,'peak '+pk[1].toLocaleString('en-US'),X(pk[0]),Y(pk[1])-18,{'text-anchor':'middle',fill:C.ink,'font-size':17,'font-weight':600});});
-const ends=[[AO,C.aqua,'Observer','−90%'],[AD1,C.blue,'Detective','−93%'],[AD2,C.amber,'Detective 2','−78%']];
-ends.forEach(([d,c])=>{const e=d[d.length-1];svg.appendChild(el('circle',{cx:X(e[0]),cy:Y(e[1]),r:6,fill:c,stroke:C.bg,'stroke-width':2}));});
-tx(svg,'SEP 2026',R+30,B-176,{fill:C.ink3,'font-size':14,'font-weight':700,'letter-spacing':1.2});
-ends.forEach(([d,c,n,p],i)=>{const e=d[d.length-1],yy=B-130+i*44;
-  svg.appendChild(el('rect',{x:R+30,y:yy-13,width:13,height:13,rx:3,fill:c}));
-  tx(svg,n,R+52,yy,{fill:C.ink,'font-size':18,'font-weight':600});
-  tx(svg,e[1].toLocaleString('en-US'),R+236,yy,{fill:C.ink2,'font-size':17,'text-anchor':'end'});
-  tx(svg,p,R+322,yy,{fill:C.red,'font-size':18,'font-weight':700,'text-anchor':'end'});});
+// collapse
+(function(){const AD1=[552251,1610295,992020,1591864,917264,2035346,1290425,606122,430328,473586,896587,601935,313102,286277,506158,420292,334253,539597,263582,151275,142267,199391,127950,138757];
+const AD2=[438167,208013,214199,220107,601402,117466,215069,410304,548438,421041,402089,168153,89952,84402,130827,133382];
+const AO=[693116,737419,481416,732808,400668,376459,266624,207279,296746,219029,440700,528545,370368,1390590,481107,349382,180491,217328,112457,141764,141082];
+const svg=document.getElementById('c1'),L=60,R=800,T=10,B=420,max=2100000,X=i=>L+i/23*(R-L),Y=v=>B-v/max*(B-T);
+[0,1000000,2000000].forEach(v=>{svg.appendChild(el('line',{x1:L,x2:R,y1:Y(v),y2:Y(v),stroke:C.grid}));tx(svg,v?v/1e6+'M':'0',L-14,Y(v)+7,{'text-anchor':'end',fill:C.ink3,'font-size':20});});
+[['Oct 24',0],['Oct 25',12],['Sep 26',23]].forEach(([s,i])=>tx(svg,s,X(i),B+38,{'text-anchor':i==23?'end':i==0?'start':'middle',fill:C.ink3,'font-size':20}));
+[[AD1,0,C.blue],[AO,3,C.aqua],[AD2,8,C.amber]].forEach(([d,o,c])=>{svg.appendChild(el('path',{d:'M'+d.map((v,i)=>X(i+o)+','+Y(v)).join('L'),fill:'none',stroke:c,'stroke-width':3.5,'stroke-linejoin':'round'}));
+ const pk=d.indexOf(Math.max(...d));svg.appendChild(el('circle',{cx:X(pk+o),cy:Y(d[pk]),r:9,fill:c,stroke:C.bg,'stroke-width':3}));});
 })();
 
-// 2 what-it-is-not
-(function(){const svg=document.getElementById('c-resid'),Z=150,S=4.2,bw=92,gap=38,x0=40;
- const d=[['3–5',-6.0],['6',6.8],['7',2.1],['8',-1.5]];
- svg.appendChild(el('line',{x1:20,x2:560,y1:Z,y2:Z,stroke:C.ink3}));
- [-20,20].forEach(v=>{svg.appendChild(el('line',{x1:20,x2:560,y1:Z-v*S,y2:Z-v*S,stroke:C.grid,'stroke-dasharray':'4 6'}));
-   tx(svg,(v>0?'+':'−')+Math.abs(v)+'%',16,Z-v*S+5,{'text-anchor':'end',fill:C.ink3,'font-size':14});});
- d.forEach(([n,v],i)=>{const x=x0+i*(bw+gap),h=Math.abs(v)*S;
-   if(v>=0) rbar(svg,x,Z-h,bw,h,C.blue,'u'); else {svg.appendChild(el('path',{d:`M${x},${Z}h${bw}v${h-4}q0,4 -4,4h-${bw-8}q-4,0 -4,-4z`,fill:C.blue}));}
-   tx(svg,(v>=0?'+':'−')+Math.abs(v).toFixed(0)+'%',x+bw/2,v>=0?Z-h-12:Z+h+24,{'text-anchor':'middle',fill:C.ink,'font-size':20,'font-weight':700});
-   tx(svg,n+' uploads',x+bw/2,Z+130,{'text-anchor':'middle',fill:C.ink2,'font-size':16});});
-})();
-(function(){const svg=document.getElementById('c-likes'),B=250,H=200,bw=120,x0=40,gap=90,max=3.2;
- svg.appendChild(el('line',{x1:20,x2:400,y1:B,y2:B,stroke:C.grid}));
- [['2024',1.86,C.mute],['Jun 2026',2.91,C.aqua]].forEach(([n,v,c],i)=>{const h=v/max*H,x=x0+i*(bw+gap);rbar(svg,x,B-h,bw,h,c,'u');
-   tx(svg,v.toFixed(2)+'%',x+bw/2,B-h-14,{'text-anchor':'middle',fill:C.ink,'font-size':24,'font-weight':700});
-   tx(svg,n,x+bw/2,B+30,{'text-anchor':'middle',fill:C.ink2,'font-size':17});});
-})();
+function hb(id,rows,max,o={}){const svg=document.getElementById(id),LW=o.lw||300,W=o.w||380,RH=o.rh||66,BH=o.bh||36;let y=0;
+ rows.forEach(r=>{if(r.gap){y+=r.gap;return;}const w=Math.max(4,Math.abs(r.v)/max*W);
+  tx(svg,r.n,LW-22,y+BH/2+9,{'text-anchor':'end',fill:C.ink2,'font-size':o.fs||26});rbar(svg,LW,y,w,BH,r.c);
+  tx(svg,r.l,LW+w+14,y+BH/2+9,{fill:C.ink,'font-size':o.fs||26,'font-weight':750});y+=RH;});svg.setAttribute('height',y);}
+hb('c3',[{n:'Footage Caught on Camera',v:4031577,c:C.aqua,l:'4.03M'},{n:'CCTV Incidents',v:3173932,c:C.aqua,l:'3.17M'},{n:'Internet Mysteries',v:2203917,c:C.aqua,l:'2.20M'},{gap:40},
+ {n:'Amazon Incidents',v:70529,c:C.red,l:'71K'},{n:'Fishing Encounters',v:64708,c:C.red,l:'65K'},{n:'Biblical Horrors',v:60277,c:C.red,l:'60K'},{n:'Chinese Shows',v:54395,c:C.red,l:'54K'}],4100000,{lw:340,w:340});
 
-// generic horizontal bars
-function hbars(id,rows,max,opt={}){const svg=document.getElementById(id),LW=opt.lw||360,W=opt.w||920,RH=opt.rh||56,BH=opt.bh||32;let y=opt.top||0;
- rows.forEach(r=>{if(r.head){tx(svg,r.head,0,y+22,{fill:r.hc||C.ink3,'font-size':15,'font-weight':700,'letter-spacing':1.3});y+=46;return;}
-  const w=Math.max(3,r.v/max*W);tx(svg,r.n,LW-20,y+BH/2+7,{'text-anchor':'end',fill:r.bold?C.ink:C.ink2,'font-size':20,'font-weight':r.bold?700:500});
-  rbar(svg,LW,y,w,BH,r.c);tx(svg,r.lab,LW+w+14,y+BH/2+7,{fill:C.ink,'font-size':20,'font-weight':650});
-  if(r.note)tx(svg,r.note,opt.nx||LW+W+170,y+BH/2+7,{fill:C.ink3,'font-size':17,'text-anchor':'end'});y+=RH;});}
+// series (diverging, one scale)
+(function(){const svg=document.getElementById('c6'),LW=260,S=2.55,Z=LW+98*S+10,RH=50,BH=32;
+ const d=[['Talent Show',-98],['CCTV',-96],['Theme Park',-95],['Dashcam',-95],['Live TV',-95],['Footage Caught…',-94],['TV Accidents',-92],['Warning Signs',-90],['Banned Movies',-88],['Documentaries',-48],['To Catch a Predator',-35],['Cheapskates',18],['Asian Internet',94]];
+ let y=0;d.forEach(([n,v],i)=>{if(i==9||i==11)y+=18;const w=Math.abs(v)*S,lab=(v<0?'−':'+')+Math.abs(v)+'%';
+  tx(svg,n,LW-18,y+BH/2+8,{'text-anchor':'end',fill:C.ink2,'font-size':22});
+  if(v<0){rbar(svg,Z-w,y,w,BH,i<9?C.red:'#b85a5a','l');tx(svg,lab,Z-w+10,y+BH/2+8,{fill:'#1a1a19','font-size':20,'font-weight':800});}
+  else{rbar(svg,Z,y,w,BH,C.aqua,'r');tx(svg,lab,Z+w+10,y+BH/2+8,{fill:C.ink,'font-size':22,'font-weight':800});}y+=RH;});
+ svg.appendChild(el('line',{x1:Z,x2:Z,y1:-6,y2:y,stroke:C.ink3}));svg.setAttribute('height',y);})();
 
-hbars('c-curio',[
- {head:'BUILT-IN MORBID CURIOSITY',hc:C.aqua},
- {n:'Footage Caught on Camera',v:4031577,c:C.aqua,lab:'4.03M'},{n:'CCTV Incidents',v:3173932,c:C.aqua,lab:'3.17M'},{n:'Internet Mysteries',v:2203917,c:C.aqua,lab:'2.20M'},
- {head:'NONE TO CLOSE',hc:C.red},
- {n:'Amazon Incidents',v:71000,c:C.red,lab:'71K'},{n:'Fishing Encounters',v:65000,c:C.red,lab:'65K'},{n:'Biblical Horrors',v:60000,c:C.red,lab:'60K'},{n:'Chinese Shows',v:54395,c:C.red,lab:'54K'}],4200000,{lw:340,w:960});
+// same floor: two stacked mini bar charts
+(function(){const svg=document.getElementById('c7');
+ function panel(y0,title,rows,max,fmt){tx(svg,title,0,y0,{fill:C.ink3,'font-size':20,'font-weight':700,'letter-spacing':1.2});
+  const B=y0+250,H=200,bw=150,gap=90,x0=70;svg.appendChild(el('line',{x1:20,x2:790,y1:B,y2:B,stroke:C.grid}));
+  rows.forEach(([n,v,c],i)=>{const h=v/max*H,x=x0+i*(bw+gap);rbar(svg,x,B-h,bw,h,c,'u');
+   tx(svg,fmt(v),x+bw/2,B-h-14,{'text-anchor':'middle',fill:C.ink,'font-size':28,'font-weight':750});
+   tx(svg,n,x+bw/2,B+34,{'text-anchor':'middle',fill:C.ink2,'font-size':22});});}
+ panel(20,'SUBSCRIBERS',[['AD',494,C.blue],['AO',274,C.aqua],['AD2',123,C.amber]],520,v=>v+'K');
+ panel(380,'VIEWS PER VIDEO, SEP 2026',[['AD',139,C.blue],['AO',141,C.aqua],['AD2',133,C.amber]],160,v=>v+'K');})();
 
-// series-check (diverging, one common scale)
-(function(){const svg=document.getElementById('c-series'),LW=400,S=4.3,Z=LW+98*S+12,RH=50,BH=30;
- const d=[['AO · Talent Show Accidents',-98,'4.67M → 77K'],['AD1 · CCTV',-96,'3.17M → 132K'],['AD1 → AD2 · Theme Park',-95,'2.00M → 91K'],['AD1 · Dashcam',-95,'1.19M → 61K'],['AD1 → AD2 · Live TV Moments',-95,'2.05M → 107K'],['AD1 → AD2 · Footage Caught on Camera',-94,'4.03M → 261K'],['AO · TV Accidents',-92,'2.40M → 192K'],['AD1 · Warning Signs',-90,'907K → 90K'],['AO · Banned Movies',-88,'660K → 82K'],['AO · Documentaries',-48,'1.40M → 733K'],['AO · To Catch a Predator',-35,'954K → 618K'],['AO · Cheapskates',18,'498K → 590K'],['AD2 · Things on Asian Internet',94,'603K → 1.17M']];
- const gapAt=[9,11];
- let y=0;
- d.forEach(([n,v,note],i)=>{ if(gapAt.includes(i)) y+=16;
-  const w=Math.abs(v)*S,lab=(v<0?'−':'+')+Math.abs(v)+'%';
-  tx(svg,n,LW-20,y+BH/2+7,{'text-anchor':'end',fill:C.ink2,'font-size':18});
-  if(v<0){rbar(svg,Z-w,y,w,BH,i<9?C.red:'#b85a5a','l');tx(svg,lab,Z-w+12,y+BH/2+7,{fill:'#1a1a19','font-size':18,'font-weight':800});
-    tx(svg,note,Z+16,y+BH/2+7,{fill:C.ink3,'font-size':16});}
-  else{rbar(svg,Z,y,w,BH,C.aqua,'r');
-    if(w>90) tx(svg,lab,Z+w-12,y+BH/2+7,{fill:'#1a1a19','font-size':18,'font-weight':800,'text-anchor':'end'});
-    else tx(svg,lab,Z+w+12,y+BH/2+7,{fill:C.ink,'font-size':18,'font-weight':800});
-    tx(svg,note,Z+w+(w>90?16:76),y+BH/2+7,{fill:C.ink3,'font-size':16});}
-  y+=RH;});
- svg.appendChild(el('line',{x1:Z,x2:Z,y1:-6,y2:y,stroke:C.ink3}));
- svg.setAttribute('height',y+10);
-})();
+hb('c8',[{n:'Abyssal (all three)',v:16.9,c:C.red,l:'16.9'},{n:'Chilling Scares',v:1.0,c:C.mute,l:'1.0'},{n:'Nexpo',v:1.0,c:C.mute,l:'1.0'},{n:'Nick Crowley',v:0.81,c:C.mute,l:'0.8'}],17,{lw:280,w:420,rh:80,bh:42,fs:26});
 
-// convergence
-vpanelC('c-subs','Subscribers',[['AD',494,C.blue],['AO',274,C.aqua],['AD2',123,C.amber]],520,v=>v+'K');
-vpanelC('c-views','Avg views per video, Sep 2026',[['AD',138.757,C.blue],['AO',141.082,C.aqua],['AD2',133.382,C.amber]],160,v=>Math.round(v*1000).toLocaleString('en-US'));
-function vpanelC(id,title,rows,max,fmt){const svg=document.getElementById(id),B=350,H=290,bw=130,gap=70,x0=60;
- tx(svg,title,0,0,{fill:C.ink,'font-size':21,'font-weight':650});svg.appendChild(el('line',{x1:30,x2:640,y1:B,y2:B,stroke:C.grid}));
- rows.forEach(([n,v,c],i)=>{const h=v/max*H,x=x0+i*(bw+gap);rbar(svg,x,B-h,bw,h,c,'u');
-  tx(svg,fmt(v),x+bw/2,B-h-14,{'text-anchor':'middle',fill:C.ink,'font-size':22,'font-weight':700});
-  tx(svg,n,x+bw/2,B+32,{'text-anchor':'middle',fill:C.ink2,'font-size':19});});}
-
-// ask
-hbars('c-ask',[
- {n:'Abyssal Network (all three)',v:16.9,c:C.red,lab:'16.9 hrs',bold:1},
- {n:'Chilling Scares',v:1.0,c:C.mute,lab:'1.0',note:'3.24M'},{n:'Nexpo',v:1.0,c:C.mute,lab:'1.0',note:'3.22M'},
- {n:'The Paint Explainer',v:0.94,c:C.mute,lab:'0.9',note:'1.88M'},{n:'Nick Crowley',v:0.81,c:C.mute,lab:'0.8',note:'2.59M'},{n:'SIRIUS',v:0.32,c:C.mute,lab:'0.3',note:'2.81M'}],17,{lw:340,w:720,rh:62,top:40,nx:1440});
-(function(){const s=document.getElementById('c-ask');tx(s,'CHANNEL AVG VIEWS / VIDEO',1440,20,{'text-anchor':'end',fill:C.ink3,'font-size':14,'font-weight':700,'letter-spacing':1.2});})();
-
-// AO rule
-hbars('c-ao',[
- {head:'CONSEQUENCE-LED  ·  AVERAGE 777,580',hc:C.aqua},
- {n:'TLC',v:1440848,c:C.aqua,lab:'1.44M'},{n:'To Catch a Predator',v:953849,c:C.aqua,lab:'954K'},{n:'Intervention',v:631353,c:C.aqua,lab:'631K'},
- {n:'My Strange Addiction',v:613773,c:C.aqua,lab:'614K'},{n:'90 Day Fiancé',v:527895,c:C.aqua,lab:'528K'},{n:'Extreme Cheapskates',v:497762,c:C.aqua,lab:'498K'},
- {head:'SHOW-FIRST  ·  AVERAGE 49,930',hc:C.red},
- {n:'Directors Behind Famous Films',v:60218,c:C.red,lab:'60K'},{n:'Chinese Shows',v:54395,c:C.red,lab:'54K'},{n:'Anime Based on Real Events',v:45563,c:C.red,lab:'46K'},{n:'Marvel',v:39545,c:C.red,lab:'40K'}],1500000,{lw:380,w:900,rh:50,bh:30});
-
-// AD2 shift
-(function(){const svg=document.getElementById('c-ad2a'),LW=250,W=360,BH=32;
- [['Disaster & accident topics',28,55],['Titles with a volume number',80,25]].forEach(([n,a,b],i)=>{const y=i*140;
-  tx(svg,n,LW-20,y+BH+8,{'text-anchor':'end',fill:C.ink,'font-size':18,'font-weight':600});
-  rbar(svg,LW,y,a/100*W,BH,C.mute);tx(svg,a+'%',LW+a/100*W+12,y+BH/2+7,{fill:C.ink2,'font-size':19,'font-weight':600});
-  rbar(svg,LW,y+BH+8,b/100*W,BH,C.aqua);tx(svg,b+'%',LW+b/100*W+12,y+BH+8+BH/2+7,{fill:C.ink,'font-size':21,'font-weight':700});});
-})();
-(function(){const svg=document.getElementById('c-ad2b'),LW=210,W=400,RH=54,BH=30,max=260000;
- const d=[['Home invasions',40518],['Hispanic Internet',40671],['Storms',44705],['Police traffic',63793],['Fishing',64708],['Trains',74055]];
- d.forEach(([n,v],i)=>{const y=i*RH,w=v/max*W;tx(svg,n,LW-20,y+BH/2+7,{'text-anchor':'end',fill:C.ink2,'font-size':18});
-  rbar(svg,LW,y,w,BH,C.red);tx(svg,v.toLocaleString('en-US'),LW+w+12,y+BH/2+7,{fill:C.ink,'font-size':18,'font-weight':650});});
- const xr=LW+252927/max*W, yb=d.length*RH;
- svg.appendChild(el('line',{x1:xr,x2:xr,y1:-8,y2:yb,stroke:C.ink3,'stroke-dasharray':'5 6'}));
- tx(svg,'AD2 2025 average: 252,927',xr,yb+28,{'text-anchor':'end',fill:C.ink3,'font-size':15});
- tx(svg,'14 of its 15 weakest videos are from 2026',0,yb+64,{fill:C.ink2,'font-size':17});
-})();
-
-// mindmap
-(function(){const svg=document.getElementById('c-mind'),CX=250,CY=225,BX=640;
- const n=[['Real and verified',25],['Disturbing but survivable',125],['Forbidden or obscure',225,1],['A moral frame',325],['A human guide',425]];
- n.forEach(([t,y,h])=>{svg.appendChild(el('path',{d:`M${CX+160},${CY} C${CX+280},${CY} ${BX-110},${y} ${BX},${y}`,fill:'none',stroke:h?C.aqua:'#3a3a37','stroke-width':h?3:2}));
-  svg.appendChild(el('circle',{cx:BX,cy:y,r:h?8:5,fill:h?C.aqua:'#5a5852'}));
-  tx(svg,t,BX+26,y+8,{fill:h?C.aqua:C.ink,'font-size':h?28:24,'font-weight':700});
-  if(h)tx(svg,'the product — the other four are quality control on it',BX+26,y+42,{fill:C.ink2,'font-size':19});});
- svg.appendChild(el('rect',{x:CX-160,y:CY-48,width:320,height:96,rx:14,fill:'#242423',stroke:'#3a3a37'}));
- tx(svg,'An Abyssal video',CX,CY+9,{'text-anchor':'middle',fill:C.ink,'font-size':27,'font-weight':800});})();
-
-// ladders
 function ladder(id,rows){const box=document.getElementById(id);
- box.insertAdjacentHTML('beforeend','<div class="lhead"><div>LEVEL</div><div></div><div style="text-align:right">CASES</div></div>');
- rows.forEach((r,i)=>{const l=66-i*6.5;
-  box.insertAdjacentHTML('beforeend',`<div class="lrow"><div class="chip" style="background:hsl(212 70% ${l}%);color:${i>=3?'#fff':'#0e0e0d'}">L${i+1}</div><div><div class="lvn">${r[0]}</div>${r[1]?`<div class="lvd">${r[1]}</div>`:''}</div><div class="cnt">${r[2]}</div></div>`);});}
-ladder('l-col',[['Cranes, scaffolding, facades','Spectacular footage, small tolls',6],['Fell mid-construction','Onto the people building them',6],['Bridges','Genoa Morandi — 43 dead · FIU footbridge — 6 dead',6],['Public venues','Hyatt Regency — 114 dead',6],['Occupied homes','Surfside — 98 dead',6],['Industrial','Rana Plaza — 1,134 dead',6],['Dams and tailings','Where the toll stops being countable',8]]);
-ladder('l-lift',[['Malfunctions, nobody hurt','',5],['Entrapments','Hours in a sealed box, on camera',6],['Survivors','Santiago — 31 floors in 15 seconds, and he lived',6],['Injuries','Rome 2018 — 24 injured, 7 seriously; 11 indicted',6],['Single deaths','Samuel Waisbren · JauMarcus McFarland',6],['Several deaths, one failure','',6],['Mass casualty','Mottarone 2021 — 14 dead · Vaal Reefs 1995 — 104 dead',5]]);
-ladder('l-cast',[['Financial crime','Todd & Julie Chrisley — 12 and 7 years, pardoned 2025 · the Giudices',6],['Drugs and driving offences','',6],['Domestic violence','',6],['Violent crime','Geoffrey Paschel, 90 Day Fiancé — 18 years, arrested before his season aired',6],['Sexual offences','Stephen Bear',6],['Offences against children','Josh Duggar',6],['Murder','James Timothy Norman — life sentence · Ryan Jenkins',6]]);
+ rows.forEach((r,i)=>{const l=66-i*6.5;box.insertAdjacentHTML('beforeend',`<div class="row" style="padding:17px 0"><div class="chip" style="background:hsl(212 70% ${l}%);color:${i>=3?'#fff':'#0e0e0d'}">L${i+1}</div><div class="ln">${r[0]}</div><div class="an">${r[1]}</div></div>`);});}
+ladder('l1',[['Cranes, scaffolding',''],['Mid-construction',''],['Bridges','Morandi · 43'],['Public venues','Hyatt · 114'],['Homes','Surfside · 98'],['Industrial','Rana Plaza · 1,134'],['Dams & tailings','']]);
+ladder('l2',[['Malfunctions',''],['Entrapments',''],['Survivors','31 floors'],['Injuries','Rome · 24'],['Single deaths','Waisbren'],['Several deaths',''],['Mass casualty','Mottarone · 14']]);
+ladder('l3',[['Financial crime','Chrisleys'],['Drugs & driving',''],['Domestic violence',''],['Violent crime','Paschel'],['Sexual offences','Bear'],['Against children','Duggar'],['Murder','Norman · Jenkins']]);
 </script></body></html>

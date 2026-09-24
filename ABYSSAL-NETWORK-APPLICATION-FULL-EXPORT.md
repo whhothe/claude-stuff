@@ -442,348 +442,111 @@ picked up later from the same search results.
 ---
 
 ## NIA Production — Creative Strategist (Abyssal Network)
-### Loom script · 18.2 min at 150 wpm, 19.5 at 140 — plus pauses on visuals
+### Loom script · ~21–23 min spoken, plus pauses on visuals
 
-*Speak it, don't read it. `[SLIDE: x.png]` cues the visual.*
-
----
-
-### INTRO
-
-I'm [YOUR NAME]. The brief says the format is aging. I agree — but not in the way it looks.
+*Speak it, don't read it. The small `→ name` lines are just your cue to switch to that image — they're not said out loud.*
 
 ---
 
-## QUESTION 1 — WHERE ARE WE FAILING
+Hi, I'm [YOUR NAME]. The brief says the format's aging, and I agree — just not in the way it looks. So I'll start with where I think you're failing, and then get into the three pitches.
 
-#### The number
+→ the-collapse
 
-*[SLIDE: the-collapse.png]*
+First, the numbers. Abyssal Detective peaked at just over two million average views a video back in March 2025, and right now it's at 139,000. That's down 93 percent. Observer went from 1.39 million to 141,000, so down 90, and Detective 2 went from 601,000 to 133,000, down 78. Now, to be fair, each of those peaks was a month with one huge video in it, so a better comparison is 2025 as a whole — and against that, the last three months are still down 82, 67 and 55 percent. Either way, that's all happened inside eighteen months, and the format hasn't changed.
 
-Abyssal Detective peaked at just over **two million average views** a video in March 2025. It's now
-at **139,000** — **minus 93 percent**. Observer: **1.39 million** to **141,000**, **minus 90**.
-Detective 2: **601,000** to **133,000**, **minus 78**.
+→ what-it-is-not
 
-Each of those peaks was a month with one huge video, so the fairer comparison is 2025 as a whole.
-Against that, the last three months are down **82, 67 and 55 percent**. Either way, it happened
-inside eighteen months with the format unchanged.
+There are a few easy explanations for that, and I don't think they hold up. It's not the titles — 98 percent of your videos use the same formula, and that includes the peaks, Footage Caught on Camera at 4.03 million and CCTV Incidents at 3.17 million. Something that never changed can't explain a change. The titles cap the upside, but they didn't cause the drop. It's not volume either. Once you control for which channel and which month it was, the number of uploads made no measurable difference to views per video — every tier sits within about seven percent of what you'd expect — and the busier months actually brought in more total views, so cutting output would just lose you reach. And it's not quality. On AD, the like-to-view ratio went from 1.86 percent in 2024 to 2.91 percent this June. The people who still click are enjoying it more than ever. So this is a reach problem.
 
-#### What it is not
+→ curiosity
 
-*[SLIDE: what-it-is-not.png]*
+What I think it actually is comes straight out of your premise doc. It says the viewer "gets their morbid curiosity closed just by sitting and watching." And that's the whole thing — a topic only works if there's morbid curiosity already there to close. Your biggest videos had that built in: Footage Caught on Camera at 4.03 million, CCTV at 3.17 million, Internet Mysteries at 2.2 million. The recent ones just don't. Amazon Incidents did 71,000, Fishing Encounters 65,000, Biblical Horrors 60,000, Chinese Shows 54,000. Nobody's walking around with some unresolved morbid curiosity about fishing.
 
-**It's not the titles.** 98 percent of videos use the same formula — including the peaks: *Footage
-Caught on Camera* at 4.03 million, *CCTV Incidents* at 3.17 million. A constant can't explain a
-change. Titles cap the upside; they didn't cause the fall.
+→ three-tests
 
-**It's not volume.** Controlling for channel and month, upload count made no measurable difference
-to per-video views — every tier sits within about seven percent of what you'd expect. And busier
-months brought in more total views, not fewer, so cutting output would lose reach.
+And when I ran those four through your three greenlight tests, all four failed on depth and on whether the descent goes somewhere people can't find on their own. Biblical Horrors also sits right on the religion line from your gray-zone rule. So the filter's there — it's just not being applied.
 
-**And it's not quality.** On AD, like-to-view went from **1.86 percent** in 2024 to **2.91 percent**
-this June. The people who still click like it more than ever. It's a reach problem.
+→ the-runtime
 
-#### What it actually is
+I think I know why, and it's what I'd say you're protecting for the wrong reasons: the 45-to-60-minute, 35-to-50-case requirement. If every case needs thirty seconds of footage, a topic has to give you about fifty filmed incidents, and almost nothing with real morbid curiosity attached is that broad. So at greenlight, the question quietly shifts from "what do people want to know" to "what can we find fifty clips of" — and Fishing Encounters is exactly what that second question gets you. The iceberg itself is worth protecting. The runtime is what's being protected for the wrong reasons.
 
-*[SLIDE: curiosity-to-close.png]*
+→ series
 
-The premise doc says the viewer *"gets their morbid curiosity closed just by sitting and
-watching."* That's the key: **a topic only works if there's morbid curiosity already there to
-close.**
+A few other things I found. On series — out of the thirteen multi-volume series where I've got both the first and the latest volume, nine are down 88 to 98 percent. That's CCTV, Dashcam, Theme Park, Live TV, Talent Show — and they're still getting new volumes. But two actually grew. Cheapskates' second volume beat its first by 18 percent, and Things on Asian Internet's beat its first by 94. So the call on which series deserve another volume can be made from the data — it's just not being made right now.
 
-The biggest videos had it built in — *Footage Caught on Camera*, **4.03 million**. *CCTV*, **3.17
-million**. *Internet Mysteries*, **2.2 million**. The recent ones don't — *Amazon Incidents*,
-71,000. *Fishing Encounters*, 65,000. *Biblical Horrors*, 60,000. *Chinese Shows*, 54,000. Nobody
-walks around with unresolved morbid curiosity about fishing.
+→ same-floor
 
-*[SLIDE: three-tests.png]*
+Then there's convergence. Your three channels have a fourfold spread in subscribers, and they're all sitting between 133 and 141 thousand views a video right now. Three different audiences landing on the same floor points to one shared cause.
 
-Running those four through the three greenlight tests, I found all four fail on depth and on the
-can't-find-it-alone test. *Biblical Horrors* also sits on the religion line in the gray-zone rule.
+→ the-ask
 
-The filter exists. It isn't being applied.
+There's also the size of the ask. Together, the channels are asking for about seventeen hours of viewing a month. The channels in this niche that average 2.6 to 3.2 million views a video — Chilling Scares, Nexpo, Nick Crowley — each ask for an hour or less. And since upload count isn't what's costing you views, the lever that's left is runtime. The million-view videos in this niche cluster around 28 minutes, and AD averages 59. Sixty percent of a 35-minute video is the same 21 minutes as thirty-five percent of a 60-minute one, but the shorter video shows the better retention.
 
-#### What's being protected for the wrong reasons
+And on titles — AD's one non-iceberg title, 4chan Threads That Triggered FBI Investigations, did 407,000, which is 61 percent above AD's 2026 average. It's one data point, but titles are the strategist's lever, and it's the cheapest thing there is to test.
 
-*[SLIDE: the-35-case-trap.png]*
+So what's fatiguing about Abyssal isn't the iceberg. It's the topics, the repeats, and how much you're asking of people.
 
-**The 45-to-60-minute, 35-to-50-case requirement is creating the topic problem.** At 35 to 50
-cases, each needing thirty seconds of footage, a topic has to yield about fifty filmed incidents. Almost nothing with real
-morbid curiosity attached is that broad. So greenlight quietly shifts from "what do people want to
-know" to "what can we find fifty clips of" — and *Fishing Encounters* is the answer to the second
-question.
+→ observer
 
-The iceberg is worth protecting. **The runtime is what's being protected for the wrong reasons.**
+Now channel by channel, starting with Observer. Three of AO's four weakest videos this year are show-first topics that break its own rule — Marvel at 39,545, Anime Based on Real Events at 45,563, Chinese Shows at 54,395 — and Directors Behind Famous Films did 60,218. Those four average 49,930. Meanwhile its consequence-led named shows — TLC, To Catch a Predator, Intervention, My Strange Addiction, 90 Day Fiancé, Extreme Cheapskates — average 777,580. And that holds across the whole channel: TV and reality topics average 483,000 a video, animation and franchise topics 210,000. So AO isn't exhausted — as recently as June, Cheapskates' second volume did 590,000. Its baseline is falling because show-first topics are getting through greenlight, and the fix is a rule it already has.
 
-#### Four more findings
+→ detective
 
-*[SLIDE: series-check.png]*
+Abyssal Detective has the steepest fall and the broadest territory, and I think those two are connected. When almost anything is technically in-lane, topics like Biblical Horrors at 60,277 and Amazon Incidents at 70,529 have no grounds to get turned down. It's also your longest channel — 59 minutes against a 28-minute sweet spot — so it asks the most of a viewer while offering the thinnest topics. Its baseline's falling because the topics got thinner, and a territory that wide gives greenlight no reason to say no.
 
-**Series.** Of the thirteen multi-volume series where I have the first and the latest volume, nine
-are down **88 to 98 percent** — CCTV, Dashcam, Theme Park, Live TV, Talent Show — and they're still
-getting new volumes. Two grew: *Cheapskates'* second volume beat its first by **18 percent**, and
-*Things on Asian Internet's* by **94**. So the call on which series earn a next volume can be made
-from the data. Right now it isn't being made.
+→ detective-2
 
-*[SLIDE: convergence.png]*
+Detective 2 has actually repositioned. The recent half of its catalogue is 55 percent disaster and accident topics, up from 28, and volume numbering is down from 80 percent to 25. The problem is what it's being fed, because both of its supply lines are running dry. One is the later volumes of AD1's series — Theme Park and Live TV Moments each did about two million on AD1, and their latest volumes on AD2 did 91,000 and 107,000. The other is new setting topics nobody was curious about — storms at 44,705, home invasions at 40,518, fishing at 64,708. Fourteen of its fifteen weakest videos are from this year. The one exception is Things on Asian Internet, which nearly doubled on its second volume — but the other language lanes didn't repeat that. Hispanic Internet did 40,671.
 
-**Convergence.** A fourfold spread in subscribers, and all three channels now sit between **133 and
-141 thousand** views. Three audiences on one floor points to one shared cause.
+→ four-changes
 
-*[SLIDE: the-ask.png]*
+So what would I change? Four things. First, enforce the three-test filter at greenlight, in writing, with every no written down along with the reason. Second, a series only gets another volume if its last one beat the channel's average — otherwise it's retired. Third, rotate three title frameworks, drop the "Vol." numbers, and keep "Iceberg" for one or two premium uploads per channel a month — so "Dashcam Vol. 5" becomes something like "The Dashcam Footage From Russia Nobody Can Explain." And fourth, end every segment on the document that already existed, so the depth comes from the record instead of from volume — that's what all three of my pitches are built on. The first three are testable inside two months, against today's floor of 133 to 141 thousand a video, channel by channel. Each test gets a written prediction before it ships and a review after, and that's the start of the playbook.
 
-**The ask.** Together the channels ask for about **seventeen hours** of viewing a month. The
-channels in this niche averaging 2.6 to 3.2 million views a video — Chilling Scares, Nexpo,
-Nick Crowley — each ask for **an hour or less**. Upload count isn't what's costing per-video views,
-so the lever left is runtime: the million-view videos in this niche cluster around **28 minutes**,
-and AD averages **59**. Sixty percent of a 35-minute video is the same 21 minutes as thirty-five
-percent of a 60-minute one — but the shorter video shows the better retention.
+→ format-test
 
-**Titles.** AD's one non-iceberg title — *4chan Threads That Triggered FBI Investigations* — did
-**407,000**, 61 percent above AD's 2026 average. One data point, but titles are the strategist's
-lever, and it's the cheapest one there is to test.
+There's also one format I'd want to test — test, not roll out. One case, seven levels, 25 to 35 minutes, where depth means going further into one incident instead of adding more incidents. It gets rid of the fifty-clip problem and lands right near that 28-minute sweet spot. The risk is that if the case doesn't hold up, there's nothing else carrying the video. So it'd be one video, on one channel, for one month, measured against that channel's baseline.
 
-So what's fatiguing isn't the iceberg. It's the topics, the repeats, and the size of the ask.
+→ what-makes-it-abyssal
 
-### Pass two: each channel
+Okay, the pitches. Before I get into them — what makes something an Abyssal video? Of your five invariants, I'd say "forbidden or obscure" is the actual product, and the other four are quality control on it. The thing is, topic novelty is pretty much gone. Kitchen Nightmares, child stars, India, Telegram — they're all covered already, and the first two have videos in the millions. So instead of chasing untouched subjects, all three pitches apply one change to the format.
 
-*[SLIDE: ao-rule.png]*
+→ the-document
 
-#### Abyssal Observer
+The change is that every segment ends on the document — the inspection that was failed, the report that was filed, the check that was run and ignored. The levels still escalate on harm. You could make each level a stage of the paperwork — nobody knew at Level 1, they knew and signed it off at Level 7 — but that doesn't fill. You need five to seven cases per level, and there's one Mottarone, not six. So the document is the signature of every case, not what defines the level. What it gets you is that the surface can be totally familiar, because the depth is the report, and inquiry findings rarely make it onto YouTube. The moral frame becomes part of the structure. It escalates harder than a body count. A solo channel can't easily copy it. "The document we couldn't put on YouTube" is a stronger paid layer than "Level 8." And you can measure it where it matters most — retention at level transitions. It fits two of the channels because they sit inside mandatory inspection regimes. AO doesn't, so it gets a different answer. And the case counts I'm about to give are sized targets — the main cases are verified, and building out the full list would be my first week.
 
-Three of AO's four weakest videos this year are show-first topics that break its own rule —
-*Marvel*, 39,545. *Anime Based on Real Events*, 45,563. *Chinese Shows*, 54,395 — and *Directors
-Behind Famous Films* did 60,218. Those four average **49,930**.
+→ pitch-collapses
 
-Its consequence-led named shows — TLC, To Catch a Predator, Intervention, My Strange Addiction, 90
-Day Fiancé, Extreme Cheapskates — average **777,580**. And it holds across the whole channel: TV and
-reality topics average **483,000** a video, animation and franchise topics **210,000**.
+So the first one is for Abyssal Detective: the Most Disturbing Structural Collapses Iceberg, and the document is the engineering report. Disasters are already an AD lane, and the hook here is the collapse itself rather than a footage format, so it belongs on AD, not AD2. AD's covered explosions, coasters, mountains, water parks, theme parks and the sea, but never structures that came down with people inside — and it's one of the most-filmed disaster categories out there.
 
-AO isn't exhausted — as recently as June, *Cheapskates'* second volume did **590,000**. Its baseline
-is falling because show-first topics are getting through greenlight, and the fix is a rule it
-already has.
+It'd be seven levels, about 44 cases, around 55 minutes, escalating on scale and on who was inside. Level 1 is cranes, scaffolding and facades — spectacular footage, small tolls. Level 2 is buildings that fell mid-construction, onto the people building them. Level 3 is bridges, like Genoa's Morandi bridge with 43 dead and the FIU footbridge in Miami with 6, both caught on camera. Level 4 is public venues — the Hyatt Regency, 114 dead, where a walkway redesign got approved over the phone and doubled the load on a connection nobody recalculated. Level 5 is people's homes — Surfside, 98 dead, with a 2018 engineering report describing major structural damage nearly three years before. Level 6 is industrial — Rana Plaza, 1,134 dead, cracks reported the day before and workers ordered back in. Level 7 is dams and tailings, where the toll stops being countable. And Level 8, on Patreon, is the reports themselves.
 
-*[SLIDE: per-channel.png]*
+For the hook, I'd open on a fixed security camera looking at an apartment building at night. Nothing happens. Then half of it drops. Cut to black, and: "Nearly three years before this, an engineer wrote a report about this building. The structural repairs still hadn't started."
 
-#### Abyssal Detective
+What I'd change from a normal AD disaster iceberg is that every segment closes on the report instead of the death toll, so the video gets a repeating beat instead of feeling like a list. And why it beats what's out there — the closest existing video is a general Devastating Tragedies iceberg at 432,000, and the single-collapse explainers stop at the cause. None of them ask who already knew. A regular footage iceberg promises you a clip you haven't seen; this one promises the ceiling above your head, and then shows you it was written down. For monetization, there's no gore — it's dust and distance — it's spread across a dozen countries, and there's no religion or politics in it. Honestly, it's the cleanest of the three to ship.
 
-The steepest fall and the broadest territory — and the two are linked. With almost anything
-technically in-lane, *Biblical Horrors*, 60,277, and *Amazon Incidents*, 70,529, had no grounds to be
-refused. It's also the longest channel — **59 minutes** against a **28-minute** sweet spot — so it
-asks the most of a viewer while offering the thinnest topics. Its baseline is falling because its
-topics got thinner, and a territory that wide gives greenlight no grounds to say no.
+→ pitch-lifts
 
-*[SLIDE: ad2-shift.png]*
+The second one's for Detective 2: the Most Disturbing Lift and Cable Failures Iceberg, and the document is the inspection certificate. It fits AD2 however you define it — accidents that were investigated once and then forgotten, told through the footage. Elevators alone wouldn't fill it, though. The US sees about 30 elevator and escalator deaths a year, and nearly half of those are maintenance workers in shafts, which almost never get filmed. So the scope is every machine that lifts people under mandatory inspection — elevators, escalators, funiculars, cable cars, ski lifts, mine hoists. Better footage, and no two segments look the same.
 
-#### Abyssal Detective 2
+It's seven levels, about 40 cases, 48 minutes, escalating on harm. Level 1 is malfunctions where nobody's hurt. Level 2 is entrapments — hours in a sealed box, on camera. Level 3 is survivors, like José Vergara Acevedo in Santiago, who fell 31 floors in 15 seconds and lived. Level 4 is injuries — Rome in 2018, where an escalator sped up under a crowd of CSKA Moscow fans: 24 injured, seven seriously, one man partially lost a foot, and eleven people were indicted in 2023, with charges including fraud. Level 5 is single deaths — Samuel Waisbren, 30, where the door-zone restrictor had been disabled, the building had been fined $1,300 for exactly that, and it still wasn't fixed. And JauMarcus McFarland, 18, whose elevator's operating permit had expired a year earlier. Level 6 is several deaths in one failure. And Level 7 is mass casualty — Stresa–Mottarone in 2021, where the cable snapped and the emergency brake never kicked in, because a clamp had been fitted to hold it open, routinely, to avoid downtime. Fourteen people died. And Vaal Reefs in 1995, where a locomotive fell down a mine shaft onto a crowded cage and killed 104.
 
-AD2 has repositioned: the recent half of its catalogue is **55 percent** disaster and accident
-topics, up from **28**, and volume numbering is down from **80 percent to 25**. The problem is what
-it's being fed, and both supply lines are exhausted.
+The hook would be: "Somewhere in your building there's an inspection certificate for the elevator you use every day. You've never once looked at it. Every machine in this video had one too."
 
-One is later volumes of AD1's series — Theme Park and Live TV Moments each did about **two million**
-on AD1; their latest volumes on AD2 did **91,000** and **107,000**. The other is new setting topics
-with no curiosity attached — storms, **44,705**; home invasions, **40,518**; fishing, **64,708**.
-Fourteen of its fifteen weakest videos are from this year.
+What I'd change is that the machine stops being the subject. A normal footage iceberg says "look what happened on camera." This says "look what the certificate said, and who signed it." Same footage, but it turns a compilation into an argument. And it beats what's out there because there's no lift or elevator iceberg at all — just news clips and compilations with no story behind them. Every segment here gets a cause and a piece of paper. It also gives AD2 a line it can repeat: machines under mandatory inspection — lifts, then boilers and pressure vessels, then cranes. On monetization, nothing at the deep end has to be shown. The CCTV cuts before impact, named victims get described, never shown, and Patreon gets the uncut footage and the certificates.
 
-The exception is *Things on Asian Internet*, which nearly doubled on its second volume — and the
-other language lanes didn't repeat it: *Hispanic Internet* did **40,671**.
+→ pitch-casting
 
-### What I'd change
+The third one's for Observer, and AO gets a different answer. TV shows don't sit inside an inspection regime, and the obvious version — Kitchen Nightmares through health inspection files — doesn't hold up. Those records are usually only kept about three years, and the show ran 2007 to 2014. One show also can't fill seven levels. So the topic is the people reality TV put on screen without checking who they were — the Most Disturbing Reality TV Casting Iceberg — and the document is the background check.
 
-*[SLIDE: four-changes.png]*
+It's seven levels, about 42 cases, one person each, around 50 minutes, escalating on how serious the offence is. Every case has broadcast footage, and it pulls from US and UK shows so it isn't built on one country's legal system. Level 1 is financial crime — Todd and Julie Chrisley, sentenced to twelve and seven years for bank fraud and tax evasion and then pardoned in 2025, and the Giudices. Level 2 is drugs and driving offences. Level 3 is domestic violence. Level 4 is violent crime — Geoffrey Paschel from 90 Day Fiancé, 18 years for aggravated kidnapping and domestic assault, and he was arrested a year before his season aired. Level 5 is sexual offences — Stephen Bear, convicted of voyeurism and sharing private sexual images. Level 6 is offences against children — Josh Duggar. And Level 7 is murder — James Timothy Norman from Welcome to Sweetie Pie's, life in prison for a federal murder-for-hire plot against his own nephew. And Ryan Jenkins, who was cast on VH1's Megan Wants a Millionaire. His background check came back clean — it had missed a 2007 conviction in Canada for assaulting a girlfriend — and months later he was wanted for the murder of his wife, Jasmine Fiore. VH1 pulled the series.
 
-**One.** Enforce the three-test filter at greenlight, in writing — every no recorded with its
-reason.
+The hook would be his intro from the show — confident, likeable — held just a beat too long. "The producers paid for a background check on this man. It came back clean. It had missed one thing — a conviction for assaulting a girlfriend, one border away. Months later, he was wanted for murder."
 
-**Two.** A series gets a next volume only if its last one beat the channel's average. Otherwise it's
-retired.
+What I'd change is the direction. AO's named-show icebergs start with a show and look for the consequences inside it. This one starts with the consequence and uses the show as the way in — which is just AO's own rule applied literally. And it beats what exists, because right now that's single-case news coverage and generic celebrities-in-prison lists. Nobody's built an ordered descent with casting as the thread running through it. Against AO's own named-show icebergs, which are one show with lots of incidents, this is one failure across lots of shows — and that's what lets it go deeper than any single show could. It's also built on AO's strongest pattern: TV and reality with a real consequence.
 
-**Three.** Rotate three title frameworks, drop the "Vol." numbers, and keep "Iceberg" for one or
-two premium uploads per channel a month. "Dashcam Vol. 5" becomes "The Dashcam Footage From Russia
-Nobody Can Explain."
+On monetization — done badly, this is just a gawk-at-criminals list. Done right, the thing on trial is the casting process. No crime-scene material is needed, and Patreon gets the court filings themselves. Level 6 is the exception, because offences against children are the hardest category on the platform. My call would be two sentences per case, charge and sentence only, nothing extra behind the paywall — and if the limited-ads rate says otherwise after one video, cut the level.
 
-**Four.** End every segment on the document that already existed, so depth comes from the record
-instead of from volume. That's the basis of all three pitches.
-
-One through three are testable inside two months, against today's floor of 133 to 141 thousand a
-video, channel by channel. Each test gets a written prediction before it ships and a review after —
-that's the start of the playbook.
-
-#### A format worth testing
-
-*[SLIDE: next-format.png]*
-
-One thing to test, not roll out: **one case, seven levels, 25 to 35 minutes** — depth means further
-into one incident, not more incidents. It removes the fifty-clip constraint and lands near the
-28-minute sweet spot. The risk is that if the case doesn't hold, nothing else carries the video.
-One video, one channel, one month, against that channel's baseline.
-
----
-
-## QUESTION 2 — THREE PITCHES
-
-### What makes it an Abyssal video
-
-*[SLIDE: five-invariants.png]*
-
-Of the five invariants, **forbidden or obscure** is the product — the other four are quality
-control on it. And topic novelty is close to gone: Kitchen Nightmares, child stars, India and
-Telegram are all covered already — the first two by videos with millions of views. So these pitches
-apply one change to the format rather than chase untouched subjects.
-
-### The change: every segment ends on the paperwork
-
-*[SLIDE: the-document-axis.png]*
-
-**Every segment ends on the document** — the inspection that was failed, the report that was filed,
-the check that was run and ignored.
-
-Levels still escalate on harm. Making each level a stage of the paperwork — nobody knew at Level 1,
-they knew and signed it off at Level 7 — doesn't fill: the spec needs five to seven cases per level,
-and there's one Mottarone, not six. So the document is the **signature of every case**, not the
-definition of the level.
-
-What it gets you: the surface can be familiar, because the depth is the report — and inquiry
-findings rarely make it onto YouTube. The moral frame becomes structural. It escalates harder than
-a body count. A solo channel can't easily copy it. "The document we couldn't put on YouTube" is a
-stronger paid layer than "Level 8." And it's measurable where it matters most here: retention at
-level transitions.
-
-It fits two channels, because they sit inside mandatory inspection regimes. AO doesn't, so it gets
-a different answer. The case counts are sized targets: the anchors are verified, and building the
-full inventory is week-one work.
-
-### Pitch 1 · Abyssal Detective — "the Most Disturbing Structural Collapses Iceberg"
-
-*[SLIDE: pitch-collapses.png]*
-
-**The document: the engineering report.**
-
-Disasters are an AD lane, and this one's hook is the collapse, not a footage format — so it's AD,
-not AD2. AD's disaster lane has covered explosions, coasters, mountains, water parks, theme parks and
-the sea, but never structures that came down with people inside — and it's one of the most-filmed
-disaster categories there is.
-
-**Framework.** Seven levels, about 44 cases, 55 minutes, escalating on scale and on who was inside.
-Level 1 is cranes, scaffolding and facades — spectacular footage, small tolls. Level 2, buildings
-that fell mid-construction, onto the people building them. Level 3, bridges: Genoa's Morandi
-bridge, **43 dead**, and the FIU footbridge in Miami, **6 dead** — both on camera. Level 4, public
-venues: **Hyatt Regency, 114 dead** — a walkway redesign approved over the phone that doubled the
-load on a connection nobody recalculated. Level 5, occupied homes: **Surfside, 98 dead** — a 2018
-engineering report describing major structural damage, nearly three years before. Level 6,
-industrial: **Rana Plaza, 1,134 dead** — cracks reported the day before, workers ordered back in.
-Level 7, dams and tailings, where the toll stops being countable. Level 8, on Patreon, is the reports
-themselves.
-
-**Hook.** A fixed security camera on an apartment building at night. Nothing happens. Then half of
-it drops. Cut to black. *"Nearly three years before this, an engineer wrote a report about this
-building. The structural repairs still hadn't started."*
-
-**What I'd change.** Every segment closes on the report, not the death toll — so the video has a
-repeating beat instead of reading as a list.
-
-**Why it beats the original.** The nearest existing video is a general "Devastating Tragedies"
-iceberg at **432,000**, and the single-collapse explainers stop at the cause — none asks who
-already knew. Against AD's own disaster icebergs: a footage iceberg promises a clip you haven't
-seen; this promises the ceiling above your head, and then shows it was written down.
-
-**Monetization.** No gore; it's dust and distance. Spread across a dozen countries, no religion, no
-politics. The cleanest of the three to ship.
-
-### Pitch 2 · Abyssal Detective 2 — "the Most Disturbing Lift & Cable Failures Iceberg"
-
-*[SLIDE: pitch-lifts.png]*
-
-**The document: the inspection certificate.**
-
-It's AD2's territory by either definition — accidents that were investigated once and then
-forgotten, told through the footage. Elevators alone won't fill it — about **30 US deaths a year**,
-nearly half maintenance workers in shafts, almost never filmed. So the scope is every machine that
-lifts people under mandatory inspection: elevators, escalators, funiculars, cable cars, ski lifts,
-mine hoists. Better footage, and no two segments look alike.
-
-**Framework.** Seven levels, about 40 cases, 48 minutes, escalating on harm. Level 1, malfunctions
-where nobody's hurt. Level 2, entrapments — hours in a sealed box, on camera. Level 3, survivors: in
-Santiago, **José Vergara Acevedo fell 31 floors in 15 seconds** and lived. Level 4, injuries:
-**Rome, 2018** — an escalator accelerated under a crowd of CSKA Moscow fans: **24 injured**, seven
-seriously, one man partially lost a foot, and **eleven people were indicted in 2023**, with charges
-including fraud. Level 5, single deaths: **Samuel Waisbren, 30** — the door-zone restrictor was
-disabled, the building had been **fined $1,300 for exactly that**, and it was still unfixed. And
-**JauMarcus McFarland, 18** — the elevator's operating permit had expired a year earlier. Level 6,
-several deaths in one failure. Level 7, mass casualty: **Stresa–Mottarone, 2021** — the cable
-snapped and the emergency brake never engaged, because a clamp had been fitted to hold it open,
-routinely, to avoid downtime. **14 dead.** And **Vaal Reefs, 1995** — a locomotive fell down a mine
-shaft onto a crowded cage. **104 dead.**
-
-**Hook.** *"Somewhere in your building there's an inspection certificate for the elevator you use
-every day. You've never once looked at it. Every machine in this video had one too."*
-
-**What I'd change.** The machine stops being the subject. A footage iceberg says "look what happened
-on camera"; this says "look what the certificate said, and who signed it." Same footage, and it
-turns a compilation into an argument.
-
-**Why it beats the original.** No lift or elevator iceberg exists — what's out there is news clips
-and compilations with no story. Every segment here gets a cause and a piece of paper. And it gives
-AD2 a repeatable line: machines under mandatory inspection. Lifts, then boilers and pressure vessels,
-then cranes.
-
-**Monetization.** Nothing at the deep end needs to be shown — CCTV cut before impact, named victims
-described, never shown. Patreon gets the uncut footage and the certificates.
-
-### Pitch 3 · Abyssal Observer — "the Most Disturbing Reality TV Casting Iceberg"
-
-*[SLIDE: pitch-casting.png]*
-
-**AO gets a different answer.** TV shows don't sit inside an inspection regime, and the obvious
-version — Kitchen Nightmares through health inspection files — doesn't hold: those records are
-typically kept about **three years**, and the show ran 2007 to 2014. One show also can't fill seven
-levels.
-
-**The topic: the people reality TV put on screen without checking who they were. The document: the
-background check.**
-
-**Framework.** Seven levels, about 42 cases, one person each, 50 minutes, escalating on the
-seriousness of the offence. Every case has broadcast footage, drawn from US and UK shows so it isn't
-built on one legal system. Level 1, financial crime: **Todd and Julie Chrisley** — sentenced to
-twelve and seven years for bank fraud and tax evasion, then pardoned in 2025 — and the Giudices.
-Level 2, drugs and driving offences. Level 3, domestic violence. Level 4, violent crime: **Geoffrey
-Paschel**, *90 Day Fiancé* — 18 years for aggravated kidnapping and domestic assault, arrested a year
-before his season aired. Level 5, sexual offences: **Stephen Bear**, convicted of voyeurism and
-sharing private sexual images. Level 6, offences against children: **Josh Duggar**. Level 7, murder:
-**James Timothy Norman**, *Welcome to Sweetie Pie's* — life in prison for a federal murder-for-hire
-plot against his own nephew. And **Ryan Jenkins**, cast on VH1's *Megan Wants a Millionaire* — the
-background check came back clean and missed his **2007 conviction in Canada for assaulting a
-girlfriend**. Months later he was wanted for the murder of his wife, Jasmine Fiore. VH1 pulled the
-series.
-
-**Hook.** His intro from the show — confident, likeable — held a beat too long. *"The producers paid
-for a background check on this man. It came back clean. It had missed one thing — a conviction for
-assaulting a girlfriend, one border away. Months later, he was wanted for murder."*
-
-**What I'd change.** AO's named-show icebergs start from a show and look for the consequences inside
-it. This starts from the consequence and uses the show as the way in — AO's own rule applied
-literally.
-
-**Why it beats the original.** What exists is single-case news coverage and generic
-celebrities-in-prison lists; nobody has built an ordered descent with casting as the through-line.
-Against AO's named-show icebergs — one show, many incidents — this is one failure mode across many
-shows, which is what lets it go deeper than any single show can. And it's built on AO's strongest
-pattern: TV and reality topics with a real consequence.
-
-**Monetization.** Done badly this is a gawk-at-criminals list; done right, the institution on trial
-is the casting process. No crime-scene material needed; Patreon gets the court filings themselves.
-**Level 6 is the exception** — offences against children are the hardest category on the platform.
-My call: two sentences per case, charge and sentence only, nothing extra behind the paywall — and if
-the limited-ads rate says otherwise after one video, cut the level.
-
-### CLOSE
-
-The format isn't failing because it got old. It's failing because the runtime took over topic
-selection, the filter that's already written down stopped being applied, and series kept getting
-volumes after the data said stop. Enforce the filter, make every series earn its next volume, test
-the titles — and compete on depth instead of topic novelty, with every segment ending on the
-document.
+So, to wrap up. The format isn't failing because it got old. It's failing because the runtime took over topic selection, the filter you've already written down stopped being applied, and series kept getting volumes after the data said stop. Enforce the filter, make every series earn its next volume, test the titles — and compete on depth instead of topic novelty, with every segment ending on the document.
 
 Thanks for watching.
 
@@ -830,28 +593,7 @@ KN inspection records — ~3-year retention (some 6, MD 12); series 2007–14
 
 # Part 4 — The visuals
 
-18 PNGs in `visuals/`, 3200 px wide and cropped to content, one per `[SLIDE: …]` cue. One chart, table or mindmap each. Channel colours (`#3987e5` AD, `#199e70` AO, `#c98500` AD2) validated for colour-vision separation against `#1a1a19`; red `#e66767` is used only for single-series emphasis, never beside amber. `visuals/_source.html` regenerates all eighteen.
-
-| # | File | Part | What it carries |
-|---|---|---|---|
-| 1 | `the-collapse.png` | Q1 | Monthly per-video views by channel; peak → now (−93/−90/−78) and vs 2025 average (−82/−67/−55). |
-| 2 | `what-it-is-not.png` | Q1 | Three panels: titles 98% constant · volume flat once channel and month are controlled · AD like-to-view 1.86% → 2.91%. |
-| 3 | `curiosity-to-close.png` | Q1 | Topics with built-in morbid curiosity (4.03M/3.17M/2.20M) vs without (71K/65K/60K/54K). |
-| 4 | `three-tests.png` | Q1 | Four recent topics against the brief's tests: all fail depth and can't-find-alone; Biblical Horrors flagged gray zone. |
-| 5 | `the-35-case-trap.png` | Q1 | The arithmetic that makes the runtime pick the topics — what is protected for the wrong reasons. |
-| 6 | `series-check.png` | Q1 | All 13 series with first and latest volume: nine down 88–98%, two held better, two grew. One scale. |
-| 7 | `convergence.png` | Q1 | 494K / 274K / 123K subscribers → 133–141K per video (Sep 2026). Two panels, own scales. |
-| 8 | `the-ask.png` | Q1 | 16.9 hrs/month asked vs ≤1.0 for channels averaging 1.9–3.2M a video (measured cadence × duration). |
-| 9 | `ao-rule.png` | Q1 | Six consequence-led named shows (avg 777,580) vs four show-first flops (avg 49,930); channel-wide 482,823 vs 210,413. |
-| 10 | `per-channel.png` | Q1 | AO / AD / AD2 in the brief's order: vs peak, vs 2025 average, cause. |
-| 11 | `ad2-shift.png` | Q1 | Repositioned (28% → 55%; Vol. N 80% → 25%) — and its 2026 setting/language topics at 40–74K. |
-| 12 | `four-changes.png` | Q1 | Filter · series rule · titles · document axis, each with its evidence; predicted-vs-actual testing. |
-| 13 | `next-format.png` | Q1 | The one-case format as a test, with its risk. |
-| 14 | `five-invariants.png` | Q2 | Mindmap of the premise doc's five invariants; the third is the product. |
-| 15 | `the-document-axis.png` | Q2 | Every segment ends on the paperwork; the document per channel; measured on level-transition retention. |
-| 16 | `pitch-collapses.png` | Q2 | AD — Structural Collapses. ~44 cases, 55 min, Patreon L8 = the reports. |
-| 17 | `pitch-lifts.png` | Q2 | AD2 — Lift & Cable Failures. ~40 cases, 48 min. |
-| 18 | `pitch-casting.png` | Q2 | AO — Reality TV Casting. ~42 cases, 50 min. |
+18 PNGs in `visuals/`, 1920×2160 (8:9) — sized for half of a 16:9 screen so they sit beside the speaker in a side-by-side recording. One idea each, big type, minimal text; the script carries the explanation. Cue order: `the-collapse`, `what-it-is-not`, `curiosity`, `three-tests`, `the-runtime`, `series`, `same-floor`, `the-ask`, `observer`, `detective`, `detective-2`, `four-changes`, `format-test`, `what-makes-it-abyssal`, `the-document`, `pitch-collapses`, `pitch-lifts`, `pitch-casting`. `visuals/_source.html` regenerates them.
 
 ---
 ---
