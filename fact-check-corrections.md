@@ -269,3 +269,59 @@ So the Kitchen Nightmares pitch survives, but the framing inverts:
 Note the ambiguity worth naming in the video: *"the original"* could mean the existing video on
 that topic, or the standard Abyssal treatment. Answer both — it costs thirty seconds and covers
 either reading.
+
+---
+
+## G. FINAL VERIFICATION PASS — the two flagged assumptions (24 Sep)
+
+Both risks flagged on the previous draft were researched. **One failed.**
+
+### G1. ❌ FAILED — Kitchen Nightmares health inspection records are not retrievable
+- **The assumption:** build the AO ladder on "what the county already knew before Ramsay
+  arrived," sourced from health inspection files, across 42 restaurants.
+- **What the research says:** restaurant inspection records carry a **three-year minimum
+  retention** in most US jurisdictions (some 6, Maryland 12). Kitchen Nightmares US ran
+  **2007–2014**. For most of these restaurants the paperwork no longer exists, and no secondary
+  source systematically reports pre-filming inspection scores — searching returns forum
+  speculation, not records.
+- **Against the premise doc's own gate** — *"every segment traces to a real source"* — this
+  fails. **Cut.**
+- **Replaced with:** the **court file**. Litigation, criminal records and immigration decisions
+  are not purged, and this show generated an unusual amount of all three. The pitch now says on
+  camera that the first version was cut for failing verification, which is a better look than
+  quietly swapping it.
+- **Stated honestly in the script:** this is the weakest of the three on the document axis,
+  because restaurants have no mandatory inspection regime generating durable paper. What carries
+  it instead is the audience — named shows average 777K on AO vs 50K generic.
+- Sources: [Mass. municipal retention schedule](https://www.sec.state.ma.us/divisions/public-records/download/Municipal_Retention_Schedule_20220901.pdf),
+  [NC local health dept schedule](https://archives.ncdcr.gov/local-health-departments-schedule/open),
+  [Maryland LHD environmental health](https://health.maryland.gov/iac/Documents/0842A%20-%20Local%20Health%20Departments%20-%20Environmental%20Health.pdf)
+
+### G2. ⚠️ CONFIRMED RISK — elevator-only footage supply is inverted, topic widened
+- **The concern:** 40 elevator cases each needing 30+ seconds of usable footage, plus the
+  "segments too similar to each other" killer.
+- **What the research says:** elevators and escalators kill about **30 people a year in the US**
+  (≈25 elevator, ≈3 escalator) with ~17,100 serious injuries. **Nearly half of the deaths are
+  maintenance workers in shafts** — almost never on camera. Escalator deaths are ~3/yr.
+  So footage is abundant at the shallow end (malfunctions, entrapments) and **thinnest at
+  exactly the levels that must carry the payoff**. The concern was correct.
+- **Fix:** widened from elevators/escalators to the whole family of machines under mandatory
+  periodic inspection — elevators, escalators, funiculars, cable cars, ski lifts, mine hoists.
+  Same document (the certificate), far better footage, and visually distinct segment to segment,
+  which also clears the similarity killer. Retitled *"the Most Disturbing Lift & Cable Failures
+  Iceberg."*
+- Sources: [CPWR/eLCOSH report](https://elcosh.org/document/1232/d000397/deaths-and-injuries-involving-elevators-and-escalators-a-report-of-the-center-to-protect-workers-rights.html),
+  [CPWR PDF](https://www.cpwr.com/wp-content/uploads/elevator_escalator_BLSapproved_1.pdf)
+
+### G3. ✅ NEW ANCHOR VERIFIED — Stresa–Mottarone, 2021
+The case that now anchors Level 7, and the single cleanest example of the document axis:
+- 23 May 2021, Stresa–Alpino–Mottarone cable car, Lake Maggiore. Haulage cable snapped.
+  **14 dead, 1 survivor** (a child).
+- The emergency brake **did not engage because a clamp had been fitted to hold it open** — a
+  patchwork fix so the cabin would stop halting.
+- Service manager **Gabriele Tadini** admitted this had become **routine practice to avoid
+  downtime**. Arrested alongside owner **Luigi Nerini** and engineer **Enrico Perocchio**,
+  charged with manslaughter and intentional removal of accident precautions.
+- Sources: [KSL/AP](https://www.ksl.com/article/50173759/police-arrest-3-over-italian-cable-car-disaster-say-emergency-brake-deactivated),
+  [Euronews](https://www.euronews.com/my-europe/2021/05/30/judge-finds-technician-responsible-for-cable-car-crash-over-mottarone-mountain-in-italy),
+  [Lift Blog](https://liftblog.com/2021/05/26/three-arrests-made-in-italy-tramway-disaster/)

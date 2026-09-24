@@ -48,6 +48,14 @@ The JD had never been in the repo — prior work ran on a paraphrase. Found the 
 contradicted the brief, Hotels was mis-routed, two sub-questions were unanswered, and Patreon,
 monetization and level-transition retention had no coverage at all.
 
+**4 · Final verification** (`fact-check-corrections.md`, section G)
+Tested the two assumptions the previous draft flagged. **One failed:** restaurant inspection
+records carry a ~3-year retention, so the 2007–2014 Kitchen Nightmares files are gone — that
+ladder was rebuilt on the court file instead. **One was confirmed:** elevators alone kill ~30
+people a year in the US, nearly half maintenance workers in shafts who are never filmed, so
+footage is thickest at the shallow end — the topic was widened to the whole lift and cable
+family. Both corrections are now spoken aloud in the script rather than quietly patched.
+
 **3 · Premise doc** (`jd-alignment-audit.md`, Part 2)
 Overrode the JD's channel summaries and corrected three of Part 1's own findings. Then surfaced
 the big ones: the format requires **35–50 cases** and all three pitches carried 16–26; true
@@ -67,9 +75,9 @@ curiosity about it. That is the thing being protected for the wrong reasons.
 
 | Channel | Topic | The document | Cases | Runtime |
 |---|---|---|---|---|
-| Abyssal Observer | Kitchen Nightmares | the health inspection file | 42 (one restaurant each) | 50 min |
+| Abyssal Observer | Kitchen Nightmares | the court file | 42 (one restaurant each) | 50 min |
 | Abyssal Detective | Structural Collapses | the engineering report | 44 | 55 min |
-| Abyssal Detective 2 | Elevator & Escalator Incidents | the inspection certificate | 40 | 48 min |
+| Abyssal Detective 2 | Lift & Cable Failures | the inspection certificate | 40 | 48 min |
 
 **The pitches are one idea applied three times, not three topics.** Topic-level novelty is
 effectively unwinnable now — Kitchen Nightmares, child stars, India and Telegram were all tested
