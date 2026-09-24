@@ -61,10 +61,10 @@ td.num{font-variant-numeric:tabular-nums}
 <div class="node" style="background:#3a2322;color:var(--red)">Fishing Encounters<small>65K VIEWS</small></div>
 </div></div>
 
-<div class="fig" id="sequel-decay"><h1>Sequels lose 85% on average</h1>
-<div class="sub">Best volume → latest volume</div>
+<div class="fig" id="sequel-decay"><h1>Seven series lost 90–98%. The one new topic grew.</h1>
+<div class="sub">First volume → latest volume</div>
 <div class="chart"><svg id="c-seq" width="1448" height="500"></svg></div>
-<div class="src">Average of the seven declines: −84.7%. The one riser was a genuinely new topic.</div></div>
+<div class="src">Each channel fell 78–93% over the same period, so volume numbering isn't the whole cause. On AO, originals average 17% more than sequels.</div></div>
 
 <div class="fig" id="the-eight-video-cliff"><h1>Seven uploads a month is the peak. Eight is the cliff.</h1>
 <div class="sub">2026, all three channels · average total views in a month, by uploads that month</div>
@@ -100,7 +100,7 @@ td.num{font-variant-numeric:tabular-nums}
 <tr><th style="width:5%">#</th><th style="width:47%">Change</th><th>Evidence</th></tr>
 <tr><td class="k">1</td><td class="k">Three-test filter at greenlight, in writing</td><td>All three recent flops fail it</td></tr>
 <tr><td class="k">2</td><td class="k">Cap at seven uploads per channel a month</td><td class="num">7 → 3.01M total · 8 → 1.09M</td></tr>
-<tr><td class="k">3</td><td class="k">Drop volume numbers, AD2 first</td><td>Sequels lose 85%</td></tr>
+<tr><td class="k">3</td><td class="k">Drop volume numbers, AD2 first</td><td>Only a new topic grew (+94%) · AO originals +17%</td></tr>
 <tr><td class="k">4</td><td class="k">Rotate three title frameworks</td><td>98% one formula · the exception did 407K</td></tr>
 <tr><td class="k" style="color:var(--aqua)">5</td><td class="k" style="color:var(--aqua)">End every segment on the document</td><td>The basis of all three pitches</td></tr>
 </table></div>
@@ -206,7 +206,7 @@ hbars('c-curio',[
 
 // sequels (diverging, one common scale)
 (function(){const svg=document.getElementById('c-seq'),LW=360,S=4.4,Z=LW+96*S+12,RH=54,BH=32;
- const d=[['AD1 · CCTV',-96,'3.17M → 132K'],['AD1 · Dashcam',-95,'1.19M → 61K'],['AD2 · Theme Park',-92,'1.19M → 91K'],['AD1 · Warning Signs',-90,'907K → 90K'],['AD2 · Live TV Moments',-87,'791K → 107K'],['AO · Talent Show Accidents',-83,'455K → 77K'],['AO · TV Accidents',-50,'381K → 192K'],['AD2 · Things on Asian Internet',94,'602K → 1.17M']];
+ const d=[['AO · Talent Show Accidents',-98,'4.67M → 77K'],['AD1 · CCTV',-96,'3.17M → 132K'],['AD1 → AD2 · Theme Park',-95,'2.00M → 91K'],['AD1 · Dashcam',-95,'1.19M → 61K'],['AD1 → AD2 · Live TV Moments',-95,'2.05M → 107K'],['AO · TV Accidents',-92,'2.40M → 192K'],['AD1 · Warning Signs',-90,'907K → 90K'],['AD2 · Things on Asian Internet',94,'602K → 1.17M']];
  svg.appendChild(el('line',{x1:Z,x2:Z,y1:-6,y2:d.length*RH+14,stroke:C.ink3}));
  d.forEach(([n,v,note],i)=>{const y=i*RH+(i===7?14:0),w=Math.abs(v)*S,lab=(v<0?'−':'+')+Math.abs(v)+'%';
   tx(svg,n,LW-20,y+BH/2+7,{'text-anchor':'end',fill:C.ink2,'font-size':19});
@@ -237,10 +237,10 @@ function vpanelC(id,title,rows,max,fmt){const svg=document.getElementById(id),B=
 
 // ask
 hbars('c-ask',[
- {n:'Abyssal Network (all three)',v:16.9,c:C.red,lab:'16.9 hrs',bold:1,note:'133–141K'},
+ {n:'Abyssal Network (all three)',v:16.9,c:C.red,lab:'16.9 hrs',bold:1},
  {n:'Chilling Scares',v:1.0,c:C.mute,lab:'1.0',note:'3.24M'},{n:'Nexpo',v:1.0,c:C.mute,lab:'1.0',note:'3.22M'},
  {n:'The Paint Explainer',v:0.94,c:C.mute,lab:'0.9',note:'1.88M'},{n:'Nick Crowley',v:0.81,c:C.mute,lab:'0.8',note:'2.59M'},{n:'SIRIUS',v:0.32,c:C.mute,lab:'0.3',note:'2.81M'}],17,{lw:340,w:720,rh:62,top:40,nx:1440});
-(function(){const s=document.getElementById('c-ask');tx(s,'AVG VIEWS / VIDEO',1440,20,{'text-anchor':'end',fill:C.ink3,'font-size':14,'font-weight':700,'letter-spacing':1.2});})();
+(function(){const s=document.getElementById('c-ask');tx(s,'CHANNEL AVG VIEWS / VIDEO',1440,20,{'text-anchor':'end',fill:C.ink3,'font-size':14,'font-weight':700,'letter-spacing':1.2});})();
 
 // AO rule
 hbars('c-ao',[
@@ -274,5 +274,5 @@ function ladder(id,rows){const box=document.getElementById(id);
   box.insertAdjacentHTML('beforeend',`<div class="lrow"><div class="chip" style="background:hsl(212 70% ${l}%);color:${i>=3?'#fff':'#0e0e0d'}">L${i+1}</div><div><div class="lvn">${r[0]}</div>${r[1]?`<div class="lvd">${r[1]}</div>`:''}</div><div class="cnt">${r[2]}</div></div>`);});}
 ladder('l-col',[['Cranes, scaffolding, facades','Spectacular footage, small tolls',6],['Bridges','Genoa Morandi — 43 dead · FIU footbridge — 6 dead',6],['Fell mid-construction','Onto the people building them',6],['Public venues','Hyatt Regency — 114 dead',6],['Occupied homes','Surfside — 98 dead',6],['Industrial','Rana Plaza — 1,134 dead',6],['Dams and tailings','Where the toll stops being countable',8]]);
 ladder('l-lift',[['Malfunctions, nobody hurt','',5],['Entrapments','Hours in a sealed box, on camera',6],['Injuries','Rome 2018 — 24 injured, 11 indicted',6],['Survivors','Santiago — 31 floors in 15 seconds, survived',6],['Single deaths','Samuel Waisbren · JauMarcus McFarland',6],['Several deaths, one failure','',6],['Mass casualty','Mottarone 2021 — 14 dead · Vaal Reefs 1995 — 104 dead',5]]);
-ladder('l-cast',[['Financial crime','Todd & Julie Chrisley — 12 and 7 years, pardoned 2025 · the Giudices',6],['Drugs and driving offences','',6],['Domestic violence','',6],['Violent crime','Geoffrey Paschel, 90 Day Fiancé',6],['Sexual offences','Stephen Bear',6],['Offences against children','Josh Duggar',6],['Murder','James Timothy Norman · Ryan Jenkins',6]]);
+ladder('l-cast',[['Financial crime','Todd & Julie Chrisley — 12 and 7 years, pardoned 2025 · the Giudices',6],['Drugs and driving offences','',6],['Domestic violence','',6],['Violent crime','Geoffrey Paschel, 90 Day Fiancé — 18 years, arrested before his season aired',6],['Sexual offences','Stephen Bear',6],['Offences against children','Josh Duggar',6],['Murder','James Timothy Norman · Ryan Jenkins',6]]);
 </script></body></html>

@@ -431,3 +431,23 @@ AD1 −93.2% · AO −89.9% · AD2 −77.8% · 2026 ≤5/mo 284,952 vs ≥7/mo 2
 2.05M · 8-tier 1,086,975 total / 135,872 per video · 7-tier 3,006,220 / 429,460 · sequel decay
 (96+95+92+90+87+83+50)/7 = **84.7 ≈ 85%** · named 777,580 ÷ generic 49,930 = **15.6×** ·
 321/328 = **97.9 ≈ 98%** · 18.5 uploads × 54.8 min = 1,014 min = **16.9 ≈ 17 hrs**
+
+---
+
+## I. Final pass (Sep 2026)
+
+| Claim | Was | Now | Source |
+|---|---|---|---|
+| Sequel decay | "−85% avg, best volume → latest" | 90–98% from **first** volume (mean −94.5%). AO series had used Vol 2 as baseline; Talent Show Vol 1 = 4,665,487, TV Accidents Vol 1 = 2,401,370; Theme Park and Live TV Vol 1 were on AD1 (2.00M, 2.05M). Presented as descriptive only — confounded with each channel's own 78–93% fall | abyssal-observer-analysis.md top-20; abyssal-detective-analysis.md top-20 |
+| Paschel | "aggravated assault and kidnapping" | aggravated kidnapping + domestic assault, 18 years (Oct 2021); incident Jun 2019, aired 2020 | ET Online, Court TV |
+| McFarland | permit "expired the previous August" | died 31 Aug 2021; permit expired Aug 2020 → "a year earlier" | 11Alive state report |
+| Jenkins / Fiore | "ex-wife" | wife — claimed annulment never found in records | TODAY/AP |
+| Jenkins | "arrested for murder"; check "already contained" conviction | never arrested; check reported no record and missed the Canadian conviction | Courthouse News |
+| Chrisleys | sentences only | + pardoned May 2025 | NPR, CNN |
+| Rome 2018 | "indicted for manslaughter and fraud" | "charges including fraud" — no deaths occurred | Wikipedia |
+| Novelty | India and Telegram "have videos with millions of views" | covered, but max 307K / 646K; only KN and child stars reach millions | stat sheet |
+| Competitor avg | "two to three million" | 2.6–3.2M (Chilling 3.24M, Nexpo 3.22M) | competitive-benchmarking-analysis.md |
+| Viewing ask | Chilling 1.1, GOHA 1.8 | Chilling 1.0 (22 min / 11.2 days); GOHA dropped (duration was one video's) | competitive-benchmarking-analysis.md |
+| Convergence | 138/127/110K (mixed sources) | Sep 2026: 138,757 / 141,082 / 133,382 | raw monthly data |
+| AO named-show avg | five shows listed for a six-show mean | Extreme Cheapskates (497,762) restored | full-chat-log.md |
+| Hooks | "nineteen months"; "every person… was killed" | "nearly three years" (Oct 2018 → Jun 2021); "every machine… had one too" | Surfside timeline; ladder levels 1–4 non-fatal |

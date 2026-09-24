@@ -442,7 +442,7 @@ picked up later from the same search results.
 ---
 
 ## NIA Production — Creative Strategist (Abyssal Network)
-### Loom script · 15.8 min at 150 wpm, 16.9 at 140 — plus pauses on visuals
+### Loom script · 16.2 min at 150 wpm, 17.3 at 140 — plus pauses on visuals
 
 *Speak it, don't read it. `[SLIDE: x.png]` cues the visual.*
 
@@ -515,15 +515,17 @@ The iceberg is worth protecting. **The runtime is what's being protected for the
 
 *[SLIDE: sequel-decay.png]*
 
-**Sequels.** Seven multi-volume series have dropped 50 to 96 percent from their best volume to
-their latest — **minus 85** on average. The one exception, *Things on Asian Internet*, went **up
-94 percent**, because the topic was new.
+**Sequels.** Seven multi-volume series have lost **90 to 98 percent** from their first volume to
+their latest. That's the same scale as the channels' own fall, so the number on the title isn't the
+whole story. The tell is the exception: *Things on Asian Internet*, a genuinely new topic, went **up
+94 percent** while everything around it fell. And on AO, originals average **17 percent** more than
+sequels.
 
 *[SLIDE: the-eight-video-cliff.png]*
 
 **Eight uploads a month.** In 2026, months at seven uploads averaged **3.01 million** total views —
-the best tier. At eight, **1.09 million**. Per video, 429,000 against 136,000. Twice a week is eight
-a month — exactly where it breaks.
+the best tier. At eight, **1.09 million**. Per video, 429,000 against 136,000. Twice a week is about
+eight a month — exactly where it breaks.
 
 *[SLIDE: convergence.png]*
 
@@ -533,7 +535,7 @@ a month — exactly where it breaks.
 *[SLIDE: the-ask.png]*
 
 **The ask.** Together the channels ask for about **seventeen hours** of viewing a month. The
-channels in this niche averaging two to three million views a video — Chilling Scares, Nexpo,
+channels in this niche averaging 2.6 to 3.2 million views a video — Chilling Scares, Nexpo,
 Nick Crowley — each ask for **an hour or less**. The million-view videos in this niche cluster around **28
 minutes**; AD averages **59**. Sixty percent of a 35-minute video is the same 21 minutes as
 thirty-five percent of a 60-minute one — but the shorter video gets the better retention score.
@@ -576,9 +578,9 @@ The repositioning is working. The recent half of the catalogue is **55 percent**
 from **28**, and volume numbering is down from **80 percent to 25**. But from the outside it still
 reads as the home for Vol. 3+.
 
-Its baseline is falling because it's downstream: it runs Volumes 3 to 5 of topics AD1 already
-spent, and sequels lose **85 percent**. The two series behind its **minus 78** — Theme Park at
-minus 92, Live TV at minus 87 — are both inherited. It also owns the non-English internet lane,
+Its baseline is falling because it's downstream: it runs later volumes of topics that already peaked
+on AD1. Theme Park and Live TV Moments each did about **two million** views on AD1; their latest
+volumes on AD2 did **91,000** and **107,000**. It also owns the non-English internet lane,
 which produced the only series in the network that grew — *Things on Asian Internet*, 602,000 to
 1.17 million — and it's underused.
 
@@ -623,7 +625,7 @@ One video, one channel, one month, against that channel's baseline.
 
 Of the five invariants, **forbidden or obscure** is the product — the other four are quality
 control on it. And topic novelty is close to gone: Kitchen Nightmares, child stars, India and
-Telegram all already have videos with millions of views. So these pitches apply one change to the
+Telegram are all covered already — the first two by videos with millions of views. So these pitches apply one change to the
 format rather than chase untouched subjects.
 
 ### The change: every segment ends on the paperwork
@@ -639,8 +641,8 @@ and there's one Mottarone, not six. So the document is the **signature of every 
 definition of the level.
 
 What it gets you: the surface can be familiar, because the depth is the report — and inquiry
-findings aren't on YouTube. The moral frame becomes structural. It escalates harder than a body
-count. A solo competitor can't copy it. And "the document we couldn't put on YouTube" is a stronger
+findings rarely make it onto YouTube. The moral frame becomes structural. It escalates harder than a body
+count. A solo channel can't easily copy it. And "the document we couldn't put on YouTube" is a stronger
 paid layer than "Level 8."
 
 It fits two channels, because they sit inside mandatory inspection regimes. AO doesn't, so it gets
@@ -652,8 +654,8 @@ a different answer.
 
 **The document: the engineering report.**
 
-AD's disaster lane has never covered structures that came down with people inside — and it's the
-most-filmed disaster category there is.
+AD's disaster lane has never covered structures that came down with people inside — and it's one of
+the most-filmed disaster categories there is.
 
 **Seven levels, about 44 cases, 55 minutes,** escalating on scale and on who was inside.
 
@@ -668,7 +670,7 @@ tailings, where the toll stops being countable.
 
 **Hook.** Forty seconds of security-camera footage of an apartment building at night, nothing
 happening. Then half of it drops. Cut to black. *"Nearly three years before this, an engineer wrote
-a report about this building. The repairs still hadn't started."*
+a report about this building. The structural repairs still hadn't started."*
 
 **Why it wins.** Every segment lands on the report, so the video has a repeating beat instead of
 reading as a list. A footage iceberg promises a clip you haven't seen; this promises the ceiling
@@ -693,11 +695,11 @@ and no two segments look alike.
 
 Level 1, malfunctions where nobody's hurt. Level 2, entrapments — hours in a sealed box, on camera.
 Level 3, injuries: **Rome, 2018** — an escalator accelerated under a crowd of CSKA Moscow fans, **24
-injured**, one man partially lost a foot, and **eleven people indicted in 2023** for manslaughter and
+injured**, one man partially lost a foot, and **eleven people indicted in 2023**, with charges including
 fraud. Level 4, survivors: in Santiago, **José Vergara Acevedo fell 31 floors in 15 seconds** and
 lived. Level 5, single deaths: **Samuel Waisbren, 30** — the door-zone restrictor was disabled, the
 building had been **fined $1,300 for exactly that**, and it was still unfixed. And **JauMarcus
-McFarland, 18** — the elevator's permit had expired the previous August. Level 6, several deaths in
+McFarland, 18** — the elevator's operating permit had expired a year earlier. Level 6, several deaths in
 one failure. Level 7, mass casualty: **Stresa–Mottarone, 2021** — the cable snapped and the emergency
 brake never engaged, because a clamp had been fitted to hold it open, routinely, to avoid downtime.
 **14 dead.** And **Vaal Reefs, 1995** — a locomotive fell down a mine shaft onto a crowded cage.
@@ -733,12 +735,12 @@ offence. Every case has broadcast footage.
 Level 1, financial crime: **Todd and Julie Chrisley** — sentenced to twelve and seven years for bank
 fraud and tax evasion, then pardoned in 2025 — and the Giudices. Level 2, drugs and driving offences.
 Level 3, domestic violence. Level 4, violent crime: **Geoffrey Paschel**, *90 Day Fiancé* —
-aggravated assault and kidnapping. Level 5, sexual offences: **Stephen Bear**, convicted of voyeurism
+18 years for aggravated kidnapping and domestic assault, arrested a year before his season aired. Level 5, sexual offences: **Stephen Bear**, convicted of voyeurism
 and sharing private sexual images. Level 6, offences against children: **Josh Duggar**. Level 7,
 murder: **James Timothy Norman**, *Welcome to Sweetie Pie's*, convicted in a federal murder-for-hire
 plot against his own nephew. And **Ryan Jenkins**, cast on VH1's *Megan Wants a Millionaire* — the background check came back clean,
 and missed his **2007 conviction in Canada for assaulting a girlfriend**. Months later he was wanted
-for the murder of his ex-wife. VH1 pulled the series.
+for the murder of his wife, Jasmine Fiore. VH1 pulled the series.
 
 **Hook.** A casting tape — someone bright and likeable, held a beat too long. *"The producers paid
 for a background check on this man. It came back clean. It had missed one thing — a conviction for
@@ -780,7 +782,7 @@ AD2 601,402 (Oct 25) → 133,382 = **−78%**
 **Topic collapse** Footage Caught on Camera 4.03M · CCTV 3.17M · Internet Mysteries 2.2M
 → Amazon Incidents 71K · Fishing Encounters 65K · Biblical Horrors 60K · Chinese Shows 54K
 
-**Sequels** 7 series, −50% to −96%, avg **−85%** · exception: Asian Internet **+94%** (602K→1.17M)
+**Sequels** (first vol → latest) CCTV 3.17M→132K −96% · Dashcam 1.19M→61K −95% · Theme Park 2.00M (AD1)→91K (AD2) −95% · Warning Signs 907K→90K −90% · Live TV 2.05M (AD1)→107K (AD2) −95% · Talent Show 4.67M→77K −98% · TV Accidents 2.40M→192K −92% · mean −94.5%. Confounded with channel decline (−78% to −93%) — don't claim numbering alone causes it. Exception: Asian Internet **+94%** (602K→1.17M). AO originals 399,453 vs sequels 340,193 = +17% (lifetime)
 
 **The 8-video cliff (2026 totals/month)** 6 → 2.07M · **7 → 3.01M** · **8 → 1.09M**
 per-video 7 → 429K · 8 → **136K** · premise doc: "about twice a week" = 8/month
@@ -823,6 +825,11 @@ Tadini) · Surfside — 98 dead, Morabito report Oct 2018 → collapse 24 Jun 20
 **Chrisleys** — convicted 2022, 12 and 7 years; **pardoned by Trump 27–28 May 2025**, released same week
 
 **Monthly viewing ask** (avg duration × uploads/month, 30.44-day month) Abyssal 18.5 × 54.8 min = **16.9 hrs** · Chilling Scares 22 min every 11.2 days = **1.0** · Nexpo 49 min / 25 days = **1.0** · Paint Explainer 13 min / 7 days = **0.9** · Nick Crowley 32 min / 20 days = **0.8** · SIRIUS 49 min / 77 days = **0.3**
+
+**Paschel** — Knox County, convicted Oct 2021: aggravated kidnapping, domestic assault, interfering with an emergency call; 18 years. Incident 9 Jun 2019; appeared on *Before the 90 Days* 2020
+**McFarland** — died 31 Aug 2021, 444 Suites, Atlanta; operating permit expired Aug 2020 (last inspected Aug 2019); owner fined $5,000
+**Jenkins / Fiore** — married Mar 2009; claimed annulment never found in records — police treated them as married
+**Rome 2018** — Repubblica station, 23 Oct 2018, 24 injured; 11 indicted 2023, charges incl. fraud (no deaths — don't say manslaughter)
 
 ---
 ---
