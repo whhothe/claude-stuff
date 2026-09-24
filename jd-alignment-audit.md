@@ -241,12 +241,177 @@ cause of the fall — and the one the strategist owns outright.
 
 ---
 
+---
+---
+
+# PART 2 — after reading the Core Premise doc
+
+The premise doc (§1.1–1.5) is the authoritative spec. It **overrides the JD's one-line channel
+summaries**, and reading it proves three findings in Part 1 wrong. Those corrections come first.
+
+## 2A · Corrections to Part 1
+
+### ❌ T1.2 was WRONG — Hotels is not mis-routed for carrying disasters
+Part 1 said the Hyatt/MGM/Winecoff levels belong to AD2 because the JD routes "disasters" there.
+The premise doc puts disasters explicitly under **AD1**:
+
+> **AD:** "…and **disasters (explosion, roller coaster, mountain, outdoor, water park, Disney
+> park, incidents at sea)**"
+
+So disaster content on AD1 is correct. (Hotels still fails — for a much worse reason, see 2C.)
+
+### ⚠️ T1.1 was half wrong — AD2's principle is footage format, not "disasters"
+The JD compresses AD2 to "disasters and accidents." The premise doc is more precise:
+
+> **AD2:** "**Footage-format-led icebergs, where the type of footage or the setting it was
+> captured in is the hook**" — CCTV, dashcam, doorbell, POV/last-moment, security camera,
+> theme park, plus setting series (trains, factories, workplaces, roads, planes, storms,
+> festivals, home invasions) **and the network's non-English internet lane** (Asian, Russian,
+> Japanese, Hispanic).
+
+The 55%-and-rising measurement still stands; the *label* was wrong. AD2's organising idea is
+**what captured it / where it was captured**, and "Asian Internet" isn't a happy accident — it's
+a defined lane. Both the original "no identity" diagnosis and Part 1's "disasters" correction
+were off.
+
+### ❌ T1.4 was WRONG, and reverses — "cap at 7" is well-aimed
+Part 1 read the JD's "8 videos per month across three channels" as 8 **total**. The premise doc
+settles it:
+
+> "**Each channel uploads about twice a week.**"
+
+≈ 8–9 per channel per month. So the JD means **8 per channel**, ~24 network-wide. The
+"cap at 7 per channel" recommendation is therefore a small, precise trim off their own stated
+cadence — not a 3× overshoot.
+
+And it makes the 8-video cliff finding land much harder: **their stated operating cadence is
+exactly the one tier where the numbers collapse** (8 uploads → 1.09M total/month vs 3.01M at
+seven). Measured 2026 actuals run ~6/channel with spikes to 8, and the spike months are the bad
+ones. That is now one of the strongest, best-targeted recommendations in the deck.
+
+## 2B · The format spec — and all three pitches fail it
+
+> **§1.2:** "Seven levels… **Each level holds roughly 5 to 7 cases** (a case is one incident…
+> told in about **60 to 120 seconds over real footage**), so a full video carries anywhere from
+> **35 to 50 cases**. Videos run **45 to 60 minutes**."
+
+| Pitch | Cases pitched | Required | Runtime | Required |
+|---|---|---|---|---|
+| Hotels | 22–26 | **35–50** ❌ | 50–55 min ✅ | 45–60 |
+| Elevators | 20–24 | **35–50** ❌ | **30–35 min** ❌ | 45–60 |
+| Kitchen Nightmares | 16–20 | **35–50** ❌ | 45–50 min ✅ | 45–60 |
+
+**Every pitch is roughly half-populated.** They cannot fill an Abyssal video. Each ladder
+describes 2–4 example cases per level where the spec wants 5–7. That is the most concrete,
+checkable failure in the whole application — a reviewer who knows the spec sees it instantly.
+
+The Elevators runtime is a second problem: I pitched 30–35 min as a deliberate experiment, but
+the spec is 45–60. §1.2 does invite format research, so a shorter cut can be proposed — but it
+must be framed as an explicit format test, and §1.5 requires it to "fill that format's runtime
+without padding."
+
+## 2C · The segment bar, and the footage-anchor rule that kills Hotels
+
+> **§1.5:** "Every segment needs **30 or more seconds of usable footage or recording**, a clear
+> 60 to 120 second story structure, a genuinely disturbing element, and evergreen relevance.
+> **Segment killers: photos only**, brief viral clips with no story, dead trends, segments too
+> similar to each other."
+>
+> **§1.3:** "**True crime with no footage anchor is rejected network-wide.**"
+
+Running Hotels through this is fatal:
+
+| Hotels case | Footage? |
+|---|---|
+| H.H. Holmes (1893) | ❌ photos only |
+| Winecoff fire (1946) | ❌ largely stills |
+| Erin Andrews | ❌ footage exists but is non-consensual nudity — unusable |
+| Cottingham · I-65 Killer · Craigslist Killer | ❌ true crime, no footage anchor |
+| Days Inn / Georgia / Philadelphia trafficking | ❌ court records, no footage |
+| Cecil Hotel · MGM Grand · Hyatt aftermath | ✅ |
+
+Hotels is mostly **court records and history with no footage** — rejected network-wide. It was
+already being cut; this is the definitive reason, and it is a better one than routing.
+
+Kitchen Nightmares has a milder version of the same problem: the deportation, Amy's conviction
+and the closure statistic have no footage. **The fix is to make each restaurant a case** — the
+show supplies footage for 100+ of them, which is how it reaches 35–50 segments. The
+records-based material becomes narration inside restaurant segments, not segments of its own.
+
+Elevators clears this bar best: CCTV coverage is the entire premise, and the segment supply is
+genuinely large enough to reach 35–50 — though "brief viral clips with no story" is a real risk
+that has to be screened for.
+
+## 2D · The test is explicitly measuring format innovation — and we don't answer it
+
+> **§1.2:** "That is the format we run today, and it is also our problem: it is aging. The
+> strategist we hire has to do two things: **keep this format running at our standard, and
+> research the format that comes next. This test measures both.**"
+
+The current answer proposes only tactical fixes to the existing format. **Half of what this test
+measures is unanswered.** Q1's "what would you change" is asking, at least in part, for a
+proposal for the next format — and §1.5 sets the bar for one ("must fill that format's runtime
+without padding").
+
+This also retires the "format is not aging" line for good: they state twice that it is aging.
+The job is to say what replaces it.
+
+## 2E · §1.1 answers "what makes it an Abyssal video" — and audits the pitches
+
+> **§1.1 — the five invariants:** the material is **real and verified**; it is **disturbing but
+> survivable** (the guide takes the hit); it feels **forbidden or obscure, something the viewer
+> could not or should not find alone**; it carries a **moral frame** (victims honored,
+> perpetrators judged, institutions held to account); it is delivered by a **human guide**.
+
+That is the answer to Q2's unanswered sub-question — quote it, then show each pitch against it.
+
+Applying invariant three is uncomfortable for Kitchen Nightmares: **3.93M people watched the
+closure story three months ago.** It is neither forbidden nor obscure. The pitch survives only
+if levels 4–7 carry material that genuinely isn't self-servable — the criminal records and the
+systemic case — with the public material demoted to levels 1–2.
+
+Also worth using as the Q1 spine — §1.1's "**the viewer gets their morbid curiosity closed just
+by sitting and watching**" explains the decline better than "topic exhaustion" does. A topic
+only works if there is pre-existing morbid curiosity to close. Footage Caught on Camera, CCTV,
+Internet Mysteries all had it. Biblical Horrors, Amazon Incidents, Fishing Encounters, Chinese
+Shows never did — there was no itch to scratch, so nothing got closed.
+
+## 2F · The gray zone — a new constraint, and it flags two existing flops
+
+> **§1.4:** "We do not center videos on **politically charged subjects, religion, or divisive
+> social debates**, and we do not build videos on **a single religion's or nation's legal
+> system**."
+
+- Kills the **India** candidate outright (single nation's legal system) — it was already dead on
+  novelty.
+- Hotels' trafficking level leans on US litigation — borderline under the same rule.
+- Notably, two of AD1's worst recent performers brush this line: **Biblical Horrors (60K)** and
+  **Faith Shattering Cases**. Useful evidence for the Q1 "protecting for the wrong reasons"
+  answer — the gray-zone rule exists and the numbers support it.
+
+## 2G · Revised criteria for the AD1 replacement topic
+
+Must be: in AD1's territory (internet content · geography and places · footage lanes ·
+disasters · books, warning signs, audios · fast food and retail); able to supply **35–50
+segments with 30+ seconds of usable footage each**; **not** true crime without a footage anchor;
+outside the gray zone; and genuinely "forbidden or obscure."
+
+Against that, of the three candidates shortlisted earlier:
+
+- **Dating apps — now eliminated.** Almost all of that material is court records with no
+  footage. Fails the footage-anchor rule outright.
+- **Omegle** — footage exists, but a large share of it is illegal to show; segment supply
+  clearing the "usable footage" bar is much thinner than it first appears.
+- **LiveLeak** — strongest on the new criteria. It is literally a footage archive, so 35–50
+  segments with 30+ seconds each is the one thing it can definitely deliver; it is AD1's
+  "internet content" lane; and "forbidden or obscure" is the entire premise. The monetization
+  call is the hard part — which §1.4 says is the job.
+
+---
+
 ## Loose ends
 
-- **The linked premise doc is unread.** "Core Premise of Abyssal Network"
-  (docs.google.com/document/d/1GHZV2klqYsKRWQvRxqLWSiBdOqVg34kjSMA2gXBy_vQ) — blocked by this
-  environment's network proxy. It almost certainly contains the format rules and the definition
-  of an Abyssal video, which is exactly what T2.2 asks us to answer. **Needs pasting in.**
+- ~~The linked premise doc is unread.~~ **Received and incorporated — see Part 2.**
 - **The JD says "three questions" twice** ("answering the three questions below", "along with
   the video answering the three questions") but the section is headed **THE TWO QUESTIONS** and
   lists two. Probably a stale edit — but worth asking the recruiter, or preparing a short third
