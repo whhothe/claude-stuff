@@ -325,3 +325,35 @@ The case that now anchors Level 7, and the single cleanest example of the docume
 - Sources: [KSL/AP](https://www.ksl.com/article/50173759/police-arrest-3-over-italian-cable-car-disaster-say-emergency-brake-deactivated),
   [Euronews](https://www.euronews.com/my-europe/2021/05/30/judge-finds-technician-responsible-for-cable-car-crash-over-mottarone-mountain-in-italy),
   [Lift Blog](https://liftblog.com/2021/05/26/three-arrests-made-in-italy-tramway-disaster/)
+
+### G4. ❌ SECOND FAILURE — one show cannot fill seven levels
+After rebuilding Kitchen Nightmares on the court file, a second problem killed it, and it is
+pure arithmetic. The spec requires **5–7 cases at every level**, including the deepest. Kitchen
+Nightmares has **one** Cerniglia, not six. Any single-show topic hits the same wall: the worst
+tier is inherently the rarest.
+
+**This also invalidated the first version of the document axis.** Defining the *level* by the
+document state — L1 nobody knew → L7 they knew and signed it off anyway — reads well and cannot
+be supplied, because "they knew and did it anyway" is the rarest state there is. One Mottarone
+exists; six do not.
+
+**The corrected form:** levels escalate on **harm**, which is abundant at every tier. The
+document is the **signature of every segment**, not the definition of the level. Same obscurity
+benefit, same moral frame, and it actually fills.
+
+### G5. ✅ AO replacement verified — reality TV casting
+Kitchen Nightmares replaced with **"the Most Disturbing Reality TV Casting Iceberg."** Document:
+the background check. Verified anchors:
+- **Ryan Jenkins** — cast on VH1's *Megan Wants a Millionaire*; charged in 2009 with the murder
+  of his ex-wife Jasmine Fiore. He held a **2007 Canadian conviction for assaulting a former
+  girlfriend** that a thorough check would have surfaced. VH1 pulled the series mid-run.
+- **James Timothy Norman** — *Welcome to Sweetie Pie's*; convicted in federal court of
+  **murder-for-hire** of his nephew over a $450,000 life insurance policy. DOJ record, permanent.
+- ⚠️ **Do not use Jamal Trulove** without further checking. He appears in coverage as a reality
+  contestant convicted of murder, but that conviction was reportedly overturned on appeal. Left
+  out of the pitch deliberately.
+- Supply holds where Kitchen Nightmares failed: convictions among reality participants are
+  numerous across shows and jurisdictions, so the deepest tier can carry 5–7 cases.
+- Sources: [TheWrap](https://www.thewrap.com/reality-tv-whos-vetting-contestants-7524/),
+  [DOJ](https://www.justice.gov/usao-edmo/pr/reality-show-star-convicted-murder-hire-charges),
+  [NBC News](https://www.nbcnews.com/news/amp/wbna32519524)

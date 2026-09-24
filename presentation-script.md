@@ -294,107 +294,57 @@ topic novelty any more.** That era is over.
 So I'm not going to pitch you three untouched subjects, because I don't believe they exist. I'm
 going to pitch you one change to the format, applied three times.
 
-## The change: make the level mean the document, not the severity — 1.5 min
+## The change: every segment ends on the paperwork — 2 min
 
 *[SLIDE: the-document-axis.png]*
 
 Right now a level is a severity tier. Level 1 is bad, Level 7 is worse. That's why the videos
-feel like lists, and it's why they need fifty clips to exist — severity is the only thing
-stacking, so you need volume to make the stack tall.
+feel like lists, and it's why they need fifty clips — severity is the only thing stacking, so
+you need volume to make the stack tall.
 
-Replace the axis. Make the descent about **what was written down before it happened.**
+The change is this: **every single segment ends on the document.** Not the footage, not the
+death toll — the piece of paper that already existed. The inspection that was failed. The report
+that was filed. The background check that was run and ignored.
 
-- Level 1: nobody knew. A genuine accident.
-- Level 3: someone raised it weeks before.
-- Level 5: it had been in writing for years.
-- Level 7: it was in writing, and somebody signed it off anyway.
+I want to be precise about what that does and doesn't change, because I got this wrong once
+already and had to back it out.
 
-Five things happen when you do that.
+My first version made the *level* mean the document — Level 1 nobody knew, Level 7 they knew and
+signed it off anyway. It reads beautifully and it doesn't survive arithmetic. Your spec needs
+**five to seven cases per level**, and "they knew and did it anyway" is the rarest state there
+is. You can find one Mottarone. You cannot find six of them at the bottom of every topic.
+
+So the levels still escalate on harm, which is abundant at every tier. The document is the
+**signature of every case**, not the definition of the level. Same effect, and it actually
+fills.
+
+Five things it buys you.
 
 **It fixes the obscurity problem.** The surface can be completely familiar — everybody has seen
-Surfside fall down. The depth isn't the footage, it's the report. And inquiry reports,
-inspection files and coroner findings genuinely are not on YouTube. That's the one place left
-where "the viewer could not find this alone" is still literally true.
+Surfside come down. The depth isn't the footage, it's the report. Inquiry findings, inspection
+histories and court files genuinely are not on YouTube. That's the last place where "the viewer
+could not find this alone" is still literally true — and I'd argue topic novelty is finished as
+a strategy. I tested Kitchen Nightmares, child stars, India and Telegram. Every one already has
+a video with millions of views on it.
 
-**It makes your moral frame structural instead of decorative.** "Institutions held to account"
-stops being something the narrator says at the end and becomes the actual spine of the video.
+**It makes the moral frame structural.** "Institutions held to account" stops being a line the
+narrator says at the end and becomes the shape of every segment.
 
-**It escalates harder than a body count.** A hundred deaths nobody saw coming is tragedy. Three
-deaths that somebody predicted in writing and filed is something worse. That reads as
-objectively more disturbing, which is your ordering rule.
+**It escalates harder than a body count.** A hundred deaths nobody saw coming is a tragedy.
+Three that somebody predicted in writing and filed is something worse.
 
-**It's defensible.** A solo creator can pull clips. Pulling inquest transcripts, FOIA responses
-and inspection histories at volume takes a research team. You have one. That's a moat.
+**It's defensible.** Anyone can pull clips. Pulling inspection histories and inquest findings at
+volume takes a research team. You have one; a solo competitor doesn't.
 
-**And it's a better Patreon offer.** "The document we couldn't put on YouTube" is a stronger
-paid layer than "level 8."
+**And it's a better paid layer.** "The document we couldn't put on YouTube" beats "level 8."
 
-None of this changes the format. Seven levels, 35 to 50 cases, 45 to 60 minutes, footage on
-every segment. Same spec. Different meaning.
+Format untouched: seven levels, 35 to 50 cases, 45 to 60 minutes, footage on every segment.
 
-Here it is three times.
+One thing I'm not going to do is apply it to all three channels. Two of them sit inside
+mandatory inspection regimes that generate paper by law. The third doesn't, and its problem is
+different anyway — so it gets a different answer.
 
-## Pitch 1 · Abyssal Observer — "the Most Disturbing Kitchen Nightmares Iceberg" — 3 min
-
-*[SLIDE: pitch-kitchen-nightmares.png]*
-
-**The document: the court file.**
-
-I'll be straight about something first, because it's the kind of thing I'd want to hear from
-someone I was hiring. My first version of this pitch built the ladder on health inspection
-records — what the county already knew before Ramsay arrived. Then I checked whether those
-records still exist. Typical retention for restaurant inspections is **three years**. The US
-series ran 2007 to 2014. For most of these restaurants, that paperwork is gone, and no secondary
-source systematically reports the pre-filming scores. It was a good idea that fails your own
-verification gate, so I cut it.
-
-What does survive is the litigation. Court filings, criminal records and immigration decisions
-don't get purged, and this show generated an unusual amount of all three.
-
-**Framework.** Seven levels, **42 cases, one restaurant each**, 50 minutes. Every restaurant
-comes with broadcast footage, so all 42 clear the thirty-second bar automatically, and the show
-ran over a hundred of them. Supply is not the constraint.
-
-Levels run on what was already true and provable before the episode aired:
-
-- **L1** — nothing on record. Genuinely just failing. The ones the show is honest about. *6*
-- **L2** — closed inside a year. The rescue that didn't hold. *6*
-- **L3** — civil suits from staff or suppliers, predating filming. *6*
-- **L4** — the ones that sued the show. Martin Hyde, the Dillons GM, sued for **$3 million**
-  over a rigged chair, rotten meat and hired diners. Say it plainly on screen: **he lost, and
-  the episode aired.** *6*
-- **L5** — owners with records that had nothing to do with food. Samy Bouzaglo, deported over
-  overseas extortion and drug convictions he hadn't disclosed. Amy — formerly Amanda Bossingham
-  — **14 months in federal prison** for using another person's Social Security number to get a
-  $15,000 credit line. *6*
-- **L6** — criminal charges arising after broadcast. *6*
-- **L7** — the ones where somebody died. Joe Cerniglia. *6*
-
-**Hook.** The Amy's Baking Company walkout, the clip everybody has seen. Cut it dead. Silence.
-*"You've seen this. What you haven't seen is that by the time the cameras arrived, two of the
-people in this footage already had a file."*
-
-**Who I'm beating.** Joe Bartolozzi did **3.93 million views three months ago** on where these
-restaurants are now. MermaidGrove did **3.69 million** on the Dillons suit. But look at what
-they asked. Bartolozzi asked *where are they now* — an epilogue. Nobody asked what was already
-provable before the first shot. And it reframes the 80-percent closure figure completely: the
-show didn't fail to rescue these places, it filmed businesses that were already in trouble on
-the record and sold it as a rescue.
-
-**One honest caveat.** This is the weakest of my three on the document axis, and I'd rather say
-that than pretend. Collapses and lifts sit inside mandatory inspection regimes that generate
-paper by law. Restaurants don't. What carries this one instead is the audience — named shows
-average **777,000** on AO against **50,000** for generic topics. Strongest topic, thinnest
-spine. That's the trade, and I'd take it.
-
-**Monetization.** L1 to L5 clean. L7 described, never shown, music dropped. The uncensored L5
-and L6 material is the Patreon cut.
-
-**One line I'd write down.** Cerniglia's family have said publicly that the show was a good
-period in his life. We present the sequence and do not assert the cause — on screen, in the
-narration. Close call, made deliberately, recorded.
-
-## Pitch 2 · Abyssal Detective — "the Most Disturbing Structural Collapses Iceberg" — 3 min
+## Pitch 1 · Abyssal Detective — "the Most Disturbing Structural Collapses Iceberg" — 3 min
 
 *[SLIDE: pitch-collapses.png]*
 
@@ -402,23 +352,26 @@ narration. Close call, made deliberately, recorded.
 
 AD's disaster lane has done explosion, roller coaster, mountain, outdoor, water park, Disney
 park and incidents at sea. It has never done the thing built by people that fell down while
-those people were inside. It is also the most-filmed disaster category there is — security
+those people were inside. It's also the most-filmed disaster category there is — security
 cameras, dashcams, phone video, construction monitoring — which matters, because thin footage is
-exactly what has been sinking AD's recent slate.
+exactly what's been sinking AD's recent slate.
 
-**Framework.** Seven levels, **44 cases**, 55 minutes. Levels run on how long the warning sat.
+**Framework.** Seven levels, **44 cases**, 55 minutes. Levels escalate on scale and on who was
+inside. Every segment closes on the paperwork.
 
-- **L1** — no warning. Genuine failure nobody predicted. *6*
-- **L2** — flagged in the weeks before. *6*
-- **L3** — flagged for months. Work scheduled, never started. *6*
-- **L4** — flagged for years. Surfside: **98 dead**, and a 2018 report describing major
-  structural damage to the slab, three years before it came down. *6*
-- **L5** — ignored because of what the fix cost. Rana Plaza: **1,134 dead**, cracks
-  photographed the day before, workers ordered back in. *6*
-- **L6** — signed off by someone who knew. Hyatt Regency: **114 dead**, a walkway redesign
-  approved over the phone that doubled the load on a connection nobody recalculated. *6*
-- **L7** — suppressed, and then it happened again somewhere else for the same reason. *8*
-- **L8** — Patreon.
+- **L1** — cranes, scaffolding, facades. Spectacular footage, small tolls. *6*
+- **L2** — bridges. Genoa's Morandi bridge, **43 dead**, on dashcam. FIU, **6 dead**, on a
+  traffic camera — and a conference call two days earlier where the cracking was discussed and
+  the road stayed open. *6*
+- **L3** — buildings that fell mid-construction, onto the people building them. *6*
+- **L4** — public venues. Hyatt Regency, **114 dead** — a walkway redesign approved over the
+  phone that doubled the load on a connection nobody recalculated. *6*
+- **L5** — occupied residential. Surfside, **98 dead**, and a 2018 report describing major
+  structural damage to the slab, three years out. *6*
+- **L6** — industrial. Rana Plaza, **1,134 dead**, cracks photographed the day before, workers
+  ordered back in. *6*
+- **L7** — dam and tailings failures, where the toll stops being countable. *8*
+- **L8** — Patreon: the reports themselves.
 
 **Hook.** No narration. Forty seconds of a fixed security camera on an ordinary lobby, timestamp
 running, nothing happening. Then the frame fills with dust. Cut to black. *"Nineteen months
@@ -429,71 +382,120 @@ did anything."*
 promises the ceiling above your head, and then tells you it was written down. The dread outlives
 the video, which is what an iceberg is supposed to do and mostly doesn't.
 
-**Novelty.** No structural-collapse iceberg exists. Nearest neighbour is a general "Devastating
-Tragedies" iceberg at 432,000 — a different video.
+**Novelty.** No structural-collapse iceberg exists — nearest neighbour is a general "Devastating
+Tragedies" iceberg at 432,000, a different video. Under this framework that matters less than it
+used to, but it's true.
 
-**Monetization and gray zone.** No gore required; the footage is dust and distance. Spread
-deliberately across a dozen countries so it isn't built on one nation's legal system, and it
-touches no religion and no political debate. This is the cleanest of the three to ship.
+**Monetization and gray zone.** No gore needed; the footage is dust and distance. Deliberately
+spread across a dozen countries so it isn't built on one nation's legal system, and it touches
+no religion and no political debate. Cleanest of the three to ship.
 
-## Pitch 3 · Abyssal Detective 2 — "the Most Disturbing Lift & Cable Failures Iceberg" — 3.5 min
+## Pitch 2 · Abyssal Detective 2 — "the Most Disturbing Lift & Cable Failures Iceberg" — 3 min
 
 *[SLIDE: pitch-lifts.png]*
 
 **The document: the inspection certificate.**
 
-Second correction, same reason as the first. I originally pitched this as elevators and
-escalators only. Then I checked the supply properly and found the problem: the US sees about
-**30 elevator and escalator deaths a year**, and nearly half of those are maintenance workers in
-shafts — almost never on camera. The footage is abundant at the shallow end, malfunctions and
-entrapments, and thinnest at exactly the levels that need to carry the payoff. Plus forty
-elevator incidents in a row walks straight into your "segments too similar to each other" rule.
+Second correction, and I'll own it the same way. I originally pitched this as elevators and
+escalators only. Then I checked the supply properly: the US sees about **30 elevator and
+escalator deaths a year**, and nearly half are maintenance workers in shafts — almost never on
+camera. The footage is abundant at the shallow end and thinnest at exactly the levels that have
+to carry the payoff. Forty elevator incidents in a row also walks straight into your "segments
+too similar to each other" rule.
 
-So I widened it to the whole family of machines that lift people, all of which sit under
-mandatory periodic inspection: elevators, escalators, funiculars, cable cars, ski lifts, mine
-hoists. Same document, far better footage, and visually distinct segment to segment.
+So I widened it to every machine that lifts people under a mandatory inspection regime:
+elevators, escalators, funiculars, cable cars, ski lifts, mine hoists. Same document, far better
+footage, visually distinct segment to segment.
 
-**Framework.** Seven levels, **40 cases**, **48 minutes**. I'll also flag that I first pitched
-this at 30–35 minutes, which is outside your spec; if a shorter cut is worth testing, that's a
-format experiment, not a quiet exception.
+**Framework.** Seven levels, **40 cases**, **48 minutes** — inside spec, correcting my earlier
+30-to-35-minute version.
 
-Levels run on the state of the certificate:
-
-- **L1** — certificate current, nobody hurt. Malfunctions that are only unsettling. *5*
+- **L1** — malfunctions, nobody hurt. *5*
 - **L2** — entrapments. Hours in a sealed box, on camera. *6*
-- **L3** — injuries. The Rome Metro escalator, 2018, around twenty hurt. *6*
-- **L4** — survived the unsurvivable. José Vergara Acevedo in Santiago: **31 floors in 15
+- **L3** — injuries. Rome Metro escalator, 2018, around twenty hurt. *6*
+- **L4** — survived the unsurvivable. José Vergara Acevedo, Santiago: **31 floors in 15
   seconds**, into the roof at about 80 km/h. He lived. *6*
-- **L5** — fatal, certificate current. Jingzhou, 2015 — she pushed her son clear as the floor
-  panel gave way beneath her. *6*
-- **L6** — fatal, and the certificate had already failed. Samuel Waisbren, 30: the door-zone
-  restrictor was disabled, the building had been **fined $1,300 for exactly that**, and it was
-  still unfixed the day it killed him. JauMarcus McFarland, 18: permit expired the previous
-  August, car overloaded past its 3,000-pound limit. *6*
-- **L7** — the safety system was deliberately defeated. Stresa–Mottarone, 2021: the haulage
-  cable snapped and the emergency brake did not engage, because a **clamp had been fitted to
-  hold it open** — the service manager admitted this had become routine practice to avoid
-  downtime. **14 dead.** Three arrested, charged with manslaughter and intentional removal of
-  accident precautions. And Vaal Reefs, where a locomotive fell down a mine shaft onto a
-  crowded hoist: **104 men.** *5*
-- **L8** — Patreon.
+- **L5** — single fatalities. Jingzhou, 2015 — she pushed her son clear as the floor panel gave
+  way beneath her. Samuel Waisbren, 30: the door-zone restrictor was disabled, the building had
+  been **fined $1,300 for exactly that**, and it was still unfixed. JauMarcus McFarland, 18:
+  permit expired the previous August. *6*
+- **L6** — multiple dead in one failure. *6*
+- **L7** — mass casualty. Stresa–Mottarone, 2021: the haulage cable snapped and the emergency
+  brake never engaged, because a **clamp had been fitted to hold it open** — the service manager
+  admitted this had become routine practice to avoid downtime. **14 dead**, three arrested for
+  manslaughter and intentional removal of accident precautions. And Vaal Reefs, where a
+  locomotive fell down a mine shaft onto a crowded hoist: **104 men.** *5*
+- **L8** — Patreon: the certificates.
 
 **Hook.** *"There is a certificate in the lobby of your building with a date on it. You have
-never once looked at it. Every person in this video was killed by a machine that had one
-too."*
+never once looked at it. Every person in this video was killed by a machine that had one too."*
 
-**Why it beats the compilations.** The existing content in this space is clips with no story —
-a segment killer in your own bar. All forty of these have a name, a cause and a piece of paper.
-And Levels 6 and 7 are where it stops being an accident video and becomes a negligence video.
-Mottarone is the whole thesis in one case: the brake worked, and somebody clamped it shut
-because stopping was inconvenient.
+**Why it beats the compilations.** Existing content in this space is clips with no story — a
+segment killer in your own bar. All forty here have a name, a cause and a piece of paper.
+Mottarone is the thesis in one case: the brake worked, and somebody clamped it shut because
+stopping was inconvenient.
 
-**Monetization.** Nothing at L5 to L7 needs to be shown to land. Described, not shown, with the
-CCTV cut before impact. The Patreon layer is the uncut footage plus the inspection documents.
+**Monetization.** Nothing at L5 to L7 needs to be shown to land — described, not shown, CCTV cut
+before impact. Patreon gets the uncut footage and the certificates.
 
 **Territory it opens.** AD2 gets a repeatable line: machines under mandatory inspection that
-killed the people they were certified to carry. Lifts, then rides, then boilers and pressure
-vessels, then cranes. Every one of them comes with a paper trail by law.
+killed the people they were certified to carry. Lifts, then boilers and pressure vessels, then
+cranes. Every one comes with a paper trail by law.
+
+## Pitch 3 · Abyssal Observer — "the Most Disturbing Reality TV Casting Iceberg" — 3.5 min
+
+*[SLIDE: pitch-casting.png]*
+
+**AO gets a different answer, and here's why.**
+
+The other two channels sit inside mandatory inspection regimes. Restaurants and TV shows don't,
+and I tried to force it. My first AO pitch was Kitchen Nightmares built on health inspection
+files — what the county already knew before Ramsay arrived. Then I checked whether those records
+still exist. Restaurant inspection retention is typically **three years**. The series ran 2007 to
+2014. That paperwork is gone.
+
+I rebuilt it on court records, and then a second problem killed it: **one show cannot fill seven
+levels.** You need five to seven cases at the deepest tier, and Kitchen Nightmares has one
+Cerniglia, not six. That's arithmetic.
+
+And AO's problem was never exhaustion anyway. From Q1: AO drifted off its own written rule —
+*if you remove the real-life consequence and only the show is left, it is not an AO topic.* So
+AO's fix isn't a new axis. It's the rule, enforced hard.
+
+**The topic: the people reality TV put on screen without checking who they were.**
+
+**The document: the background check.**
+
+- Ryan Jenkins, cast on VH1's *Megan Wants a Millionaire*, charged with murdering his ex-wife
+  Jasmine Fiore in 2009. He had a **2007 Canadian conviction for assaulting a former
+  girlfriend** — a thorough check would have surfaced it. VH1 pulled the show mid-run.
+- James Timothy Norman, *Welcome to Sweetie Pie's*, convicted in a federal **murder-for-hire**
+  of his own nephew over a $450,000 life insurance policy. The conviction is a DOJ record — it
+  does not get purged.
+
+**Framework.** Seven levels, **42 cases, one person each**, 50 minutes. Every one comes with
+broadcast footage, so the thirty-second bar clears automatically.
+
+- **L1** — cast with a record that was public and nobody looked. *6*
+- **L2** — the record surfaced during the run and the network kept filming. *6*
+- **L3** — charged while the show was still airing. *6*
+- **L4** — convicted of violence after appearing. *6*
+- **L5** — people the show put on screen with their victims. *6*
+- **L6** — convicted of murder. *6*
+- **L7** — the shows that were pulled, and what the network said it had checked. *6*
+- **L8** — Patreon.
+
+**Hook.** A casting-tape clip — someone bright and likeable, saying why they'd be great on the
+show. Hold it a beat too long. *"Eleven months after this tape, he was arrested for murder. The
+network said it ran a full background check. It did. The conviction was already in it."*
+
+**Why this and not another named show.** AO's data says named shows beat generic topics 777,000
+to 50,000, and this isn't one show. But that gap was never about the name — Marvel and Anime
+Based on Real Events failed because there was nothing underneath them. Every case here names a
+show and has a court record under it. That's the rule AO wrote, applied literally.
+
+**Monetization.** Crime and conviction, not suicide — a materially easier category to ship
+monetized. Victims named with restraint, no crime-scene material, the record does the work.
 
 ## CLOSE — 45 sec
 
@@ -548,12 +550,23 @@ Anime 45.6K · Chinese Shows 54.4K · Directors 60.2K)
 **Format spec** 7 levels · 5–7 cases/level · **35–50 cases** · 45–60 min · 60–120 s/case ·
 **30+ s usable footage per case** · no true crime without a footage anchor
 
-**Novelty, re-checked (topic novelty is NOT the claim — say this if pushed)**
-Structural collapses — no iceberg exists ✅ · Lift/cable — no iceberg exists ✅
-Kitchen Nightmares — three small icebergs (4.1K / 8.5K / 4.5K); ground held by Bartolozzi
-**3.93M** and MermaidGrove **3.69M**
-Tested and rejected as "novel": India (307K, 175K icebergs) · Telegram (145K/188K ES, 646K RU) ·
+**Novelty — topic novelty is NOT the claim. Say this if pushed.**
+Structural collapses — no iceberg exists · Lift/cable — no iceberg exists
+Tested and rejected as "novel": Kitchen Nightmares (3 icebergs; ground held by Bartolozzi
+**3.93M**, MermaidGrove **3.69M**) · India (307K, 175K) · Telegram (145K/188K ES, 646K RU) ·
 child stars (Deep Dive 4.64M, Nick Crowley 4.41M, j aubrey 5.08M)
+
+**The three reversals — own them, don't hide them**
+1. Volume. Confounded with time; r = −0.13 within 2026. Cutting output would have cost views.
+2. Health inspection files. ~3-year retention, series ran 2007–14 — the records are gone.
+3. Elevators alone. ~30 US deaths/yr, half maintenance workers in shafts, rarely filmed.
+   Plus: one show cannot fill seven levels — you need 5–7 cases at the deepest tier.
+
+**Pitch cases if challenged**
+Jenkins — *Megan Wants a Millionaire*, VH1, 2009, prior 2007 Canadian assault conviction, show
+pulled · Norman — *Welcome to Sweetie Pie's*, federal murder-for-hire, $450,000 policy, DOJ record
+Mottarone 2021 — brake clamped open as routine practice, 14 dead, 3 arrested (Nerini, Perocchio,
+Tadini) · Surfside — 98 dead, 2018 report · Rana Plaza — 1,134 · Hyatt — 114
 
 **The two assumptions I verified and one failed**
 Health inspection retention is typically **3 years** — the 2007–2014 KN restaurants' files are

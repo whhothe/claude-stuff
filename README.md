@@ -75,15 +75,19 @@ curiosity about it. That is the thing being protected for the wrong reasons.
 
 | Channel | Topic | The document | Cases | Runtime |
 |---|---|---|---|---|
-| Abyssal Observer | Kitchen Nightmares | the court file | 42 (one restaurant each) | 50 min |
+| Abyssal Observer | Reality TV Casting | the background check | 42 (one person each) | 50 min |
 | Abyssal Detective | Structural Collapses | the engineering report | 44 | 55 min |
 | Abyssal Detective 2 | Lift & Cable Failures | the inspection certificate | 40 | 48 min |
 
-**The pitches are one idea applied three times, not three topics.** Topic-level novelty is
+**The pitches are one idea, applied where it fits.** Topic-level novelty is
 effectively unwinnable now — Kitchen Nightmares, child stars, India and Telegram were all tested
-and all already have multi-million-view videos on them. So the descent is reorganised around
-**what was written down before it happened** (L1 nobody knew → L7 it was in writing and they
-signed it off anyway) rather than around severity. That satisfies "forbidden or obscure" without
+and all already have multi-million-view videos on them. So **every segment ends on the
+document** — the inspection that was failed, the report that was filed, the check that was run
+and ignored. Levels still escalate on harm (which is abundant); the paperwork is the signature of
+every case, not the definition of the level. Making the *level* mean the document was tried and
+cut: it fails arithmetic, because "they knew and did it anyway" can't supply 5–7 cases at the
+bottom of a ladder. AO gets a different answer entirely, because restaurants and TV shows have no
+mandatory inspection regime and its problem was drift, not exhaustion. That satisfies "forbidden or obscure" without
 needing an untouched subject, because inquiry reports and inspection files genuinely aren't on
 YouTube — and it makes "institutions held to account" the spine rather than the outro.
 
