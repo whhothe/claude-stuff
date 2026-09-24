@@ -1,5 +1,5 @@
 # NIA Production — Creative Strategist (Abyssal Network)
-## Loom script · ~21–23 min spoken, plus pauses on visuals
+## Loom script · ~23–25 min spoken, plus pauses on visuals
 
 *Speak it, don't read it. The small `→ name` lines are just your cue to switch to that image — they're not said out loud.*
 
