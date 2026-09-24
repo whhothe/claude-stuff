@@ -228,37 +228,35 @@ is what the number costs you.
 **Four. Put three title frameworks into rotation** and reserve "Iceberg" for one or two premium
 uploads per channel per month, so it means something again.
 
-**Five — and this is the one that matters: a second format.** Which is the other half of what
-you said this test measures.
+**Five. Change what a level means.** This is the one that matters, and I'll spend Q2 on it
+rather than describing it twice — so here it is in one sentence. Right now a level is a
+severity tier, which is why the videos need fifty clips to feel deep. Make the level about
+**what was written down before it happened** instead, and the depth stops coming from volume and
+starts coming from the record. All three of my pitches are that same change applied three
+times.
 
-### The next format — 2 min
+### And the thing I'd want to test, once I'd earned it — 45 sec
 
 *[SLIDE: next-format.png]*
 
-I'd keep the iceberg exactly as it is and add a companion format alongside it. Two a month per
-channel, not a replacement.
+You said the strategist has to research the format that comes next, so I'll tell you where I'd
+look — but I want to be straight about the standing. I have never shipped a video on your
+channels. I have your public numbers and nothing else. So this is a hypothesis I'd want to test
+cheaply, not a recommendation I'd make on day one.
 
-**One case. Seven levels. Twenty-five to thirty-five minutes.**
+**One case. Seven levels. Twenty-five to thirty-five minutes.** Same descent, but depth means
+*further into one incident* rather than *more incidents*. Level 1 is what the public knows,
+Level 7 is what's in the primary record nobody has read.
 
-The descent stays. What changes is the axis. Right now depth means *more incidents*. In this
-format depth means *further into one incident*. Level 1 is what the public already knows. Level
-4 is what came out at the inquest. Level 7 is what's in the primary record that nobody has
-actually read.
+Why I'd want to find out: it removes the fifty-clip constraint entirely, it lands near the
+28-minute mark where this niche's outliers cluster, and the deep levels are something a solo
+creator structurally cannot produce.
 
-All five invariants hold: real and verified, disturbing but survivable, forbidden and obscure,
-victims honoured and institutions held to account, one human guide.
+Why I wouldn't bet the slate on it: lower case density means if the single case doesn't hold,
+there's nothing else carrying the video. That's a real risk and I can't price it from outside.
 
-Here's why it's the fix rather than just a new toy.
-
-It **removes the fifty-clip constraint**, so topic selection goes back to morbid curiosity
-instead of footage inventory. It lands at **25 to 35 minutes**, which is where the million-view
-outliers in this niche actually cluster. It is **defensible** — a solo creator cannot run
-inquest records and archive requests at volume; you have a team and they don't, so the deep
-levels become something competitors structurally cannot copy. And it is **the best Patreon
-product you could build**, because "the document we couldn't put on YouTube" is a far stronger
-paid offer than "level 8."
-
-Cheap to test, too. One per channel, one month, against your existing baselines.
+So: one video, one channel, one month, measured against that channel's own baseline. If it
+works, it scales. If it doesn't, you've lost one upload slot and learned something.
 
 ---
 
@@ -268,157 +266,201 @@ Cheap to test, too. One per channel, one month, against your existing baselines.
 
 *[SLIDE: five-invariants.png]*
 
-You asked what I think makes one. I'd take your own five and argue that the third is the one
-doing the work.
+You listed five things that are true of every Abyssal video. Real and verified. Disturbing but
+survivable, because the guide takes the hit. **Forbidden or obscure — something the viewer could
+not or should not find alone.** A moral frame. A human guide.
 
-Real and verified. Disturbing but survivable, because the guide takes the hit. **Forbidden or
-obscure — something the viewer could not or should not find alone.** A moral frame. A human
-guide.
+I'd argue the third one is the product and the other four are quality control on it. The moment
+a topic is something the viewer could comfortably find alone, you've stopped closing morbid
+curiosity and started competing on production value against people with more time than you.
 
-The third is the product. The other four are quality control on it. The moment a topic is
-something the viewer *could* comfortably find alone, you're not closing morbid curiosity any
-more, you're competing on production value with people who have more time than you.
+Which is a problem, because I checked, and almost every subject with real morbid curiosity
+attached to it already has a video with millions of views on it. Kitchen Nightmares, child
+stars, India, Telegram — I tested all of them. Every one is taken. **You cannot win this on
+topic novelty any more.** That era is over.
 
-I've held all three of these pitches to that, and to the spec: seven levels, five to seven cases
-a level, **35 to 50 cases**, 45 to 60 minutes, every case with thirty-plus seconds of real
-footage, escalating so each level is objectively worse than the one before.
+So I'm not going to pitch you three untouched subjects, because I don't believe they exist. I'm
+going to pitch you one change to the format, applied three times.
 
-And one honest note. The earlier version of this work claimed all three topics had zero results
-on YouTube. That was wrong, and I checked it again properly. Only one of the three is genuinely
-untouched. For the others I'll name who's already there and tell you why we win anyway — which
-is what you actually asked.
+## The change: make the level mean the document, not the severity — 1.5 min
 
-## Pitch 1 · Abyssal Observer — "the Most Disturbing Kitchen Nightmares Iceberg" — 3.5 min
+*[SLIDE: the-document-axis.png]*
+
+Right now a level is a severity tier. Level 1 is bad, Level 7 is worse. That's why the videos
+feel like lists, and it's why they need fifty clips to exist — severity is the only thing
+stacking, so you need volume to make the stack tall.
+
+Replace the axis. Make the descent about **what was written down before it happened.**
+
+- Level 1: nobody knew. A genuine accident.
+- Level 3: someone raised it weeks before.
+- Level 5: it had been in writing for years.
+- Level 7: it was in writing, and somebody signed it off anyway.
+
+Five things happen when you do that.
+
+**It fixes the obscurity problem.** The surface can be completely familiar — everybody has seen
+Surfside fall down. The depth isn't the footage, it's the report. And inquiry reports,
+inspection files and coroner findings genuinely are not on YouTube. That's the one place left
+where "the viewer could not find this alone" is still literally true.
+
+**It makes your moral frame structural instead of decorative.** "Institutions held to account"
+stops being something the narrator says at the end and becomes the actual spine of the video.
+
+**It escalates harder than a body count.** A hundred deaths nobody saw coming is tragedy. Three
+deaths that somebody predicted in writing and filed is something worse. That reads as
+objectively more disturbing, which is your ordering rule.
+
+**It's defensible.** A solo creator can pull clips. Pulling inquest transcripts, FOIA responses
+and inspection histories at volume takes a research team. You have one. That's a moat.
+
+**And it's a better Patreon offer.** "The document we couldn't put on YouTube" is a stronger
+paid layer than "level 8."
+
+None of this changes the format. Seven levels, 35 to 50 cases, 45 to 60 minutes, footage on
+every segment. Same spec. Different meaning.
+
+Here it is three times.
+
+## Pitch 1 · Abyssal Observer — "the Most Disturbing Kitchen Nightmares Iceberg" — 3 min
 
 *[SLIDE: pitch-kitchen-nightmares.png]*
 
-**Framework.** Seven levels, **42 cases — one restaurant per case**, 50 minutes. That structure
-is deliberate: every restaurant comes with broadcast footage, so all 42 clear the thirty-second
-bar automatically. The show has run over a hundred restaurants. Supply is not the constraint.
+**The document: the health inspection file.**
 
-- **L1** — the meltdowns everyone quotes. Amy's Baking Company, Burger Kitchen. *6 cases*
-- **L2** — closed inside a year of airing. *6*
-- **L3** — closed amid health violations and closures by order. *6*
-- **L4** — the manufactured ones. Dillons: general manager **Martin Hyde** sued for **$3 million**,
-  alleging rigged chair, rotten meat, actors as diners. Say it plainly on screen — **he lost,
-  and the episode aired.** *6*
-- **L5** — owners whose records surfaced afterwards. Samy Bouzaglo, deported over undisclosed
-  overseas extortion and drug convictions. Amy — formerly Amanda Bossingham — **14 months in
-  federal prison** for using another person's Social Security number to get a $15,000 credit
-  line. *6*
-- **L6** — the ones it financially destroyed. *6*
-- **L7** — the deaths. Joe Cerniglia of Campania. *6*
+Every restaurant Ramsay walked into had an inspection history before he got there. The show
+never mentions it once — because the show's premise is that he arrives and diagnoses the
+problem. The records say most of these places had been failing for years and the county already
+knew.
 
-**Hook.** The Amy's walkout — the clip everybody has seen — then cut it dead. Silence. *"You've
-seen the screaming and you've seen the raw chicken. What didn't air is who some of these people
-already were, and what happened after the cameras left."*
+**Framework.** Seven levels, **42 cases, one restaurant each**, 50 minutes. That structure is
+deliberate — every restaurant comes with broadcast footage, so all 42 clear the thirty-second
+bar automatically, and the show ran over a hundred of them. Supply isn't the constraint.
 
-**What I'd change, and who I'm beating.** This is contested ground and I'm not pretending
-otherwise. Joe Bartolozzi did **3.93 million views three months ago** on where these restaurants
-are now. MermaidGrove did **3.69 million** on the Dillons lawsuit alone.
+Levels run on what the file said:
 
-So I don't open with either. Both are *shallow* now — three point nine million people already
-know them, which by your own third invariant makes them Level 1 and 2 material, not the payoff.
-Every one of those videos is flat: a list, or a single-episode deep dive. **None of them
-descends.** None takes a viewer from laughing at Amy's Baking Company to a suicide to a question
-about their own enjoyment of the show, in one ordered fall. That arc is the thing we can do and
-they structurally cannot.
+- **L1** — clean record, genuinely failing on service. The ones the show is honest about. *6*
+- **L2** — minor violations on file, nothing serious. *6*
+- **L3** — repeated violations, never escalated. *6*
+- **L4** — closed by the health department *before* filming, and reopened for it. *6*
+- **L5** — the manufactured ones, where the show added problems that weren't in the file.
+  Martin Hyde sued for **$3 million** over a rigged chair and rotten meat. He lost, and it
+  aired. *6*
+- **L6** — owners whose records had nothing to do with food. Samy Bouzaglo, deported over
+  undisclosed overseas convictions. Amy — formerly Amanda Bossingham — **14 months federal**
+  for using another person's Social Security number. *6*
+- **L7** — the ones where somebody died. Joe Cerniglia. *6*
 
-**Monetization.** Levels 1 to 4 are clean. Level 7 is described, never shown, music dropped, no
-sensationalist language — that keeps it advertiser-safe and it's also the right call. The
-uncensored L5 and L6 material is the Patreon cut.
+**Hook.** The Amy's Baking Company walkout — the clip everyone has seen. Cut it dead. Silence.
+*"You've seen this. What you haven't seen is the file the county already had on this
+restaurant, eighteen months before the cameras arrived."*
 
-**One editorial line I'd write down.** Cerniglia's family have publicly said the show was a good
-period in his life. We present the sequence and we do not assert the cause. On screen, in the
-narration. That's a close call made deliberately and recorded, which is what your results
-section asks for.
+**What I'd change and who I'm beating.** I'm not pretending this is open ground. Joe Bartolozzi
+did **3.93 million views three months ago** on where these restaurants are now. MermaidGrove did
+**3.69 million** on the Dillons lawsuit alone.
 
-## Pitch 2 · Abyssal Detective — "the Most Disturbing Structural Collapses Iceberg" — 3.5 min
+But look at what they asked. Bartolozzi asked *where are they now*. Nobody asked *what did the
+inspectors already know*. That's the whole difference — their version is an epilogue, mine is
+the thing that was true the entire time and never made it on screen. And it reframes the 82%
+closure figure completely: the show didn't fail to save them, it filmed businesses that were
+already dead on paper and sold it as a rescue.
+
+**Monetization.** L1 to L5 are clean. L7 is described, never shown, music dropped. The
+uncensored L6 material is the Patreon cut.
+
+**One line I'd write down.** Cerniglia's family have said publicly that the show was a good
+period in his life. We present the sequence and do not assert the cause, on screen, in the
+narration. Close call, made deliberately, recorded.
+
+## Pitch 2 · Abyssal Detective — "the Most Disturbing Structural Collapses Iceberg" — 3 min
 
 *[SLIDE: pitch-collapses.png]*
 
-**Why this one.** AD's disaster lane already runs explosion, roller coaster, mountain, outdoor,
-water park, Disney park and incidents at sea. The one category of disaster it has never touched
-is **things that were built by people and then fell down while those people were inside**.
+**The document: the engineering report.**
 
-It is also the single most-filmed disaster type there is — security cameras, dashcams, phone
-video, construction monitoring. Which matters, because the failure mode of AD's recent slate has
-been thin footage.
+AD's disaster lane has done explosion, roller coaster, mountain, outdoor, water park, Disney
+park and incidents at sea. It has never done the thing built by people that fell down while
+those people were inside. It's also the most-filmed disaster category there is — security
+cameras, dashcams, phone video, construction monitoring — which matters because thin footage is
+exactly what has been sinking AD's recent slate.
 
-**Framework.** Seven levels, **44 cases**, 55 minutes, escalating strictly by death toll and by
-how avoidable it was.
+**Framework.** Seven levels, **44 cases**, 55 minutes. Levels run on how long the warning sat.
 
-- **L1** — cranes and scaffolding. Spectacular footage, small tolls. *6*
-- **L2** — bridges. Genoa's Morandi bridge, **43 dead**, on dashcam. FIU, **6 dead**, on
-  traffic camera. *6*
-- **L3** — buildings that fell mid-construction, onto the people building them. *6*
-- **L4** — public venues. The Hyatt Regency walkway, Kansas City, **114 dead** — a design change
-  approved by phone. *6*
-- **L5** — occupied buildings. Sampoong Department Store, **502 dead**, the executives evacuated
-  and left the shoppers in. Surfside, **98 dead**, three years after the report. *6*
-- **L6** — industrial negligence. Rana Plaza, **1,134 dead**, cracks photographed the day
-  before, workers ordered back in. *6*
-- **L7** — dam and tailings failures, where the toll stops being countable. *8*
+- **L1** — no warning. Genuine structural failure nobody predicted. *6*
+- **L2** — flagged in the weeks before. *6*
+- **L3** — flagged for months, work scheduled, never started. *6*
+- **L4** — flagged for years. Surfside: **98 dead**, and a 2018 report describing "major
+  structural damage" to the slab, three years before it came down. *6*
+- **L5** — the warning was ignored because of what fixing it cost. Rana Plaza: **1,134 dead**,
+  cracks photographed the day before, workers ordered back in. *6*
+- **L6** — signed off by someone who knew. Hyatt Regency: **114 dead**, a walkway redesign
+  approved over the phone that doubled the load on a connection nobody recalculated. *6*
+- **L7** — the warning was suppressed, and it happened again somewhere else for the same
+  reason. *8*
 - **L8** — Patreon.
 
-**Hook.** No narration. Forty seconds of a security camera looking at an ordinary lobby, the
-timestamp running. Then the frame fills with dust. Cut to black. *"Every building you have ever
-stood in was signed off by somebody. This is what happens when that signature was a lie."*
+**Hook.** No narration. Forty seconds of a fixed security camera on an ordinary lobby, timestamp
+running, nothing happening. Then the frame fills with dust. Cut to black. *"Nineteen months
+before this, a structural engineer wrote a report about this building. Somebody read it. Nobody
+did anything."*
 
-**Why it beats a standard AD video.** A footage iceberg promises you a clip. This promises the
-ceiling above your head. And the moral frame is not bolted on — every single case is an
-institution that was warned and did nothing. Victims honoured, institutions held to account, by
-construction.
+**Why it beats a standard AD video.** A footage iceberg promises you a clip you haven't seen.
+This promises the ceiling above your head — and then tells you it was written down. The dread
+outlives the video, which is the thing an iceberg is supposed to do and mostly doesn't.
 
-**Novelty — and this one is real.** No structural-collapse iceberg exists on YouTube. Nearest
-neighbour is a general "Devastating Tragedies" iceberg at 432,000, which is a different video.
-This is the one genuinely open topic of the three.
+**Novelty.** No structural-collapse iceberg exists. Nearest neighbour is a general "Devastating
+Tragedies" iceberg at 432,000. Genuinely open — though under this framework that matters less
+than it used to.
 
-**Gray zone.** It spans a dozen countries deliberately, so it isn't built on one nation's legal
-system, and it touches no religion or political debate. Clean.
+**Gray zone.** Deliberately spread across a dozen countries, so it isn't built on one nation's
+legal system. No religion, no political debate. Clean.
 
 ## Pitch 3 · Abyssal Detective 2 — "the Most Disturbing Elevator & Escalator Incidents Iceberg" — 3 min
 
 *[SLIDE: pitch-elevators.png]*
 
-**Why AD2 specifically.** Its principle is that the footage format or the setting is the hook.
-An elevator is a sealed box with a camera in it. There is no setting on earth with a higher
-ratio of cameras to square metres. This is AD2's own thesis executed at its purest — and across
-all 330 videos, "elevator," "escalator" and "lift" appear **zero times**.
+**The document: the inspection certificate.**
 
-**Framework.** Seven levels, **40 cases**, **48 minutes**. I'll flag that I originally pitched
-this at 30-35 minutes and that was wrong — it's outside your spec. If we want to test a shorter
-cut, that's the new format's job, not a quiet exception inside this one.
+AD2's principle is that the footage format or the setting is the hook. An elevator is a sealed
+box with a camera in it — there is no setting on earth with a higher ratio of cameras to square
+metres. And across all 330 videos, "elevator," "escalator" and "lift" appear **zero times.**
 
-- **L1** — malfunctions, nobody hurt. *5*
-- **L2** — entrapments. *6*
+**Framework.** Seven levels, **40 cases**, **48 minutes**. I'll correct myself here: I first
+pitched this at 30–35 minutes and that's outside your spec. If a shorter cut is worth testing
+that's a format experiment, not a quiet exception inside this one.
+
+- **L1** — malfunctions, current certificate, nobody hurt. *5*
+- **L2** — entrapments. Hours in a sealed box, on camera. *6*
 - **L3** — injuries. The Rome Metro escalator, 2018, around twenty hurt. *6*
-- **L4** — survived the unsurvivable. José Vergara Acevedo in Santiago: **31 floors in 15
-  seconds**, into the roof at about 80 km/h. He lived. The CCTV is extraordinary. *6*
-- **L5** — fatal, on camera. Jingzhou, 2015 — pushed her son clear as the floor panel gave way
-  beneath her. *6*
-- **L6** — fatal and documented as negligent. Samuel Waisbren, 30 — the door-zone restrictor had
-  been disabled, the building had already been **fined $1,300** for it, and it was still unfixed
-  the day it killed him. JauMarcus McFarland, 18 — permit expired the previous August, car
-  overloaded past its 3,000-pound limit. *6*
+- **L4** — survived the unsurvivable. José Vergara Acevedo, Santiago: **31 floors in 15
+  seconds**, into the roof at about 80 km/h. He lived. *6*
+- **L5** — fatal, certificate current. Jingzhou, 2015 — she pushed her son clear as the floor
+  panel gave way beneath her. *6*
+- **L6** — fatal, and the certificate had already failed. Samuel Waisbren, 30: the door-zone
+  restrictor had been disabled, the building was **fined $1,300** for exactly that, and it was
+  still unfixed the day it killed him. JauMarcus McFarland, 18: permit expired the previous
+  August, car overloaded past its 3,000-pound limit. *6*
 - **L7** — mass casualty. Vaal Reefs, **104 men**. The World Trade Center, where USA Today's
-  investigation put roughly **200 dead inside the elevators** — the worst elevator disaster in
-  history. *5*
+  investigation put roughly **200 people dead inside the elevators**. *5*
 - **L8** — Patreon.
 
-**Hook.** *"You get into one about twenty times a week and you have never once looked at it. A
-sealed box, hanging in a shaft, and you step in without thinking. When it goes wrong there is
-nowhere to go — and there is always, always a camera."*
+**Hook.** *"There's a certificate in the lobby of your building with a date on it. You have
+never read it. Every person in this video was killed by a machine whose certificate had already
+expired."*
 
-**What I'd change and why it wins.** The existing elevator content on YouTube is compilations —
-clips with no story, which is a segment killer in your own bar. Every one of my 40 has a name, a
-cause and an outcome. And levels 6 and 7 do the thing the compilations can't: they move it from
-accident to decision. Somebody disabled that restrictor. Somebody let that permit lapse.
+**What I'd change.** The existing elevator content on YouTube is compilations — clips with no
+story, which is a segment killer in your own bar. All 40 of these have a name, a cause and a
+piece of paper. Levels 6 and 7 are where it stops being an accident video and becomes a
+negligence video, and that turn is the whole product.
 
-**Territory it opens.** If it works, AD2 has a repeatable line: sealed and mechanical settings
-with total camera coverage. Elevators, then subway platforms, then tunnels, then loading docks.
+**One risk I'd flag.** Forty elevator incidents runs into your "segments too similar to each
+other" rule. The level structure is what saves it — entrapment, survival, negligence and mass
+casualty are four different kinds of story, not four severities of one — but I'd watch the
+retention curve at the L2 to L3 transition specifically, because that's where it would show up.
 
----
+**Territory it opens.** If it works, AD2 has a repeatable line: sealed mechanical settings with
+total camera coverage and a mandatory inspection regime. Elevators, then escalators alone, then
+funiculars and cable cars, then loading docks. Every one of them comes with a paper trail.
 
 ## CLOSE — 45 sec
 

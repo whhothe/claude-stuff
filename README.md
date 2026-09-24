@@ -65,11 +65,19 @@ curiosity about it. That is the thing being protected for the wrong reasons.
 
 **Q2 —** Three pitches at full spec:
 
-| Channel | Topic | Cases | Runtime | Already taken? |
+| Channel | Topic | The document | Cases | Runtime |
 |---|---|---|---|---|
-| Abyssal Observer | Kitchen Nightmares | 42 (one restaurant each) | 50 min | Yes — Bartolozzi 3.93M. Beaten on structure, not novelty. |
-| Abyssal Detective | Structural Collapses | 44 | 55 min | **No.** Genuinely open. |
-| Abyssal Detective 2 | Elevator & Escalator Incidents | 40 | 48 min | **No.** Zero mentions across all 330 videos. |
+| Abyssal Observer | Kitchen Nightmares | the health inspection file | 42 (one restaurant each) | 50 min |
+| Abyssal Detective | Structural Collapses | the engineering report | 44 | 55 min |
+| Abyssal Detective 2 | Elevator & Escalator Incidents | the inspection certificate | 40 | 48 min |
 
-Plus a companion format — **one case, seven levels, 25–35 minutes** — which is the other half of
-what the test measures.
+**The pitches are one idea applied three times, not three topics.** Topic-level novelty is
+effectively unwinnable now — Kitchen Nightmares, child stars, India and Telegram were all tested
+and all already have multi-million-view videos on them. So the descent is reorganised around
+**what was written down before it happened** (L1 nobody knew → L7 it was in writing and they
+signed it off anyway) rather than around severity. That satisfies "forbidden or obscure" without
+needing an untouched subject, because inquiry reports and inspection files genuinely aren't on
+YouTube — and it makes "institutions held to account" the spine rather than the outro.
+
+A further format idea — one case, seven levels, 25–35 min — stays in Q1 as **a hypothesis to
+test cheaply**, explicitly not a day-one recommendation.
