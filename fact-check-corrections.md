@@ -206,4 +206,66 @@ These are the load-bearing, fully defensible numbers. Lead with these.
 - **Named shows 777K vs generic 50K** on AO (15.6×)
 - **Like-to-view ratio stable/rising** (1.86% → 2.91%) — reach problem, not quality problem
 - **Niche is thriving** — SIRIUS 2.81M avg on 18 videos; Chilling Scares 318K Day-1 median
-- **All three pitch topics novel** — zero iceberg results on YouTube, zero coverage in 330 videos
+- ~~**All three pitch topics novel** — zero iceberg results on YouTube~~ — **RETRACTED, see F below.**
+  Only the Elevators topic survives re-verification.
+
+---
+
+## F. THE "ZERO RESULTS ON YOUTUBE" CLAIM IS FALSE — retracted 24 Sep
+
+Re-ran the novelty checks properly. The earlier searches were not rigorous enough, and the
+script's claim — *"Every topic is verified as novel across YouTube"* — does not hold.
+
+| Topic | Claimed | Actually on YouTube |
+|---|---|---|
+| **Elevator & escalator** | zero | ✅ **Holds.** No iceberg exists. Nearest neighbour is Darkives' *"Gore Floor 9/11 … 200 Workers"* (3.94M, 10 mo) — adjacent to the WTC level, not the same subject. |
+| **Kitchen Nightmares** | zero | ❌ **False.** *The Darkest Kitchen Nightmares Iceberg* (Horror Highway, 4.1K) · *Hell's Kitchen Iceberg EXPLAINED* (8.5K) · *ICEBERG by Gordon RAMSEY* (4.5K) |
+| **Hotels** | zero | ❌ Adjacent: blameitonjorge, *The Mysterious & Lost Locations Iceberg* (1.28M) — cut anyway for being off-territory |
+
+Two further candidates screened and rejected while hunting an AD1 replacement:
+
+- **India** — *Indian Serial Killer: Iceberg Explained* (Disrupt Detective, **307K**, 5 mo) and
+  *India's Disturbing Iceberg* (Relatos del Puma, **175K**). Taken.
+- **Telegram** — English iceberg is tiny (571 views) but Spanish (145K, 188K) and Russian
+  (646K) versions are large, and Visual Venture's *Exposing Telegram's Criminal Underworld*
+  has **949K**. Contested.
+
+### The bigger problem with Kitchen Nightmares: the depth is already public
+
+Beyond the small icebergs, the *substance* of the pitch has been covered by very large videos:
+
+| Video | Views | Overlaps our… |
+|---|---|---|
+| Joe Bartolozzi, *Where Are Kitchen Nightmares Restaurants Now* | **3.93M** (3 mo ago) | Level 2 — the closure rate |
+| MermaidGrove, *The Absolute Dirtiest Kitchen… and the Lawsuit* | **3.69M** | Level 3 — the Dillons suit |
+| Rimembah, *The KITCHEN NIGHTMARE FRAUD* | 892K | Level 3 — production manipulation |
+| *What Happened to EVERY Restaurant Gordon Ramsay Failed to Save?* | 462K | Level 2 |
+
+Against the JD's third topic test — *"does the descent go somewhere the audience cannot easily
+find on their own"* — Kitchen Nightmares currently fails for levels 2 and 3.
+
+### But "zero results" was the wrong bar all along
+
+Re-reading Q2: *"How does your version differ from **the original** and why does your version
+**beat the original**?"*
+
+That phrasing **presupposes an original exists**. The question is not "find something nobody has
+touched" — on a 10M-subscriber franchise that would be implausible anyway, and claiming it
+invites a ten-second search that destroys your credibility. The question is "show me you can
+take contested ground and win it."
+
+So the Kitchen Nightmares pitch survives, but the framing inverts:
+
+- **Delete** every "zero results" claim.
+- **Name the competition out loud** — Bartolozzi at 3.93M three months ago is *the original*.
+- **Win on structure, not novelty.** Every one of those videos is flat: a "where are they now"
+  list, or a single-episode deep dive. None is a descent. None carries a viewer from Amy's
+  Baking Company to a suicide to a reckoning about the format in one escalating ladder — which
+  is precisely what the JD says the product is: *"the engine of every video is descent."*
+- **Move the levels that are already public up, not down.** The closure rate and the Dillons
+  suit are Level 1–2 material now, because 3.9M people have seen them. The real depth — the
+  criminal records, Cerniglia, the systemic case — has to carry Levels 4 through 7.
+
+Note the ambiguity worth naming in the video: *"the original"* could mean the existing video on
+that topic, or the standard Abyssal treatment. Answer both — it costs thirty seconds and covers
+either reading.
