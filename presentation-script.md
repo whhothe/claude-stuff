@@ -356,13 +356,14 @@ those people were inside. It's also the most-filmed disaster category there is �
 cameras, dashcams, phone video, construction monitoring — which matters, because thin footage is
 exactly what's been sinking AD's recent slate.
 
-**Framework.** Seven levels, **44 cases**, 55 minutes. Levels escalate on scale and on who was
-inside. Every segment closes on the paperwork.
+**Framework.** Seven levels, five to seven cases each — **about 44** — at 55 minutes. Levels
+escalate on scale and on who was inside; every segment closes on the paperwork. I've anchored
+each level below with cases I've verified. Building the full inventory is week-one work, not
+something I'd claim to have finished from outside.
 
 - **L1** — cranes, scaffolding, facades. Spectacular footage, small tolls. *6*
 - **L2** — bridges. Genoa's Morandi bridge, **43 dead**, on dashcam. FIU, **6 dead**, on a
-  traffic camera — and a conference call two days earlier where the cracking was discussed and
-  the road stayed open. *6*
+  traffic camera — cracking had been reported and the road stayed open. *6*
 - **L3** — buildings that fell mid-construction, onto the people building them. *6*
 - **L4** — public venues. Hyatt Regency, **114 dead** — a walkway redesign approved over the
   phone that doubled the load on a connection nobody recalculated. *6*
@@ -407,12 +408,15 @@ So I widened it to every machine that lifts people under a mandatory inspection 
 elevators, escalators, funiculars, cable cars, ski lifts, mine hoists. Same document, far better
 footage, visually distinct segment to segment.
 
-**Framework.** Seven levels, **40 cases**, **48 minutes** — inside spec, correcting my earlier
-30-to-35-minute version.
+**Framework.** Seven levels, five to seven each — **about 40** — at **48 minutes**, inside spec
+and correcting my earlier 30-to-35-minute version. Anchors verified; full inventory is week one.
 
 - **L1** — malfunctions, nobody hurt. *5*
 - **L2** — entrapments. Hours in a sealed box, on camera. *6*
-- **L3** — injuries. Rome Metro escalator, 2018, around twenty hurt. *6*
+- **L3** — injuries. Rome, October 2018: a Metro escalator carrying CSKA Moscow fans
+  accelerated and threw people down it. **24 injured**, seven seriously, one man partially lost
+  a foot. The investigation found **both service and emergency braking ineffective** — and in
+  2023, eleven people were indicted for manslaughter **and fraud** over the maintenance. *6*
 - **L4** — survived the unsurvivable. José Vergara Acevedo, Santiago: **31 floors in 15
   seconds**, into the roof at about 80 km/h. He lived. *6*
 - **L5** — single fatalities. Jingzhou, 2015 — she pushed her son clear as the floor panel gave
@@ -423,8 +427,10 @@ footage, visually distinct segment to segment.
 - **L7** — mass casualty. Stresa–Mottarone, 2021: the haulage cable snapped and the emergency
   brake never engaged, because a **clamp had been fitted to hold it open** — the service manager
   admitted this had become routine practice to avoid downtime. **14 dead**, three arrested for
-  manslaughter and intentional removal of accident precautions. And Vaal Reefs, where a
-  locomotive fell down a mine shaft onto a crowded hoist: **104 men.** *5*
+  manslaughter and intentional removal of accident precautions. And Vaal Reefs, 10 May 1995: a
+  twelve-tonne locomotive took a wrong tunnel, went through a barrier and fell down the shaft
+  onto an ascending cage packed with men coming off shift. **104 killed** — the worst elevator
+  accident in history. *5*
 - **L8** — Patreon: the certificates.
 
 **Hook.** *"There is a certificate in the lobby of your building with a date on it. You have
@@ -473,16 +479,30 @@ AO's fix isn't a new axis. It's the rule, enforced hard.
   of his own nephew over a $450,000 life insurance policy. The conviction is a DOJ record — it
   does not get purged.
 
-**Framework.** Seven levels, **42 cases, one person each**, 50 minutes. Every one comes with
-broadcast footage, so the thirty-second bar clears automatically.
+**Framework.** Seven levels, five to seven each — **about 42, one person per case** — at 50
+minutes. Every one comes with broadcast footage, so the thirty-second bar clears automatically.
+Levels escalate on the seriousness of the offence; every segment ends on what the vetting did or
+didn't find.
 
-- **L1** — cast with a record that was public and nobody looked. *6*
-- **L2** — the record surfaced during the run and the network kept filming. *6*
-- **L3** — charged while the show was still airing. *6*
-- **L4** — convicted of violence after appearing. *6*
-- **L5** — people the show put on screen with their victims. *6*
-- **L6** — convicted of murder. *6*
-- **L7** — the shows that were pulled, and what the network said it had checked. *6*
+- **L1** — financial crime after the show. Todd and Julie Chrisley, *Chrisley Knows Best*, bank
+  fraud and tax evasion — **twelve years and seven years**. Teresa and Joe Giudice, *RHONJ*,
+  **41 counts of fraud**. Mike Sorrentino, *Jersey Shore*, tax evasion. Abby Lee Miller,
+  *Dance Moms*, bankruptcy fraud. *6*
+- **L2** — the record was already public when they were cast. *6*
+- **L3** — charged while the show was still airing, and the episodes went out anyway. *6*
+- **L4** — violence. Geoffrey Paschel, *90 Day Fiancé*, convicted of **aggravated assault and
+  kidnapping**. Elyse Alway, *America's Next Top Model*, **twelve years** for burglary, vehicle
+  theft and firearm offences. *6*
+- **L5** — sexual offences. Stephen Bear, *Ex on the Beach* and *Celebrity Big Brother*,
+  convicted of **voyeurism and disclosing private sexual images**, then jailed again in 2026 for
+  breaching the restraining order. *6*
+- **L6** — offences against children. Josh Duggar, *19 Kids and Counting*. Michael Skupin,
+  *Survivor*, convicted on four counts of possessing child sexual abuse material. *6*
+- **L7** — murder, and the shows that were pulled. James Timothy Norman, *Welcome to Sweetie
+  Pie's*, convicted of **federal murder-for-hire** of his own nephew over a $450,000 policy.
+  Ryan Jenkins, *Megan Wants a Millionaire*, charged with murdering his ex-wife — he held a
+  **2007 Canadian conviction for assaulting a former girlfriend**, and VH1 pulled the series
+  mid-run. *6*
 - **L8** — Patreon.
 
 **Hook.** A casting-tape clip — someone bright and likeable, saying why they'd be great on the
@@ -494,8 +514,14 @@ to 50,000, and this isn't one show. But that gap was never about the name — Ma
 Based on Real Events failed because there was nothing underneath them. Every case here names a
 show and has a court record under it. That's the rule AO wrote, applied literally.
 
-**Monetization.** Crime and conviction, not suicide — a materially easier category to ship
-monetized. Victims named with restraint, no crime-scene material, the record does the work.
+**Monetization — and one call I'd make up front.** Crime and conviction is a materially easier
+category to ship monetized than suicide, and no crime-scene material is needed; the court record
+does the work. **Level 6 is the exception.** Offences against children are the hardest category
+on the platform, and I would not let a researcher decide that on the fly. My call would be to
+keep it, cover it in two sentences per case with the charge and the sentence and nothing else,
+and put nothing extra behind the paywall — there is no version of that material that belongs on
+Patreon. If the limited-ads rate says otherwise after one video, I'd cut the level rather than
+soften the rest.
 
 ## CLOSE — 45 sec
 

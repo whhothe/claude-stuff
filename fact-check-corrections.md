@@ -357,3 +357,77 @@ the background check. Verified anchors:
 - Sources: [TheWrap](https://www.thewrap.com/reality-tv-whos-vetting-contestants-7524/),
   [DOJ](https://www.justice.gov/usao-edmo/pr/reality-show-star-convicted-murder-hire-charges),
   [NBC News](https://www.nbcnews.com/news/amp/wbna32519524)
+
+---
+
+## H. FINAL ACCURACY PASS before recording (24 Sep)
+
+### H1. ❌ REMOVED — the World Trade Center from the lift pitch
+Two problems. **Superlative conflict:** sources describe **Vaal Reefs** (104 dead, 10 May 1995)
+as *"the worst elevator accident in history."* USA Today separately called the WTC the biggest
+elevator *catastrophe*. Asserting both in one ladder is sloppy and a viewer would catch it.
+**Thesis conflict:** the WTC elevators didn't fail an inspection — a plane hit the building. It
+does not belong in a video whose spine is the certificate. Cut.
+
+### H2. ✅ CORRECTED UPWARD — Vaal Reefs
+10 May 1995. A twelve-tonne underground locomotive at level 56 took a wrong tunnel, went through
+a barrier meant for smaller equipment, and fell down No. 2 shaft onto an ascending double-deck
+cage carrying men coming off shift. The cage fell 460 m. **104 killed.** The worst elevator
+accident in history. The locomotive driver survived by jumping clear.
+Source: [Minerals Council SA](https://www.mineralscouncil.org.za/industry-news/we-care-we-remember/113-we-remember-vaal-reefs)
+
+### H3. ✅ CORRECTED UPWARD — Rome, October 2018
+Was written as "around twenty hurt," which undersold it. Verified: 23 Oct 2018, Repubblica
+station. The escalator accelerated under a crowd of CSKA Moscow fans heading to the Champions
+League tie at the Olimpico. **24 injured, seven seriously, one man partially lost a foot.** The
+Italian investigation found **both service and emergency braking ineffective**, and in 2023
+**eleven people were indicted for manslaughter and fraud** over the maintenance. That makes it a
+document-axis case, not a filler injury case.
+Sources: [CNN](https://www.cnn.com/2018/10/23/europe/rome-metro-escalator-accident-intl),
+[Anacam](https://www.anacam.it/en/news/all/2053-the-accident-of-the-roman-metro-station-repubblica.html)
+
+### H4. ❌ REMOVED — unverified FIU detail
+The line "a conference call two days earlier where the cracking was discussed and the road stayed
+open" was written from memory and not sourced. Softened to "cracking had been reported and the
+road stayed open," which the reporting supports.
+
+### H5. ⚠️ FIXED — case counts were assertions, not inventories
+The script previously claimed "**42 cases**," "**44 cases**," "**40 cases**" as if the inventory
+had been built. It had not. This was the single most checkable false claim in the application.
+All three now read **"seven levels, five to seven each — about 44 — anchors verified, full
+inventory is week-one work."** Honest, and more realistic for a pitch: nobody researches 44 cases
+before they're hired.
+
+### H6. ✅ CASTING LADDER — every level now carries a verified anchor
+The first version had an invented level ("put on screen with their victims") and only two
+verified cases across seven tiers. Rebuilt:
+
+| Level | Verified anchor |
+|---|---|
+| L1 financial | Todd & Julie Chrisley (12 yrs / 7 yrs, bank fraud + tax evasion) · Teresa & Joe Giudice (41 counts) · Mike Sorrentino · Abby Lee Miller |
+| L4 violence | Geoffrey Paschel, *90 Day Fiancé* (aggravated assault, kidnapping) · Elyse Alway, *ANTM* (12 years) |
+| L5 sexual offences | Stephen Bear (voyeurism, disclosing private sexual images; jailed again 2026 for breaching the order) |
+| L6 offences against children | Josh Duggar · Michael Skupin, *Survivor* (four counts, CSAM) |
+| L7 murder | James Timothy Norman (federal murder-for-hire, $450k policy) · Ryan Jenkins (prior 2007 assault conviction; VH1 pulled the show) |
+
+L2 and L3 are structural tiers without a named anchor yet and are marked as such.
+Sources: [TheThings](https://www.thethings.com/josh-duggar-abby-lee-miller-reality-tv-stars-convicted-crimes/),
+[NBC LA](https://www.nbclosangeles.com/entertainment/entertainment-news/chrisley-knows-best-reality-tv-stars-todd-and-julie-chrisley-sentenced-to-prison/3039222/),
+[DOJ](https://www.justice.gov/usao-edmo/pr/reality-show-star-convicted-murder-hire-charges)
+
+### H7. ⚠️ MONETIZATION CALL WRITTEN DOWN — Level 6
+Offences against children is the hardest category on the platform. The script now makes an
+explicit, recorded call: keep the level, two sentences per case (charge and sentence, nothing
+else), **nothing extra behind the paywall**, and cut the level entirely rather than soften the
+rest if the limited-ads rate comes back bad after one video.
+
+### H8. ⚠️ STILL FLAGGED — do not use Jamal Trulove
+Appears in coverage as a reality contestant convicted of murder. That conviction was reportedly
+overturned on appeal and he was acquitted at retrial. Deliberately excluded. If anyone adds him
+later, he is a *wrongful conviction* story, not a casting-failure story.
+
+### H9. Re-checked arithmetic — all hold
+AD1 −93.2% · AO −89.9% · AD2 −77.8% · 2026 ≤5/mo 284,952 vs ≥7/mo 282,666 · 2026 totals 1.22M vs
+2.05M · 8-tier 1,086,975 total / 135,872 per video · 7-tier 3,006,220 / 429,460 · sequel decay
+(96+95+92+90+87+83+50)/7 = **84.7 ≈ 85%** · named 777,580 ÷ generic 49,930 = **15.6×** ·
+321/328 = **97.9 ≈ 98%** · 18.5 uploads × 54.8 min = 1,014 min = **16.9 ≈ 17 hrs**
