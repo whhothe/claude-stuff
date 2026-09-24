@@ -1,8 +1,8 @@
 # NIA Production — Creative Strategist (Abyssal Network)
 ## Loom script · 27.5 min at 150 wpm, 29.5 at 140 — section timings below are measured, not estimated
 
-*Speak it, don't read it — the slides carry the ladders, so don't narrate them. 4,199 words:
-**28 min at 150 wpm, 30 at 140**, so it fits the brief's 20–30 at either pace. Do one timed
+*Speak it, don't read it — the slides carry the ladders, so don't narrate them. 4,132 words:
+**27.5 min at 150 wpm, 29.5 at 140**, so it fits the brief's 20–30 at either pace. Do one timed
 read-through anyway; if you run long, cut the "thing I'd want to test" section first.*
 *`[SLIDE: x.png]` cues the visual. Every figure is checked — see
 `fact-check-corrections.md`. Every structural claim is checked against the JD and the Core
