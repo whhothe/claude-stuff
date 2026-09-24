@@ -1,0 +1,209 @@
+# Fact-Check & Correction Log
+*Audit run 24 Sep 2026 against source analysis files + primary web sources.*
+
+This documents every error found in the original script and what replaced it.
+Keep this — if anyone challenges a number in the video, the corrected claim and its
+source are here.
+
+---
+
+## A. EXTERNAL FACT ERRORS (verified against primary sources)
+
+### A1. Amy Bouzaglo's conviction — WRONG, corrected
+- **Was:** "Amy had previously served time for identity theft."
+- **Actually:** Amy Bouzaglo (formerly **Amanda Bossingham**) applied for a **$15,000
+  line of credit using a Social Security number that was not her own**, pleaded guilty
+  to a class D felony, served **14 months in federal prison**, and paid **$36,294.95**
+  restitution. The charge was Social Security / bank fraud, not "identity theft."
+- **Note:** sources conflict on the year (2004 vs 2008 for sentencing/serving) — so the
+  script now omits the year.
+- Sources: [Mediaite](https://www.mediaite.com/media/food/amy-bouzgalo-served-time-in-federal-prison-for-social-security-fraud/),
+  [IBTimes](https://www.ibtimes.com/amys-baking-company-owner-amy-bouzaglos-criminal-past-surfaces-after-kitchen-nightmares-meltdown)
+
+### A2. Hotel trafficking "$500M–$1B MDL" — UNSAFE, removed
+- **Was:** "the nationwide hotel trafficking lawsuit estimated at 500 million to 1 billion."
+- **Problem:** In **April 2024 the JPML denied** consolidating hotel sex-trafficking suits
+  into a single MDL, finding each case too factually distinct. The $500M–$1B figure is a
+  law-firm mediation *estimate* for a consolidation that did not happen. Presenting it as
+  an existing case is indefensible.
+- **Replaced with verified judgments/settlements:**
+  - **Days Inn, Roosevelt Blvd, Philadelphia — $24 million**, Feb 2023, eight victims
+  - **Georgia — $40 million jury verdict**, 2025 (trafficked at 16; $10M compensatory +
+    $30M punitive against the motel owner)
+  - **Three Philadelphia hotels — $17.5 million** settlement, March 2025
+- Sources: [Law360](https://www.law360.com/hospitality/articles/1572097/philly-days-inn-reaches-24m-deal-with-trafficking-victims?about=hospitality),
+  [CSE Institute](https://cseinstitute.org/days-inn-on-roosevelt-boulevard-to-pay-24-million-dollars-to-trafficking-survivors/),
+  [Philadelphia Inquirer](https://www.inquirer.com/news/philadelphia/hotels-philadelphia-human-trafficking-lawsuit-settlement-20250319.html)
+
+### A3. Samuel Waisbren "16 violations" — UNVERIFIED, corrected
+- **Was:** "a New York elevator that had 16 violations on record."
+- **Could not verify "16."** What IS documented: the building (344 Third Avenue /
+  Manhattan Promenade, Kips Bay) was **fined $1,300 in May 2019** after NYC DOB inspectors
+  found the **door-zone restrictor** — the safety device that stops doors opening while the
+  car is between floors — had been **disabled or tampered with**, and that violation was
+  **still unresolved** on 22 Aug 2019 when Waisbren, 30, was killed.
+- The verified version is more damning than the unverified one. Use it.
+- Sources: [PIX11](https://pix11.com/news/local-news/manhattan/nyc-dept-of-buildings-reveals-new-information-in-elevator-death-safety-history/),
+  [ABC News](https://abcnews.com/US/man-dies-elevator-malfunction-nyc-drop-trapping-car/story?id=65124963)
+
+### A4. Joe Cerniglia — causal framing softened
+- Facts confirmed: Campania owner; 2007 episode; Ramsay said his business was "about to
+  f***ing swim down the Hudson"; died by suicide Sept 2010, age 39, jumping from the
+  George Washington Bridge into the Hudson.
+- **But his family has publicly said his time on the show was a positive period in his
+  life.** The original script juxtaposed the quote and the death in a way that implies
+  causation. Script now presents the sequence and explicitly declines to assert cause.
+- Sources: [ABC News](https://abcnews.com/Entertainment/Recipes/kitchen-nightmares-participant-joe-cerniglia-commits-suicide/story?id=11744484),
+  [CBS New York](https://cbsnews.com/newyork/news/nj-chef-on-kitchen-nightmares-jumps-off-gwb)
+
+### A5. "82% of restaurants closed" — real but contested, softened
+- 82% (21 open / 93 closed) is the most-cited tracking figure, but other 2026 counts give
+  **79%** (18 open / 66 closed) and **~70%** (29 of 97 open). Different methods, different
+  season/country inclusion.
+- Script now says **"more than 80% by the most-cited count"** rather than a flat 82%.
+- Sources: [LADbible](https://www.ladbible.com/entertainment/tv-and-film-80-percent-of-gordon-ramsays-kitchen-nightmares-restaurants-closed-20210210),
+  [Tasting Table](https://www.tastingtable.com/2101500/kitchen-nightmares-restaurants-survive-30-percent-success/)
+
+### A6. Dillons lawsuit — outcome added
+- Confirmed: **Martin Hyde**, general manager, sued for **$3 million** and sought an
+  injunction, alleging producers used **rotten hamburger meat**, a **rigged defective
+  chair**, rat droppings, and **actors posing as customers**.
+- **Missing before: the suit failed and the episode aired.** Now included — it makes the
+  telling accurate rather than one-sided.
+- Sources: [TV Guide](https://www.tvguide.com/news/kitchen-nightmare-gordon-13655/),
+  [Mashed](https://www.mashed.com/1453833/gordon-ramsay-kitchen-nightmares-lawsuit/)
+
+### A7. Jingzhou escalator "billions of impressions" — removed
+- The 2015 Jingzhou incident is real and well documented, but "billions of impressions
+  across all platforms" is not measurable or sourceable. Cut.
+
+---
+
+## B. VERIFIED AS CORRECT (no change needed)
+
+| Claim | Status |
+|---|---|
+| Erin Andrews **$55M verdict**, 7 Mar 2016, Nashville Marriott at Vanderbilt, peephole, Michael David Barrett | ✅ (51% Barrett / 49% hotel; later confidential settlement) |
+| South Korean spy-cam ring: **42 rooms, 30 hotels**, 10 cities | ✅ — and **~1,600 guests** livestreamed to **4,000+ paying subscribers** (stronger detail, now added) |
+| **~200 people died in WTC elevators** on 9/11, deadliest elevator disaster in history | ✅ USA TODAY investigation |
+| Chile elevator: **31 floors in 15 seconds** | ✅ José Vergara Acevedo, 31, Providencia, Santiago, 2014; hit roof at ~80 km/h |
+| JauMarcus McFarland, **18**, Atlanta, elevator, permit expired Aug 2020 (>1 yr overdue) | ✅ — also overloaded past its 3,000-lb limit |
+| Samy Bouzaglo deported over undisclosed overseas extortion/drug convictions | ✅ |
+| Hyatt Regency 114 · MGM Grand 85 · Winecoff 119 · Mandalay Bay 60 | ✅ |
+
+---
+
+## C. INTERNAL DATA ERRORS (from our own analysis files)
+
+### C1. Video count: 328 vs 330 — reconciled
+Title audit was run at AD1=136, AO=112 (=328). Current counts are AD1=137, AD2=80,
+AO=113 (=330). Script now uses **330 throughout** and states the title finding as
+**"about 98% — 321 of the 328 videos at audit"**, so both numbers are stated honestly.
+
+### C2. ⚠️ THE VOLUME CLAIM WAS THE BIGGEST PROBLEM — rewritten
+The original script claimed: *"The data across all three channels shows the same inverse
+correlation. Every time uploads increased, per-video views decreased."* **This does not
+hold up.**
+
+Recomputed across all 61 channel-months in our own tables:
+
+| Test | Result |
+|---|---|
+| Pooled correlation, cadence vs per-video views, all time | r = **−0.21** (weak) |
+| Pooled correlation, **2026 only** (controls for time) | r = **−0.13** (negligible) |
+| AO, 2026 only | r = **+0.05** — *positive* |
+| 2026 per-video views, ≤5 uploads/mo vs ≥7/mo | **284,952 vs 282,666** — effectively identical |
+
+The apparent effect is almost entirely **confounded with time**: early months were both
+low-cadence and high-view; late months are both high-cadence and low-view.
+
+Specific numbers in the old script were also cherry-picked single months, not averages:
+- "4/month → over 1 million" — the actual 4-upload-month average on AD1 is **416,430**
+- "4/month averaged 602K" — that's **Sep 2025 alone** (601,935), not an average
+- "8/month → 142K" — that's **Jun 2026 alone** (142,267)
+- "cadence doubled from 4 to 7–8" — actually **5.2 → 6.4** on AD1
+
+### C3. ⚠️ "Fewer videos would generate MORE total views" — FALSE, removed
+Old script: *"4 videos at 350K = 1.4M monthly views, versus 8 videos at 128K = 1.02M."*
+The real 2026 data says the opposite:
+
+| 2026 cadence | Mean TOTAL monthly views |
+|---|---|
+| ≤5 uploads/month | 1,217,434 |
+| ≥7 uploads/month | **2,046,597** |
+
+High cadence delivers **1.68× the total views for ~1.7× the videos** — volume scales
+roughly linearly. **Recommending a cut from 20 to 12 uploads/month would have reduced
+total views and revenue.** That recommendation is removed.
+
+### C4. ✅ What the volume data DOES support — the 8-video cliff
+There is one real, defensible finding. Broken out by tier, **8 uploads/month is the only
+tier where total monthly views collapse**:
+
+| Uploads/mo (2026) | Mean per-video | Mean TOTAL monthly |
+|---|---|---|
+| 4 | 279,334 | 1,117,337 |
+| 5 | 257,828 | 1,289,138 |
+| 6 | 345,559 | 2,073,354 |
+| **7** | **429,460** | **3,006,220** ← peak |
+| **8** | **135,872** | **1,086,975** ← collapse |
+
+So the honest recommendation is **not** "make fewer videos." It's **"cap at 7 per channel
+per month and never go to 8."** Sharper, more actionable, and actually true.
+
+### C5. Sequel decay: −75% → −85%
+The −75% figure isn't derivable from our own table. The seven multi-volume series we have
+data for decline **−50% to −96%, averaging −85%** from best volume to latest. Also, the
+"54 sequel videos" population is *not* the same as the 7 series measured — conflating them
+was sloppy. Script now says "seven multi-volume series, averaging −85%."
+
+Unresolved contradiction, now avoided: AO Talent Show is listed as both
+`Vol 1 4.67M → Vol 3 77K (−83%)` and `Vol 2 455K → Vol 3 77K (−83%)`. Only the Vol 2
+baseline gives −83%, so the script cites Vol 2 → Vol 3.
+
+### C6. Monthly watch-time ask: 18.3 hrs → ~17 hrs
+18.3 assumed 20 videos × 55 min. Actual 2026 output is **18.5 videos/month** (AD1 6.4 +
+AD2 5.9 + AO 6.2) at a weighted **54.8 min** = **1,014 min ≈ 16.9 hours**. Script now says
+"about 17 hours." Still ~15× Chilling Scares — the point survives intact.
+
+### C7. Named-show vs generic gap (777K vs 50K) — valid, framing tightened
+Verified arithmetic: the six named shows average **777,580**; the four generic topics
+average **49,930**; ratio **15.6×**. Note this is a *selected* comparison, and it is
+**conservative** — including Talent Show Accidents (4.67M) and Reality Shows (1.02M) pushes
+the named-show average to ~1.29M. Script now names the specific videos rather than implying
+it's a full-population average.
+
+### C8. Minor consistency fixes
+- AD2 cadence stated as both "6–7" and "7–8" → now **5.9/month (2026 average)**
+- Asian Internet baseline "602K" vs "603K" → **602,000**
+- "55 min" (network weighted) vs "59 min" (AD1) — both correct, now labelled so it doesn't read as a contradiction
+
+---
+
+## D. STRUCTURAL GAP FOUND
+
+**Q1 asks "brand-wide *and per channel*." The original script answered brand-wide well and
+per-channel barely at all** — the channel-specific diagnosis only appeared incidentally
+inside the Q2 pitches. That's half the question under-answered.
+
+The rewritten script adds a dedicated **per-channel diagnosis** section:
+- **AD1** — steepest fall (−93%); exhausted its organizing principle (every camera type used)
+- **AD2** — no identity; 95% sequels; its one original is its only grower
+- **AO** — healthiest economics ($7.72 RPM, ~$26.7K/mo) but drifting off named shows, which is where all its upside is
+
+---
+
+## E. CLAIMS THAT SURVIVED THE AUDIT INTACT
+
+These are the load-bearing, fully defensible numbers. Lead with these.
+
+- **~98% title monoculture** — 321 of 328 videos at audit
+- **Peak-to-current:** AD1 **−93%**, AO **−90%**, AD2 **−78%**
+- **Channel convergence** — 494K / 274K / 123K subs → 138K / 127K / 110K views
+- **Sequel decay −85%** across seven multi-volume series
+- **The 8-video cliff** — total monthly views collapse from 3.0M (at 7) to 1.09M (at 8)
+- **Duration** — 59 min AD1 average vs ~28 min outlier sweet spot
+- **Named shows 777K vs generic 50K** on AO (15.6×)
+- **Like-to-view ratio stable/rising** (1.86% → 2.91%) — reach problem, not quality problem
+- **Niche is thriving** — SIRIUS 2.81M avg on 18 videos; Chilling Scares 318K Day-1 median
+- **All three pitch topics novel** — zero iceberg results on YouTube, zero coverage in 330 videos
