@@ -451,3 +451,28 @@ AD1 −93.2% · AO −89.9% · AD2 −77.8% · 2026 ≤5/mo 284,952 vs ≥7/mo 2
 | Convergence | 138/127/110K (mixed sources) | Sep 2026: 138,757 / 141,082 / 133,382 | raw monthly data |
 | AO named-show avg | five shows listed for a six-show mean | Extreme Cheapskates (497,762) restored | full-chat-log.md |
 | Hooks | "nineteen months"; "every person… was killed" | "nearly three years" (Oct 2018 → Jun 2021); "every machine… had one too" | Surfside timeline; ladder levels 1–4 non-fatal |
+
+
+---
+
+## J. Script vs research — final audit (Sep 2026)
+
+| Claim | Was | Now | Source |
+|---|---|---|---|
+| Eight-upload cliff / cap at seven | "8 is the cliff"; cap at 7 | Removed — artefact of timing (all 8-upload months Jun–Aug 2026) and one outlier month; FE model t = 0.69 | raw monthly data |
+| Volume evidence | ≤5 vs ≥7: 284,952 vs 282,666 (depends on AO Feb outlier) | Controlled: every upload tier within ~±7% of channel+month expectation | raw monthly data |
+| Sequel decay | "nine vs one new topic grew"; mixed baselines | 13 series first → latest: 9 down 88–98%, Documentaries −48%, TCAP −35%, Cheapskates +18%, Asian Internet +94% | AO/AD/AD2 analysis top-20 tables |
+| Fishing Encounters | cited as an AD example | AD2 video (64,708, Jul 2026); AD examples are Biblical Horrors and Amazon Incidents | abyssal-detective-2-analysis.md |
+| 4chan title | "about three times the current average" | +61% vs AD's 2026 average (407K vs 252K); "AD's one non-iceberg title" | abyssal-detective-analysis.md |
+| AD2 | "repositioning is working"; non-English lane "underused" | Repositioned, but 14 of 15 weakest are 2026 setting/language topics (40–79K) | abyssal-detective-2-analysis.md |
+| AO rule | 777,580 vs 49,930 only | + channel-wide TV/reality 482,823 vs animation/franchise 210,413; Cheapskates Vol 2 589,708 (Jun 2026) | abyssal-observer-analysis.md |
+| Decline figures | peak months only | + vs 2025 average: AD −82%, AO −67%, AD2 −55% (peaks each had one mega-video) | raw monthly data |
+| Quality | not in script | AD like-to-view 1.86% (2024) → 2.91% (Jun 2026) | abyssal-detective-analysis.md |
+| Three tests | Fishing/Amazon pass test 2; Biblical fails all | All four fail tests 1 and 3 (research's assessment); Biblical flagged gray zone | jd-alignment-audit.md |
+| Ladders | collapses L2 bridges > L3 mid-construction; lifts L3 injuries > L4 survivors | Reordered so every level escalates (JD: every segment more disturbing than the last) | JD Responsibility 2 |
+| Novelty | "Devastating Tragedies 432,000" removed as unsourced | Restored — quack doc, 432,294 views (search this session); no lift iceberg; no casting iceberg | YouTube search |
+| Q2 structure | framework / hook / why it wins | + explicit "What I'd change" and "Why it beats the original", naming both the existing video and the standard Abyssal treatment | fact-check F; brief |
+| Routing | implicit | Pitch 1 justified as AD (premise lists disasters under AD); Pitch 2 fits both documents | core-premise.md §1.3 |
+| Case counts | bare "about 44" | + "anchors verified, full inventory is week-one work" | fact-check H5 |
+| JD metrics | missing | Patreon per pitch (L8 = the reports for AD), level-transition retention, predicted-vs-actual playbook | jd-alignment-audit.md T3 |
+| Hooks | "forty seconds" of footage; certificate "in the lobby"; "casting tape" | untimed static shot; certificate "somewhere in your building"; "his intro from the show" | production realism |

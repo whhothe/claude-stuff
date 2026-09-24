@@ -29,28 +29,37 @@ td.num{font-variant-numeric:tabular-nums}
 .lvd{font-size:17px;color:var(--ink3);margin-top:4px}
 .cnt{font-size:20px;color:var(--ink2);text-align:right;font-variant-numeric:tabular-nums}
 .meta{font-size:21px;color:var(--ink2);margin-top:12px}.meta b{color:var(--aqua)}
+.ptitle{font-size:15px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--ink3);margin-bottom:20px}
+.bignum{font-size:92px;font-weight:800;letter-spacing:-3px;line-height:1;color:var(--ink)}
+.plab{font-size:18px;color:var(--ink2);margin-top:16px;line-height:1.45}
 </style></head><body>
 
 <div class="fig" id="the-collapse"><h1>Per-video views fell 78–93% in eighteen months</h1>
-<div class="sub">Monthly average views per video, by channel</div>
+<div class="sub">Monthly average views per video. Against 2025 as a whole, the last three months are down 82% (AD), 67% (AO) and 55% (AD2).</div>
 <div class="legend"><span><i style="background:var(--blue)"></i>Abyssal Detective</span><span><i style="background:var(--aqua)"></i>Abyssal Observer</span><span><i style="background:var(--amber)"></i>Abyssal Detective 2</span></div>
 <div class="chart"><svg id="c-collapse" width="1448" height="560"></svg></div></div>
 
-<div class="fig" id="the-volume-question"><h1>More uploads didn't cost per-video views</h1>
-<div class="sub">2026 channel-months, grouped by uploads that month &nbsp;·&nbsp; correlation r = −0.13</div>
-<div class="chart" style="display:flex;gap:110px"><svg id="c-vol1" width="660" height="440"></svg><svg id="c-vol2" width="660" height="440"></svg></div></div>
+<div class="fig" id="what-it-is-not"><h1>Not the titles. Not volume. Not quality.</h1>
+<div class="chart" style="display:grid;grid-template-columns:0.95fr 1.3fr 1fr;gap:64px;align-items:start">
+<div><div class="ptitle">Titles</div><div class="bignum">98%</div><div class="plab">of videos use one formula, including the 4.03M and 3.17M peaks. A constant can't explain a change.</div></div>
+<div><div class="ptitle">Volume</div><svg id="c-resid" width="560" height="300"></svg><div class="plab">2026 per-video views vs what that channel and month predict, by uploads that month</div></div>
+<div><div class="ptitle">Quality</div><svg id="c-likes" width="400" height="300"></svg><div class="plab">Abyssal Detective like-to-view ratio</div></div>
+</div></div>
 
 <div class="fig" id="curiosity-to-close"><h1>Curiosity already there vs curiosity that isn't</h1>
 <div class="sub">Views per video</div>
 <div class="chart"><svg id="c-curio" width="1448" height="470"></svg></div></div>
 
-<div class="fig" id="three-tests"><h1>Recent topics against the three greenlight tests</h1>
+<div class="fig" id="three-tests"><h1>Four recent topics, two failed tests each</h1>
+<div class="sub">Against the brief's greenlight tests</div>
 <div class="chart"><table>
-<tr><th>Topic</th><th>Views</th><th>Real depth</th><th>Surface pulls a cold click</th><th>Descent they can't find alone</th></tr>
-<tr><td class="k">Fishing Encounters</td><td class="num">65K</td><td class="x">✕</td><td class="ok">✓</td><td class="x">✕</td></tr>
-<tr><td class="k">Amazon Incidents</td><td class="num">71K</td><td class="x">✕</td><td class="ok">✓</td><td class="x">✕</td></tr>
-<tr><td class="k">Biblical Horrors</td><td class="num">60K</td><td class="x">✕</td><td class="x">✕</td><td class="x">✕</td></tr>
-</table></div></div>
+<tr><th>Topic</th><th>Channel</th><th>Views</th><th>Real depth</th><th>Descent they can't find alone</th></tr>
+<tr><td class="k">Amazon Incidents</td><td>AD</td><td class="num">70,529</td><td class="x">✕</td><td class="x">✕</td></tr>
+<tr><td class="k">Fishing Encounters</td><td>AD2</td><td class="num">64,708</td><td class="x">✕</td><td class="x">✕</td></tr>
+<tr><td class="k">Biblical Horrors</td><td>AD</td><td class="num">60,277</td><td class="x">✕</td><td class="x">✕</td></tr>
+<tr><td class="k">Chinese Shows</td><td>AO</td><td class="num">54,395</td><td class="x">✕</td><td class="x">✕</td></tr>
+</table></div>
+<div class="src">Biblical Horrors also sits on the gray-zone religion line.</div></div>
 
 <div class="fig" id="the-35-case-trap"><h1>The runtime is choosing the topics</h1>
 <div class="flow">
@@ -61,14 +70,10 @@ td.num{font-variant-numeric:tabular-nums}
 <div class="node" style="background:#3a2322;color:var(--red)">Fishing Encounters<small>65K VIEWS</small></div>
 </div></div>
 
-<div class="fig" id="sequel-decay"><h1>Seven series lost 90–98%. The one new topic grew.</h1>
-<div class="sub">First volume → latest volume</div>
-<div class="chart"><svg id="c-seq" width="1448" height="500"></svg></div>
-<div class="src">Each channel fell 78–93% over the same period, so volume numbering isn't the whole cause. On AO, originals average 17% more than sequels.</div></div>
-
-<div class="fig" id="the-eight-video-cliff"><h1>Seven uploads a month is the peak. Eight is the cliff.</h1>
-<div class="sub">2026, all three channels · average total views in a month, by uploads that month</div>
-<div class="chart"><svg id="c-cliff" width="1448" height="520"></svg></div></div>
+<div class="fig" id="series-check"><h1>Nine big series down 88–98%. Two grew.</h1>
+<div class="sub">First volume → latest volume, every series with both in the data</div>
+<div class="chart"><svg id="c-series" width="1448" height="700"></svg></div>
+<div class="src">Each channel fell 55–82% against its 2025 average over the same period, so the volume number isn't the whole cause. The point is the call: extend what holds, retire what doesn't.</div></div>
 
 <div class="fig" id="convergence"><h1>A 4× audience gap, one floor</h1>
 <div class="chart" style="display:flex;gap:110px"><svg id="c-subs" width="660" height="420"></svg><svg id="c-views" width="660" height="420"></svg></div></div>
@@ -78,33 +83,37 @@ td.num{font-variant-numeric:tabular-nums}
 <div class="chart"><svg id="c-ask" width="1448" height="430"></svg></div>
 <div class="src">Runtime: Abyssal Detective averages 59 min. Million-view videos in this niche average ~28 min.</div></div>
 
-<div class="fig" id="ao-rule"><h1>AO: keep the consequence, get 15.6× the views</h1>
+<div class="fig" id="ao-rule"><h1>AO: consequence-led topics beat show-first ones</h1>
 <div class="sub">Views per video</div>
-<div class="chart"><svg id="c-ao" width="1448" height="640"></svg></div></div>
+<div class="chart"><svg id="c-ao" width="1448" height="640"></svg></div>
+<div class="src">Channel-wide: TV and reality topics average 482,823 a video (53 videos); animation and franchise topics 210,413 (7).</div></div>
 
 <div class="fig" id="per-channel"><h1>Why each baseline is falling</h1>
 <div class="chart"><table>
-<tr><th style="width:24%">Channel</th><th style="width:26%">Peak → Sep 2026</th><th style="width:10%">Change</th><th>Cause</th></tr>
-<tr><td class="k">Abyssal Observer</td><td class="num">1,390,590 → 141,082</td><td class="num" style="color:var(--red);font-weight:700">−90%</td><td>Show-only topics getting past its own rule</td></tr>
-<tr><td class="k">Abyssal Detective</td><td class="num">2,035,346 → 138,757</td><td class="num" style="color:var(--red);font-weight:700">−93%</td><td>Widest territory, so nothing gets refused</td></tr>
-<tr><td class="k">Abyssal Detective 2</td><td class="num">601,402 → 133,382</td><td class="num" style="color:var(--red);font-weight:700">−78%</td><td>Runs later volumes of AD1's spent topics</td></tr>
-</table></div></div>
-
-<div class="fig" id="ad2-shift"><h1>AD2's repositioning is working</h1>
-<div class="sub">Earlier 40 videos vs latest 40</div>
-<div class="legend"><span><i style="background:var(--mute)"></i>Earlier half</span><span><i style="background:var(--aqua)"></i>Latest half</span></div>
-<div class="chart"><svg id="c-ad2" width="1448" height="270"></svg></div></div>
-
-<div class="fig" id="five-changes"><h1>Five changes</h1>
-<div class="chart"><table>
-<tr><th style="width:5%">#</th><th style="width:47%">Change</th><th>Evidence</th></tr>
-<tr><td class="k">1</td><td class="k">Three-test filter at greenlight, in writing</td><td>All three recent flops fail it</td></tr>
-<tr><td class="k">2</td><td class="k">Cap at seven uploads per channel a month</td><td class="num">7 → 3.01M total · 8 → 1.09M</td></tr>
-<tr><td class="k">3</td><td class="k">Drop volume numbers, AD2 first</td><td>Only a new topic grew (+94%) · AO originals +17%</td></tr>
-<tr><td class="k">4</td><td class="k">Rotate three title frameworks</td><td>98% one formula · the exception did 407K</td></tr>
-<tr><td class="k" style="color:var(--aqua)">5</td><td class="k" style="color:var(--aqua)">End every segment on the document</td><td>The basis of all three pitches</td></tr>
+<tr><th style="width:20%">Channel</th><th style="width:22%">Peak → Sep 2026</th><th style="width:9%">vs peak</th><th style="width:12%">vs 2025 avg</th><th>Cause</th></tr>
+<tr><td class="k">Abyssal Observer</td><td class="num">1,390,590 → 141,082</td><td class="num" style="color:var(--red);font-weight:700">−90%</td><td class="num" style="color:var(--red);font-weight:700">−67%</td><td>Show-first topics getting past its own rule</td></tr>
+<tr><td class="k">Abyssal Detective</td><td class="num">2,035,346 → 138,757</td><td class="num" style="color:var(--red);font-weight:700">−93%</td><td class="num" style="color:var(--red);font-weight:700">−82%</td><td>Territory so wide greenlight can't say no</td></tr>
+<tr><td class="k">Abyssal Detective 2</td><td class="num">601,402 → 133,382</td><td class="num" style="color:var(--red);font-weight:700">−78%</td><td class="num" style="color:var(--red);font-weight:700">−55%</td><td>Fed spent AD1 series and setting topics with no pull</td></tr>
 </table></div>
-<div class="src">1–4 measurable within two months: per-video average against today's 133–141K.</div></div>
+<div class="src">vs 2025 avg: the last three months (Jul–Sep 2026) against each channel's 2025 per-video average (views ÷ videos).</div></div>
+
+<div class="fig" id="ad2-shift"><h1>AD2 has repositioned. Its new topics aren't landing.</h1>
+<div class="chart" style="display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start">
+<div><div class="ptitle">Repositioning · earlier 40 videos vs latest 40</div>
+<div class="legend" style="margin-top:0"><span><i style="background:var(--mute)"></i>Earlier half</span><span><i style="background:var(--aqua)"></i>Latest half</span></div>
+<svg id="c-ad2a" width="660" height="300" style="margin-top:26px"></svg></div>
+<div><div class="ptitle">2026 setting and language topics · views</div><svg id="c-ad2b" width="660" height="400"></svg></div>
+</div></div>
+
+<div class="fig" id="four-changes"><h1>Four changes</h1>
+<div class="chart"><table>
+<tr><th style="width:5%">#</th><th style="width:48%">Change</th><th>Evidence</th></tr>
+<tr><td class="k">1</td><td class="k">Three-test filter at greenlight, in writing</td><td>All four recent flops fail two of the three tests</td></tr>
+<tr><td class="k">2</td><td class="k">A next volume only if the last one beat the channel average</td><td>9 of 13 series down 88–98% · two grew</td></tr>
+<tr><td class="k">3</td><td class="k">Rotate three title frameworks, drop "Vol." numbers</td><td>98% one formula · AD's one non-iceberg title +61%</td></tr>
+<tr><td class="k" style="color:var(--aqua)">4</td><td class="k" style="color:var(--aqua)">End every segment on the document</td><td>The basis of all three pitches</td></tr>
+</table></div>
+<div class="src">1–3 testable within two months against today's 133–141K per video, channel by channel. Each test: a written prediction before it ships, a review after.</div></div>
 
 <div class="fig" id="next-format"><h1>One format worth testing</h1>
 <div class="sub">One video, one channel, one month</div>
@@ -130,18 +139,18 @@ td.num{font-variant-numeric:tabular-nums}
 <tr><td class="k">Abyssal Detective 2</td><td>The inspection certificate</td></tr>
 <tr><td class="k">Abyssal Observer</td><td>The background check</td></tr>
 </table></div>
-<div class="src">Levels still escalate on harm. The document is how every case ends, not what defines the level.</div></div>
+<div class="src">Levels still escalate on harm. The document is how every case ends, not what defines the level. Measured on retention at level transitions.</div></div>
 
 <div class="fig" id="pitch-collapses"><h1>AD · The Most Disturbing Structural Collapses Iceberg</h1>
-<div class="meta"><b>The engineering report</b> &nbsp;·&nbsp; 7 levels &nbsp;·&nbsp; ~44 cases &nbsp;·&nbsp; 55 min</div>
+<div class="meta"><b>The engineering report</b> &nbsp;·&nbsp; 7 levels + Patreon Level 8: the reports &nbsp;·&nbsp; ~44 cases &nbsp;·&nbsp; 55 min &nbsp;·&nbsp; anchors verified, full inventory week one</div>
 <div class="chart" id="l-col"></div></div>
 
 <div class="fig" id="pitch-lifts"><h1>AD2 · The Most Disturbing Lift &amp; Cable Failures Iceberg</h1>
-<div class="meta"><b>The inspection certificate</b> &nbsp;·&nbsp; 7 levels &nbsp;·&nbsp; ~40 cases &nbsp;·&nbsp; 48 min</div>
+<div class="meta"><b>The inspection certificate</b> &nbsp;·&nbsp; 7 levels &nbsp;·&nbsp; ~40 cases &nbsp;·&nbsp; 48 min &nbsp;·&nbsp; anchors verified, full inventory week one</div>
 <div class="chart" id="l-lift"></div></div>
 
 <div class="fig" id="pitch-casting"><h1>AO · The Most Disturbing Reality TV Casting Iceberg</h1>
-<div class="meta"><b>The background check</b> &nbsp;·&nbsp; 7 levels &nbsp;·&nbsp; ~42 cases, one person each &nbsp;·&nbsp; 50 min</div>
+<div class="meta"><b>The background check</b> &nbsp;·&nbsp; 7 levels &nbsp;·&nbsp; ~42 cases, one person each &nbsp;·&nbsp; 50 min &nbsp;·&nbsp; anchors verified, full inventory week one</div>
 <div class="chart" id="l-cast"></div></div>
 
 <script>
@@ -181,15 +190,23 @@ ends.forEach(([d,c,n,p],i)=>{const e=d[d.length-1],yy=B-130+i*44;
   tx(svg,p,R+322,yy,{fill:C.red,'font-size':18,'font-weight':700,'text-anchor':'end'});});
 })();
 
-// 2 volume
-function vpanel(id,title,rows,max,fmt){const svg=document.getElementById(id),B=360,H=300,bw=150,gap=120,x0=110;
- tx(svg,title,0,0,{fill:C.ink,'font-size':21,'font-weight':650});
- svg.appendChild(el('line',{x1:40,x2:640,y1:B,y2:B,stroke:C.grid}));
- rows.forEach((r,i)=>{const h=r.v/max*H,x=x0+i*(bw+gap);rbar(svg,x,B-h,bw,h,r.c||C.blue,'u');
-  tx(svg,fmt(r.v),x+bw/2,B-h-16,{'text-anchor':'middle',fill:C.ink,'font-size':24,'font-weight':700});
-  tx(svg,r.n,x+bw/2,B+34,{'text-anchor':'middle',fill:C.ink2,'font-size':18});});}
-vpanel('c-vol1','Views per video',[{n:'≤5 uploads/month',v:284952},{n:'≥7 uploads/month',v:282666}],300000,v=>v.toLocaleString('en-US'));
-vpanel('c-vol2','Total views per month',[{n:'≤5 uploads/month',v:1217434,c:C.mute},{n:'≥7 uploads/month',v:2046597}],2200000,v=>(v/1e6).toFixed(2)+'M');
+// 2 what-it-is-not
+(function(){const svg=document.getElementById('c-resid'),Z=150,S=4.2,bw=92,gap=38,x0=40;
+ const d=[['3–5',-6.0],['6',6.8],['7',2.1],['8',-1.5]];
+ svg.appendChild(el('line',{x1:20,x2:560,y1:Z,y2:Z,stroke:C.ink3}));
+ [-20,20].forEach(v=>{svg.appendChild(el('line',{x1:20,x2:560,y1:Z-v*S,y2:Z-v*S,stroke:C.grid,'stroke-dasharray':'4 6'}));
+   tx(svg,(v>0?'+':'−')+Math.abs(v)+'%',16,Z-v*S+5,{'text-anchor':'end',fill:C.ink3,'font-size':14});});
+ d.forEach(([n,v],i)=>{const x=x0+i*(bw+gap),h=Math.abs(v)*S;
+   if(v>=0) rbar(svg,x,Z-h,bw,h,C.blue,'u'); else {svg.appendChild(el('path',{d:`M${x},${Z}h${bw}v${h-4}q0,4 -4,4h-${bw-8}q-4,0 -4,-4z`,fill:C.blue}));}
+   tx(svg,(v>=0?'+':'−')+Math.abs(v).toFixed(0)+'%',x+bw/2,v>=0?Z-h-12:Z+h+24,{'text-anchor':'middle',fill:C.ink,'font-size':20,'font-weight':700});
+   tx(svg,n+' uploads',x+bw/2,Z+130,{'text-anchor':'middle',fill:C.ink2,'font-size':16});});
+})();
+(function(){const svg=document.getElementById('c-likes'),B=250,H=200,bw=120,x0=40,gap=90,max=3.2;
+ svg.appendChild(el('line',{x1:20,x2:400,y1:B,y2:B,stroke:C.grid}));
+ [['2024',1.86,C.mute],['Jun 2026',2.91,C.aqua]].forEach(([n,v,c],i)=>{const h=v/max*H,x=x0+i*(bw+gap);rbar(svg,x,B-h,bw,h,c,'u');
+   tx(svg,v.toFixed(2)+'%',x+bw/2,B-h-14,{'text-anchor':'middle',fill:C.ink,'font-size':24,'font-weight':700});
+   tx(svg,n,x+bw/2,B+30,{'text-anchor':'middle',fill:C.ink2,'font-size':17});});
+})();
 
 // generic horizontal bars
 function hbars(id,rows,max,opt={}){const svg=document.getElementById(id),LW=opt.lw||360,W=opt.w||920,RH=opt.rh||56,BH=opt.bh||32;let y=opt.top||0;
@@ -204,27 +221,24 @@ hbars('c-curio',[
  {head:'NONE TO CLOSE',hc:C.red},
  {n:'Amazon Incidents',v:71000,c:C.red,lab:'71K'},{n:'Fishing Encounters',v:65000,c:C.red,lab:'65K'},{n:'Biblical Horrors',v:60000,c:C.red,lab:'60K'},{n:'Chinese Shows',v:54395,c:C.red,lab:'54K'}],4200000,{lw:340,w:960});
 
-// sequels (diverging, one common scale)
-(function(){const svg=document.getElementById('c-seq'),LW=360,S=4.4,Z=LW+96*S+12,RH=54,BH=32;
- const d=[['AO · Talent Show Accidents',-98,'4.67M → 77K'],['AD1 · CCTV',-96,'3.17M → 132K'],['AD1 → AD2 · Theme Park',-95,'2.00M → 91K'],['AD1 · Dashcam',-95,'1.19M → 61K'],['AD1 → AD2 · Live TV Moments',-95,'2.05M → 107K'],['AO · TV Accidents',-92,'2.40M → 192K'],['AD1 · Warning Signs',-90,'907K → 90K'],['AD2 · Things on Asian Internet',94,'602K → 1.17M']];
- svg.appendChild(el('line',{x1:Z,x2:Z,y1:-6,y2:d.length*RH+14,stroke:C.ink3}));
- d.forEach(([n,v,note],i)=>{const y=i*RH+(i===7?14:0),w=Math.abs(v)*S,lab=(v<0?'−':'+')+Math.abs(v)+'%';
-  tx(svg,n,LW-20,y+BH/2+7,{'text-anchor':'end',fill:C.ink2,'font-size':19});
-  if(v<0){rbar(svg,Z-w,y,w,BH,C.red,'l');tx(svg,lab,Z-w+14,y+BH/2+7,{fill:'#1a1a19','font-size':19,'font-weight':800});
-    tx(svg,note,Z+16,y+BH/2+7,{fill:C.ink3,'font-size':17});}
-  else{rbar(svg,Z,y,w,BH,C.aqua,'r');tx(svg,lab,Z+w-14,y+BH/2+7,{fill:'#1a1a19','font-size':19,'font-weight':800,'text-anchor':'end'});
-    tx(svg,note,Z+w+16,y+BH/2+7,{fill:C.ink3,'font-size':17});}});
+// series-check (diverging, one common scale)
+(function(){const svg=document.getElementById('c-series'),LW=400,S=4.3,Z=LW+98*S+12,RH=50,BH=30;
+ const d=[['AO · Talent Show Accidents',-98,'4.67M → 77K'],['AD1 · CCTV',-96,'3.17M → 132K'],['AD1 → AD2 · Theme Park',-95,'2.00M → 91K'],['AD1 · Dashcam',-95,'1.19M → 61K'],['AD1 → AD2 · Live TV Moments',-95,'2.05M → 107K'],['AD1 → AD2 · Footage Caught on Camera',-94,'4.03M → 261K'],['AO · TV Accidents',-92,'2.40M → 192K'],['AD1 · Warning Signs',-90,'907K → 90K'],['AO · Banned Movies',-88,'660K → 82K'],['AO · Documentaries',-48,'1.40M → 733K'],['AO · To Catch a Predator',-35,'954K → 618K'],['AO · Cheapskates',18,'498K → 590K'],['AD2 · Things on Asian Internet',94,'603K → 1.17M']];
+ const gapAt=[9,11];
+ let y=0;
+ d.forEach(([n,v,note],i)=>{ if(gapAt.includes(i)) y+=16;
+  const w=Math.abs(v)*S,lab=(v<0?'−':'+')+Math.abs(v)+'%';
+  tx(svg,n,LW-20,y+BH/2+7,{'text-anchor':'end',fill:C.ink2,'font-size':18});
+  if(v<0){rbar(svg,Z-w,y,w,BH,i<9?C.red:'#b85a5a','l');tx(svg,lab,Z-w+12,y+BH/2+7,{fill:'#1a1a19','font-size':18,'font-weight':800});
+    tx(svg,note,Z+16,y+BH/2+7,{fill:C.ink3,'font-size':16});}
+  else{rbar(svg,Z,y,w,BH,C.aqua,'r');
+    if(w>90) tx(svg,lab,Z+w-12,y+BH/2+7,{fill:'#1a1a19','font-size':18,'font-weight':800,'text-anchor':'end'});
+    else tx(svg,lab,Z+w+12,y+BH/2+7,{fill:C.ink,'font-size':18,'font-weight':800});
+    tx(svg,note,Z+w+(w>90?16:76),y+BH/2+7,{fill:C.ink3,'font-size':16});}
+  y+=RH;});
+ svg.appendChild(el('line',{x1:Z,x2:Z,y1:-6,y2:y,stroke:C.ink3}));
+ svg.setAttribute('height',y+10);
 })();
-
-// cliff
-(function(){const svg=document.getElementById('c-cliff'),B=400,H=360,bw=150,gap=92,x0=110,max=3300000;
- const d=[[4,1117337,279334,3],[5,1289138,257828,4],[6,2073354,345559,7],[7,3006220,429460,6],[8,1086975,135872,6]];
- svg.appendChild(el('line',{x1:60,x2:1320,y1:B,y2:B,stroke:C.grid}));
- d.forEach(([n,v,p,m],i)=>{const h=v/max*H,x=x0+i*(bw+gap),c=n===7?C.aqua:n===8?C.red:C.mute;rbar(svg,x,B-h,bw,h,c,'u');
-  tx(svg,(v/1e6).toFixed(2)+'M',x+bw/2,B-h-16,{'text-anchor':'middle',fill:C.ink,'font-size':26,'font-weight':700});
-  tx(svg,n+' uploads',x+bw/2,B+36,{'text-anchor':'middle',fill:C.ink,'font-size':20,'font-weight':600});
-  tx(svg,K(p)+' per video',x+bw/2,B+64,{'text-anchor':'middle',fill:C.ink3,'font-size':17});
-  tx(svg,m+' channel-months',x+bw/2,B+88,{'text-anchor':'middle',fill:C.ink3,'font-size':15});});})();
 
 // convergence
 vpanelC('c-subs','Subscribers',[['AD',494,C.blue],['AO',274,C.aqua],['AD2',123,C.amber]],520,v=>v+'K');
@@ -244,18 +258,28 @@ hbars('c-ask',[
 
 // AO rule
 hbars('c-ao',[
- {head:'CONSEQUENCE KEPT  ·  AVERAGE 777,580',hc:C.aqua},
+ {head:'CONSEQUENCE-LED  ·  AVERAGE 777,580',hc:C.aqua},
  {n:'TLC',v:1440848,c:C.aqua,lab:'1.44M'},{n:'To Catch a Predator',v:953849,c:C.aqua,lab:'954K'},{n:'Intervention',v:631353,c:C.aqua,lab:'631K'},
  {n:'My Strange Addiction',v:613773,c:C.aqua,lab:'614K'},{n:'90 Day Fiancé',v:527895,c:C.aqua,lab:'528K'},{n:'Extreme Cheapskates',v:497762,c:C.aqua,lab:'498K'},
- {head:'SHOW ONLY  ·  AVERAGE 49,930',hc:C.red},
+ {head:'SHOW-FIRST  ·  AVERAGE 49,930',hc:C.red},
  {n:'Directors Behind Famous Films',v:60218,c:C.red,lab:'60K'},{n:'Chinese Shows',v:54395,c:C.red,lab:'54K'},{n:'Anime Based on Real Events',v:45563,c:C.red,lab:'46K'},{n:'Marvel',v:39545,c:C.red,lab:'40K'}],1500000,{lw:380,w:900,rh:50,bh:30});
 
 // AD2 shift
-(function(){const svg=document.getElementById('c-ad2'),LW=420,W=860,BH=34;
- [['On-territory footage & setting topics',28,55],['Titles carrying a volume number',80,25]].forEach(([n,a,b],i)=>{const y=i*150;
-  tx(svg,n,LW-24,y+BH+10,{'text-anchor':'end',fill:C.ink,'font-size':20,'font-weight':600});
-  rbar(svg,LW,y,a/100*W,BH,C.mute);tx(svg,a+'%',LW+a/100*W+14,y+BH/2+7,{fill:C.ink2,'font-size':20,'font-weight':600});
-  rbar(svg,LW,y+BH+8,b/100*W,BH,C.aqua);tx(svg,b+'%',LW+b/100*W+14,y+BH+8+BH/2+7,{fill:C.ink,'font-size':22,'font-weight':700});});})();
+(function(){const svg=document.getElementById('c-ad2a'),LW=250,W=360,BH=32;
+ [['Disaster & accident topics',28,55],['Titles with a volume number',80,25]].forEach(([n,a,b],i)=>{const y=i*140;
+  tx(svg,n,LW-20,y+BH+8,{'text-anchor':'end',fill:C.ink,'font-size':18,'font-weight':600});
+  rbar(svg,LW,y,a/100*W,BH,C.mute);tx(svg,a+'%',LW+a/100*W+12,y+BH/2+7,{fill:C.ink2,'font-size':19,'font-weight':600});
+  rbar(svg,LW,y+BH+8,b/100*W,BH,C.aqua);tx(svg,b+'%',LW+b/100*W+12,y+BH+8+BH/2+7,{fill:C.ink,'font-size':21,'font-weight':700});});
+})();
+(function(){const svg=document.getElementById('c-ad2b'),LW=210,W=400,RH=54,BH=30,max=260000;
+ const d=[['Home invasions',40518],['Hispanic Internet',40671],['Storms',44705],['Police traffic',63793],['Fishing',64708],['Trains',74055]];
+ d.forEach(([n,v],i)=>{const y=i*RH,w=v/max*W;tx(svg,n,LW-20,y+BH/2+7,{'text-anchor':'end',fill:C.ink2,'font-size':18});
+  rbar(svg,LW,y,w,BH,C.red);tx(svg,v.toLocaleString('en-US'),LW+w+12,y+BH/2+7,{fill:C.ink,'font-size':18,'font-weight':650});});
+ const xr=LW+252927/max*W, yb=d.length*RH;
+ svg.appendChild(el('line',{x1:xr,x2:xr,y1:-8,y2:yb,stroke:C.ink3,'stroke-dasharray':'5 6'}));
+ tx(svg,'AD2 2025 average: 252,927',xr,yb+28,{'text-anchor':'end',fill:C.ink3,'font-size':15});
+ tx(svg,'14 of its 15 weakest videos are from 2026',0,yb+64,{fill:C.ink2,'font-size':17});
+})();
 
 // mindmap
 (function(){const svg=document.getElementById('c-mind'),CX=250,CY=225,BX=640;
@@ -272,7 +296,7 @@ function ladder(id,rows){const box=document.getElementById(id);
  box.insertAdjacentHTML('beforeend','<div class="lhead"><div>LEVEL</div><div></div><div style="text-align:right">CASES</div></div>');
  rows.forEach((r,i)=>{const l=66-i*6.5;
   box.insertAdjacentHTML('beforeend',`<div class="lrow"><div class="chip" style="background:hsl(212 70% ${l}%);color:${i>=3?'#fff':'#0e0e0d'}">L${i+1}</div><div><div class="lvn">${r[0]}</div>${r[1]?`<div class="lvd">${r[1]}</div>`:''}</div><div class="cnt">${r[2]}</div></div>`);});}
-ladder('l-col',[['Cranes, scaffolding, facades','Spectacular footage, small tolls',6],['Bridges','Genoa Morandi — 43 dead · FIU footbridge — 6 dead',6],['Fell mid-construction','Onto the people building them',6],['Public venues','Hyatt Regency — 114 dead',6],['Occupied homes','Surfside — 98 dead',6],['Industrial','Rana Plaza — 1,134 dead',6],['Dams and tailings','Where the toll stops being countable',8]]);
-ladder('l-lift',[['Malfunctions, nobody hurt','',5],['Entrapments','Hours in a sealed box, on camera',6],['Injuries','Rome 2018 — 24 injured, 11 indicted',6],['Survivors','Santiago — 31 floors in 15 seconds, survived',6],['Single deaths','Samuel Waisbren · JauMarcus McFarland',6],['Several deaths, one failure','',6],['Mass casualty','Mottarone 2021 — 14 dead · Vaal Reefs 1995 — 104 dead',5]]);
-ladder('l-cast',[['Financial crime','Todd & Julie Chrisley — 12 and 7 years, pardoned 2025 · the Giudices',6],['Drugs and driving offences','',6],['Domestic violence','',6],['Violent crime','Geoffrey Paschel, 90 Day Fiancé — 18 years, arrested before his season aired',6],['Sexual offences','Stephen Bear',6],['Offences against children','Josh Duggar',6],['Murder','James Timothy Norman · Ryan Jenkins',6]]);
+ladder('l-col',[['Cranes, scaffolding, facades','Spectacular footage, small tolls',6],['Fell mid-construction','Onto the people building them',6],['Bridges','Genoa Morandi — 43 dead · FIU footbridge — 6 dead',6],['Public venues','Hyatt Regency — 114 dead',6],['Occupied homes','Surfside — 98 dead',6],['Industrial','Rana Plaza — 1,134 dead',6],['Dams and tailings','Where the toll stops being countable',8]]);
+ladder('l-lift',[['Malfunctions, nobody hurt','',5],['Entrapments','Hours in a sealed box, on camera',6],['Survivors','Santiago — 31 floors in 15 seconds, and he lived',6],['Injuries','Rome 2018 — 24 injured, 7 seriously; 11 indicted',6],['Single deaths','Samuel Waisbren · JauMarcus McFarland',6],['Several deaths, one failure','',6],['Mass casualty','Mottarone 2021 — 14 dead · Vaal Reefs 1995 — 104 dead',5]]);
+ladder('l-cast',[['Financial crime','Todd & Julie Chrisley — 12 and 7 years, pardoned 2025 · the Giudices',6],['Drugs and driving offences','',6],['Domestic violence','',6],['Violent crime','Geoffrey Paschel, 90 Day Fiancé — 18 years, arrested before his season aired',6],['Sexual offences','Stephen Bear',6],['Offences against children','Josh Duggar',6],['Murder','James Timothy Norman — life sentence · Ryan Jenkins',6]]);
 </script></body></html>

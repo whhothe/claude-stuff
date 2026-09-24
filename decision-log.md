@@ -165,3 +165,24 @@ failed.**
 murder, which would fit the AO pitch. That conviction was reportedly overturned on appeal and he
 was acquitted at retrial. Left out of the pitch deliberately, and flagged here so it is not
 picked up later from the same search results.
+
+
+---
+
+## Reversal — the eight-upload cliff (final pass)
+
+**Was:** "7 uploads/month is the peak, 8 is the cliff" (3.01M vs 1.09M) → recommendation "cap at seven, never eight."
+
+**Why it fell:** it failed the same time-confound test that killed the volume thesis. All six 8-upload
+channel-months fall in Jun–Aug 2026, the network's trough; inside that window 8-upload months averaged
+135,872 per video against 115,858 for 7. A model with channel and month controls gives +5.7% per extra
+upload (t = 0.69) and −4.5% for "8 uploads" (t = −0.19). The "7 is the peak" tier rests on one outlier
+month (AO, Feb 2026, the 4.67M Talent Show video). Recommendation removed.
+
+## Reframe — sequels → series decisions
+
+"−85% best volume → latest" mixed baselines (Vol 2 for the AO series, Vol 3 for the AD2 series). From
+first volume, nine of thirteen series are down 88–98%, but two grew (Cheapskates +18%, Asian Internet
++94%) and the declines match each channel's own fall. Presented descriptively; the recommendation is
+now a series rule (extend only if the last volume beat the channel average), which is a named JD
+responsibility.

@@ -10,10 +10,10 @@ files predate two correction passes and still contain claims that were later dis
 | File | What it is |
 |---|---|
 | **`ABYSSAL-NETWORK-APPLICATION-FULL-EXPORT.md`** | **Everything in one file** — brief, decision log, script, slide index, both audits, appendix. ~18,600 words. Use this to hand the work to anyone. |
-| **`presentation-script.md`** | The script. ~16 min spoken, ~20 with pauses on visuals. Slide cues inline. **This is the deliverable.** |
+| **`presentation-script.md`** | The script. ~18 min spoken, ~22 with pauses on visuals. Slide cues inline. **This is the deliverable.** |
 | `decision-log.md` | Every conclusion that was reversed, in order, and why. |
 | `source-documents/` | The JD and the Core Premise doc, as supplied. |
-| **`visuals/*.png`** | 19 standalone PNGs, one per `[SLIDE: …]` cue. 3200 px wide, cropped to content. |
+| **`visuals/*.png`** | 18 standalone PNGs, one per `[SLIDE: …]` cue, cropped to content. |
 | `fact-check-corrections.md` | Every factual correction with its primary source. Open this if a number gets challenged. |
 | `jd-alignment-audit.md` | Audit against the JD (Part 1) and the Core Premise doc (Part 2). Part 2 corrects Part 1. |
 
@@ -24,7 +24,7 @@ that later turned out to be wrong. Kept for the raw channel data only.
 
 | File | Known bad claims |
 |---|---|
-| `where-are-we-failing-brand-analysis.md` | Sequel decay stated as −75% (actual −85% across 7 series); volume framed as causal |
+| `where-are-we-failing-brand-analysis.md` | Sequel decay stated as −75% (from first volume: 9 of 13 series down 88–98%, two grew); volume framed as causal |
 | `where-are-we-failing-synthesis.md` | Contains "351 out of 328 videos" — impossible; volume framed as causal |
 | `network-failure-diagnosis.md` | Volume framed as causal |
 | `abyssal-detective-2-analysis.md` | Recommends merging AD2 into AD1 — violates the tactical-only constraint, and the premise doc gives AD2 a real territory |
@@ -78,9 +78,9 @@ curiosity about it. That is the thing being protected for the wrong reasons.
 
 | Channel | Topic | The document | Cases | Runtime |
 |---|---|---|---|---|
-| Abyssal Observer | Reality TV Casting | the background check | 42 (one person each) | 50 min |
-| Abyssal Detective | Structural Collapses | the engineering report | 44 | 55 min |
-| Abyssal Detective 2 | Lift & Cable Failures | the inspection certificate | 40 | 48 min |
+| Abyssal Observer | Reality TV Casting | the background check | ~42 (one person each) | 50 min |
+| Abyssal Detective | Structural Collapses | the engineering report | ~44 | 55 min |
+| Abyssal Detective 2 | Lift & Cable Failures | the inspection certificate | ~40 | 48 min |
 
 **The pitches are one idea, applied where it fits.** Topic-level novelty is
 effectively unwinnable now — Kitchen Nightmares, child stars, India and Telegram were all tested
