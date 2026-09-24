@@ -10,7 +10,7 @@ files predate two correction passes and still contain claims that were later dis
 | File | What it is |
 |---|---|
 | **`ABYSSAL-NETWORK-APPLICATION-FULL-EXPORT.md`** | **Everything in one file** — brief, decision log, script, slide index, both audits, appendix. ~18,600 words. Use this to hand the work to anyone. |
-| **`presentation-script.md`** | The script. 29 min at 150 wpm, 31 at 140. Slide cues inline. **This is the deliverable.** |
+| **`presentation-script.md`** | The script. 28 min at 150 wpm, 30 at 140. Slide cues inline. **This is the deliverable.** |
 | `decision-log.md` | Every conclusion that was reversed, in order, and why. |
 | `source-documents/` | The JD and the Core Premise doc, as supplied. |
 | **`visuals/*.png`** | 16 standalone PNGs, one per `[SLIDE: …]` cue. 3200×1800. |

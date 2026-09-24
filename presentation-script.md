@@ -1,5 +1,5 @@
 # NIA Production — Creative Strategist (Abyssal Network)
-## Loom script · 29 min at 150 wpm, 31 at 140 — section timings below are measured, not estimated
+## Loom script · 28 min at 150 wpm, 30 at 140 — section timings below are measured, not estimated
 
 *Speak it, don't read it — the slides carry the ladders, so don't narrate them. ~4,340 words:
 about 27 min at a brisk conversational pace, 31 if you read it. The brief asks for 20–30, so
@@ -331,7 +331,7 @@ One thing I'm not going to do is apply it to all three channels. Two of them sit
 mandatory inspection regimes that generate paper by law. The third doesn't, and its problem is
 different anyway — so it gets a different answer.
 
-## Pitch 1 · Abyssal Detective — "the Most Disturbing Structural Collapses Iceberg" — 2.75 min
+## Pitch 1 · Abyssal Detective — "the Most Disturbing Structural Collapses Iceberg" — 2.25 min
 
 *[SLIDE: pitch-collapses.png]*
 
@@ -343,12 +343,11 @@ people were inside. It's also the most-filmed disaster category there is, which 
 thin footage is what's been sinking AD's recent slate.
 
 **Framework.** Seven levels, five to seven cases each — about 44 — at 55 minutes. The ladder's on
-screen so I won't read it. The shape is scale and who was inside: cranes and scaffolding at the
-top, then bridges, then buildings that fell on the people building them, then public venues,
-then occupied homes, then industrial, then dams where the toll stops being countable.
+screen so I won't read it. It escalates on scale and on who was inside: cranes and scaffolding at
+the top, down to dams where the toll stops being countable.
 
 Three anchors. **Hyatt Regency, 114 dead** — a walkway redesign approved over the phone that
-doubled the load on a connection nobody recalculated. **Surfside, 98 dead** — and a 2018 report
+doubled the load on a connection nobody recalculated. **Surfside, 98 dead** — a 2018 report
 describing major structural damage to the slab, three years before it came down. **Rana Plaza,
 1,134 dead** — cracks photographed the day before, workers ordered back in.
 
@@ -357,23 +356,18 @@ running, nothing happening. Then the frame fills with dust. Cut to black. *"Nine
 before this, a structural engineer wrote a report about this building. Somebody read it. Nobody
 did anything."*
 
-**What I'd change.** The level stops being a severity tier and becomes a position on the warning
-timeline, so the ordering argues something instead of stacking bodies. And every segment closes
-on the document rather than the death toll — the video gets a repeating beat instead of a list.
+**What I'd change.** Every segment closes on the report rather than the death toll. The video
+gets a repeating beat instead of a list.
 
-**How it differs from the original, and why it wins.** Two readings of "the original," so both.
-Against a **standard Abyssal video**: a footage iceberg promises a clip you haven't seen; this
-promises the ceiling above your head and then tells you it was written down. Against an
-**existing video on this topic**: there isn't one — no structural-collapse iceberg exists. What
-does exist is single-disaster explainers, and every one stops at the cause. None asks who already
-knew.
+**Why it wins.** Against a standard Abyssal video: a footage iceberg promises a clip you haven't
+seen; this promises the ceiling above your head and then tells you it was written down. Against
+what already exists on the topic: no structural-collapse iceberg does. What does exist is
+single-disaster explainers, and every one stops at the cause. None asks who already knew.
 
-**Does it feel like an Abyssal video?** All five hold, the third one hardest — the collapse
-footage is public, the report is not.
-
-**Monetization.** No gore needed; it's dust and distance. Spread across a dozen countries so it
-isn't built on one nation's legal system, and it touches no religion or political debate.
-Cleanest of the three to ship.
+**Fit and monetization.** All five invariants hold, the third hardest — the footage is public,
+the report is not. No gore needed; it's dust and distance. Spread across a dozen countries so it
+isn't built on one legal system, and it touches no religion or political debate. Cleanest of the
+three to ship.
 
 ## Pitch 2 · Abyssal Detective 2 — "the Most Disturbing Lift & Cable Failures Iceberg" — 3 min
 
@@ -381,24 +375,23 @@ Cleanest of the three to ship.
 
 **The document: the inspection certificate.**
 
-A correction first. I originally pitched this as elevators and escalators only, then checked the
-supply. The US sees about **30 elevator and escalator deaths a year**, and nearly half are
-maintenance workers in shafts — almost never on camera. Footage is abundant at the shallow end
-and thinnest at exactly the levels that carry the payoff. Forty elevator incidents in a row also
-walks into your "segments too similar" rule.
+A correction first. I pitched this as elevators and escalators only, then checked the supply. The
+US sees about **30 elevator and escalator deaths a year**, and nearly half are maintenance workers
+in shafts — almost never on camera. Footage is abundant at the shallow end and thinnest at exactly
+the levels that carry the payoff. Forty elevator incidents in a row also walks into your "segments
+too similar" rule.
 
 So I widened it to every machine that lifts people under mandatory inspection: elevators,
 escalators, funiculars, cable cars, ski lifts, mine hoists. Same document, far better footage,
 visually distinct segment to segment.
 
 **Framework.** Seven levels, about 40 cases, 48 minutes — inside spec, correcting my earlier
-30-to-35-minute version. The descent runs on the state of the certificate: current and nobody
-hurt, then entrapments, injuries, survivals, single deaths, then deaths where the paperwork had
-already failed.
+30-to-35-minute version. It escalates on harm, from entrapments to mass casualty; the certificate
+is what every segment lands on.
 
-Three anchors. **Rome, 2018** — an escalator accelerated under a crowd of CSKA Moscow fans,
-**24 injured**, one man partially lost a foot; both service and emergency braking were found
-ineffective and **eleven people were indicted in 2023 for manslaughter and fraud**. **Samuel
+Three anchors. **Rome, 2018** — an escalator accelerated under a crowd of CSKA Moscow fans, **24
+injured**, one man partially lost a foot; both service and emergency braking were found
+ineffective and **eleven people were indicted in 2023** for manslaughter and fraud. **Samuel
 Waisbren, 30** — the door-zone restrictor was disabled, the building had been **fined $1,300 for
 exactly that**, and it was still unfixed the day it killed him. And at the bottom,
 **Stresa–Mottarone, 2021**: the cable snapped and the emergency brake never engaged, because a
@@ -412,20 +405,17 @@ never once looked at it. Every person in this video was killed by a machine that
 what the elevator did." This is "look what the certificate said, and who signed it." Same
 footage, different question — it turns a compilation into an argument.
 
-**How it differs from the original, and why it wins.** Against the **existing videos**: this
-space is entirely clips with no story, a segment killer in your own bar. All forty here have a
-name, a cause and a piece of paper. Against the **standard AD2 video**: AD2's promise is the
-footage format itself. This keeps that and adds a second promise underneath.
+**Why it wins.** What exists in this space is clips with no story — a segment killer in your own
+bar. All forty here have a name, a cause and a piece of paper. And AD2 keeps its promise: the
+footage format stays, with a second promise underneath it.
 
-**Does it feel like an Abyssal video?** Best fit of the three on invariant two — nothing here
-needs to be shown to land, which is what "the guide takes the hit" means in practice. Patreon
-gets the uncut footage and the certificates.
+**Fit, monetization, territory.** Best fit of the three on invariant two — nothing here needs to
+be shown to land, which is what "the guide takes the hit" means in practice. Patreon gets the
+uncut footage and the certificates. And it opens a repeatable line for AD2: machines under
+mandatory inspection that killed the people they were certified to carry. Lifts, then boilers and
+pressure vessels, then cranes. Every one comes with a paper trail by law.
 
-**Territory it opens.** Machines under mandatory inspection that killed the people they were
-certified to carry. Lifts, then boilers and pressure vessels, then cranes. Every one comes with a
-paper trail by law.
-
-## Pitch 3 · Abyssal Observer — "the Most Disturbing Reality TV Casting Iceberg" — 4 min
+## Pitch 3 · Abyssal Observer — "the Most Disturbing Reality TV Casting Iceberg" — 3.5 min
 
 *[SLIDE: pitch-casting.png]*
 
@@ -433,19 +423,16 @@ paper trail by law.
 
 I tried to force the document axis onto Kitchen Nightmares and it died twice — first on the
 records, because inspection retention is about **three years** and the series ran 2007 to 2014,
-then on arithmetic, because **one show cannot fill seven levels**. You need five to seven cases
-at the deepest tier and Kitchen Nightmares has one Cerniglia. AO's problem was never exhaustion
-anyway; it drifted off its own written rule. It doesn't need a new axis, it needs the rule
-enforced.
+then on arithmetic, because one show cannot fill seven levels. You need five to seven cases at the
+deepest tier and Kitchen Nightmares has one Cerniglia. AO's problem was never exhaustion anyway;
+it drifted off its own written rule. It doesn't need a new axis, it needs the rule enforced.
 
 **The topic: the people reality TV put on screen without checking who they were.
 The document: the background check.**
 
 **Framework.** Seven levels, about 42 cases, one person each, 50 minutes — every one comes with
-broadcast footage, so the thirty-second bar clears automatically. The descent runs on the
-seriousness of the offence: financial crime, then the records that were already public at
-casting, then charges during the run, then violence, then sexual offences, then offences against
-children, then murder and the shows that got pulled.
+broadcast footage, so the thirty-second bar clears automatically. It escalates on the seriousness
+of the offence, from financial crime down to murder and the shows that got pulled.
 
 Three anchors. **Todd and Julie Chrisley** — twelve years and seven years for bank fraud and tax
 evasion. **Geoffrey Paschel**, *90 Day Fiancé* — convicted of aggravated assault and kidnapping.
@@ -457,30 +444,27 @@ girlfriend**. VH1 pulled the series mid-run.
 Hold it a beat too long. *"Eleven months after this tape, he was arrested for murder. The network
 said it ran a full background check. It did. The conviction was already in it."*
 
-**What I'd change.** AO currently picks a show and then looks for consequences inside it. I'd
-invert it — start from the consequence and let the show be how you enter the story. Same rule AO
-already wrote, run in the direction that actually finds material.
+**What I'd change.** AO picks a show, then hunts for consequences inside it. I'd invert it —
+start from the consequence, let the show be how you enter the story. Same rule, run in the
+direction that actually finds material.
 
-**How it differs from the original, and why it wins.** Against the **existing videos**:
-reality-TV crime coverage is almost entirely one-person profiles — a whole video on the
-Chrisleys, a whole video on Duggar. Nobody has put them in one ordered descent with the casting
-process as the through-line. Against the **standard AO video**: AO's shape is one show, many
-incidents. This is one failure mode, many shows — which is exactly what lets it reach the depth
-a single show can't.
+**Why it wins.** Reality-TV crime coverage is almost entirely one-person profiles — a whole video
+on the Chrisleys, a whole video on Duggar. Nobody has put them in one ordered descent with casting
+as the through-line. And where AO's shape is one show and many incidents, this is one failure mode
+and many shows — which is what lets it reach depth a single show can't.
 
-**On the named-show objection.** AO's data says named shows beat generic 777,000 to 50,000 and
-this isn't one show — but that gap was never about the name. Marvel failed because nothing was
+On the named-show objection: AO's data says named shows beat generic 777,000 to 50,000, and this
+isn't one show. But that gap was never about the name — Marvel failed because nothing was
 underneath it. Every case here names a show and has a court record under it.
 
-**Does it feel like an Abyssal video?** The one to watch is the moral frame. Handled badly this
-is a gawk-at-criminals list. Handled right, the perpetrators are judged, victims are named once
-and with restraint, and the institution held to account is the casting process — which is the
-real subject.
+**Fit.** The one to watch is the moral frame. Handled badly this is a gawk-at-criminals list.
+Handled right, the institution held to account is the casting process — which is the real
+subject.
 
 **Monetization, and one call I'd make up front.** Crime and conviction ships more easily than
 suicide, and no crime-scene material is needed. **Level 6 is the exception** — offences against
-children are the hardest category on the platform, and I wouldn't let a researcher decide that on
-the fly. My call: keep it, two sentences per case, charge and sentence and nothing else, nothing
+children are the hardest category on the platform, and that's not a call to leave to a researcher
+on the fly. Mine: keep it, two sentences per case, charge and sentence and nothing else, nothing
 extra behind the paywall. If the limited-ads rate says otherwise after one video, cut the level
 rather than soften the rest.
 
