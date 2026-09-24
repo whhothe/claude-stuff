@@ -1,560 +1,278 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8"><title>Abyssal Charts</title>
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Abyssal figures</title>
 <style>
-  :root{--surface:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--ink3:#8a8880;--grid:#2e2e2c;
-        --red:#e66767;--blue:#3987e5;--aqua:#199e70;--amber:#c98500}
-  *{margin:0;padding:0;box-sizing:border-box}
-  body{background:#000;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
-  .slide{width:1600px;background:var(--surface);color:var(--ink);
-         padding:52px 72px 46px;position:relative;overflow:hidden;margin-bottom:20px}
-  h1{font-size:42px;font-weight:700;letter-spacing:-.8px;line-height:1.1}
-  .sub{font-size:20px;color:var(--ink3);margin-top:10px}
-  .foot{margin-top:34px;font-size:16px;color:var(--ink3);line-height:1.5}
-  .body{margin-top:34px}
-  svg{display:block;overflow:visible}
-  text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
-  .legend{display:flex;gap:28px;margin-top:10px;font-size:18px;color:var(--ink2);align-items:center}
-  .legend i{display:inline-block;width:14px;height:14px;border-radius:3px;margin-right:9px;vertical-align:-1px}
-  table{border-collapse:separate;border-spacing:0;width:100%;font-size:19px}
-  th{text-align:left;font-size:15px;font-weight:600;color:var(--ink3);text-transform:uppercase;
-     letter-spacing:1.1px;padding:0 18px 13px 0;border-bottom:1px solid var(--grid)}
-  td{padding:14px 18px 14px 0;border-bottom:1px solid var(--grid);color:var(--ink2);vertical-align:top;line-height:1.45}
-  td.k{color:var(--ink);font-weight:600}
-  .card{background:#212120;border-radius:14px;padding:26px 28px}
-  .cardttl{font-size:15px;letter-spacing:1.1px;text-transform:uppercase;font-weight:700;margin-bottom:14px}
-  .big{font-size:62px;font-weight:800;letter-spacing:-2.5px;line-height:1}
-  .lab{font-size:17px;color:var(--ink3);margin-top:10px;line-height:1.45}
-  .eyebrow{font-size:14px;letter-spacing:1.1px;text-transform:uppercase;color:var(--ink3);font-weight:700}
-  .quote{font-style:italic;color:var(--ink2)}
-</style></head>
-<body>
+:root{--bg:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--ink3:#8a8880;--grid:#2e2e2c;--red:#e66767;--blue:#3987e5;--aqua:#199e70;--amber:#c98500;--mute:#4a4945}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0e0e0d;font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;padding:20px}
+.fig{width:1600px;background:var(--bg);color:var(--ink);padding:60px 76px 56px;margin-bottom:24px}
+h1{font-size:40px;font-weight:700;letter-spacing:-.6px;line-height:1.15}
+.sub{font-size:20px;color:var(--ink3);margin-top:10px}
+.chart{margin-top:44px}
+.src{font-size:16px;color:var(--ink3);margin-top:30px;line-height:1.5}
+svg{display:block;overflow:visible} text{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+table{border-collapse:collapse;width:100%;font-size:22px}
+th{text-align:left;font-size:15px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:var(--ink3);padding:0 24px 16px 0;border-bottom:1px solid var(--grid)}
+td{padding:22px 24px 22px 0;border-bottom:1px solid var(--grid);color:var(--ink2);vertical-align:middle;line-height:1.35}
+td.k{color:var(--ink);font-weight:600}
+td.num{font-variant-numeric:tabular-nums}
+.x{color:var(--red);font-weight:700;font-size:26px}.ok{color:var(--ink3);font-size:26px}
+.legend{display:flex;gap:30px;font-size:18px;color:var(--ink2);margin-top:26px}
+.legend i{display:inline-block;width:14px;height:14px;border-radius:3px;margin-right:9px;vertical-align:-1px}
+.flow{display:flex;align-items:center;gap:0;margin-top:48px}
+.node{background:#242423;border-radius:12px;padding:22px 24px;font-size:22px;color:var(--ink);font-weight:600;line-height:1.3;text-align:center}
+.node small{display:block;font-size:15px;color:var(--ink3);font-weight:500;margin-top:6px;letter-spacing:.3px}
+.arrow{color:var(--ink3);font-size:28px;padding:0 16px}
+.rowlab{font-size:15px;letter-spacing:1.2px;text-transform:uppercase;font-weight:700;color:var(--ink3);width:130px;flex:none}
+.lrow{display:grid;grid-template-columns:96px 1fr 90px;column-gap:28px;align-items:center;padding:14px 0;border-bottom:1px solid var(--grid)}
+.lhead{display:grid;grid-template-columns:96px 1fr 90px;column-gap:28px;font-size:14px;font-weight:700;letter-spacing:1.2px;color:var(--ink3);padding-bottom:12px;border-bottom:1px solid var(--grid)}
+.chip{border-radius:7px;text-align:center;font-weight:800;font-size:18px;padding:10px 0}
+.lvn{font-size:22px;font-weight:650;color:var(--ink)}
+.lvd{font-size:17px;color:var(--ink3);margin-top:4px}
+.cnt{font-size:20px;color:var(--ink2);text-align:right;font-variant-numeric:tabular-nums}
+.meta{font-size:21px;color:var(--ink2);margin-top:12px}.meta b{color:var(--aqua)}
+</style></head><body>
 
-<!-- 1 · THE COLLAPSE -->
-<div class="slide" id="the-collapse">
-  <h1>Peak to now</h1>
-  <div class="sub">Average views per video &mdash; every channel, same measure, same scale</div>
-  <div class="legend"><span><i style="background:var(--blue)"></i>Peak month</span><span><i style="background:var(--red)"></i>September 2026</span></div>
-  <div class="body"><svg id="s-collapse" width="1456" height="500"></svg></div>
-  <div class="foot">AD1 peak Mar 2025 · AO peak Feb 2026 · AD2 peak Oct 2025. Nothing about the format changed in this window.</div>
-</div>
+<div class="fig" id="the-collapse"><h1>Per-video views fell 78–93% in eighteen months</h1>
+<div class="sub">Monthly average views per video, by channel</div>
+<div class="legend"><span><i style="background:var(--blue)"></i>Abyssal Detective</span><span><i style="background:var(--aqua)"></i>Abyssal Observer</span><span><i style="background:var(--amber)"></i>Abyssal Detective 2</span></div>
+<div class="chart"><svg id="c-collapse" width="1448" height="560"></svg></div></div>
 
-<!-- 2 · THE VOLUME QUESTION -->
-<div class="slide" id="the-volume-question">
-  <h1>Where my first answer was wrong</h1>
-  <div class="sub">Uploads per month vs average views per video &mdash; 61 channel-months, all three channels</div>
-  <div class="legend"><span><i style="background:var(--blue)"></i>2024&ndash;2025</span><span><i style="background:var(--red)"></i>2026</span></div>
-  <div class="body" style="display:flex;gap:60px">
-    <svg id="s-scatter" width="850" height="560"></svg>
-    <div style="flex:1;padding-top:16px">
-      <div style="font-size:22px;color:var(--ink2);line-height:1.65">
-        Blue sits high, red sits low &mdash; but look <em>within</em> either colour and the slope
-        nearly vanishes.
-      </div>
-      <div style="margin-top:36px;border-top:1px solid var(--grid);padding-top:30px">
-        <div class="eyebrow">Correlation, uploads vs views</div>
-        <div style="display:flex;gap:52px;margin-top:22px">
-          <div><div style="font-size:50px;font-weight:800;color:var(--ink2);letter-spacing:-1.8px">&minus;0.21</div><div style="font-size:17px;color:var(--ink3);margin-top:6px">all 61 months</div></div>
-          <div><div style="font-size:50px;font-weight:800;color:var(--red);letter-spacing:-1.8px">&minus;0.13</div><div style="font-size:17px;color:var(--ink3);margin-top:6px">2026 only</div></div>
-        </div>
-      </div>
-      <div style="margin-top:34px;background:#212120;border-radius:12px;padding:26px 28px;font-size:20px;color:var(--ink);line-height:1.6">
-        2026 totals: &le;5 uploads/mo earned <strong>1.22M</strong>.<br>
-        &ge;7 uploads/mo earned <strong>2.05M</strong>.<br>
-        <span style="color:var(--ink3)">Cutting output would have cost money.</span>
-      </div>
-    </div>
-  </div>
-</div>
+<div class="fig" id="the-volume-question"><h1>More uploads didn't cost per-video views</h1>
+<div class="sub">2026 channel-months, grouped by uploads that month &nbsp;·&nbsp; correlation r = −0.13</div>
+<div class="chart" style="display:flex;gap:110px"><svg id="c-vol1" width="660" height="440"></svg><svg id="c-vol2" width="660" height="440"></svg></div></div>
 
-<!-- 3 · CURIOSITY TO CLOSE -->
-<div class="slide" id="curiosity-to-close">
-  <h1>Nobody wonders about fishing</h1>
-  <div class="sub">A topic only works if there is pre-existing morbid curiosity to close</div>
-  <div class="legend"><span><i style="background:var(--aqua)"></i>Curiosity already existed</span><span><i style="background:var(--red)"></i>No curiosity to close</span></div>
-  <div class="body"><svg id="s-curiosity" width="1456" height="470"></svg></div>
-  <div class="foot quote">&ldquo;Abyssal tells real life horror stories so the audience never has to go and find them&hellip; the viewer gets their morbid curiosity closed just by sitting and watching.&rdquo; &mdash; Core Premise §1.1</div>
-</div>
+<div class="fig" id="curiosity-to-close"><h1>Curiosity already there vs curiosity that isn't</h1>
+<div class="sub">Views per video</div>
+<div class="chart"><svg id="c-curio" width="1448" height="470"></svg></div></div>
 
-<!-- 4 · THE 35-CASE TRAP -->
-<div class="slide" id="the-35-case-trap">
-  <h1>The runtime is picking your topics</h1>
-  <div class="sub">What we are protecting for the wrong reasons</div>
-  <div class="body" style="margin-top:42px">
-    <div style="display:flex;align-items:stretch;gap:18px">
-      <div class="card" style="flex:1"><div class="eyebrow">The spec</div>
-        <div style="font-size:27px;color:var(--ink);font-weight:700;margin-top:14px;line-height:1.3">7 levels<br>&times; 5&ndash;7 cases</div>
-        <div class="lab">= 35&ndash;50 cases per video</div></div>
-      <div style="display:flex;align-items:center;font-size:34px;color:var(--ink3)">&rarr;</div>
-      <div class="card" style="flex:1"><div class="eyebrow">Each case needs</div>
-        <div style="font-size:27px;color:var(--ink);font-weight:700;margin-top:14px;line-height:1.3">30+ seconds<br>of real footage</div>
-        <div class="lab">photos only = killed</div></div>
-      <div style="display:flex;align-items:center;font-size:34px;color:var(--ink3)">&rarr;</div>
-      <div class="card" style="flex:1"><div class="eyebrow">So the topic must yield</div>
-        <div style="font-size:27px;color:var(--ink);font-weight:700;margin-top:14px;line-height:1.3">50 separate<br>filmed incidents</div>
-        <div class="lab">almost nothing that good is that broad</div></div>
-      <div style="display:flex;align-items:center;font-size:34px;color:var(--red)">&rarr;</div>
-      <div class="card" style="flex:1.15;background:#2a1d1d"><div class="eyebrow" style="color:var(--red)">So the question inverts</div>
-        <div style="font-size:23px;color:var(--ink);font-weight:700;margin-top:14px;line-height:1.35">not &ldquo;what do people<br>already want to know&rdquo;<br>but &ldquo;what can I find<br>50 clips of&rdquo;</div></div>
-    </div>
-    <div style="margin-top:44px;background:#212120;border-radius:14px;padding:32px 36px;display:flex;align-items:center;gap:40px">
-      <div style="flex-shrink:0"><div style="font-size:58px;font-weight:800;color:var(--red);letter-spacing:-2px">65,000</div>
-        <div style="font-size:17px;color:var(--ink3);margin-top:6px">Fishing Encounters</div></div>
-      <div style="font-size:25px;color:var(--ink);line-height:1.5;border-left:1px solid var(--grid);padding-left:40px">
-        That is what the second question returns.<br>
-        <span style="color:var(--ink3)">You are not protecting the iceberg. You are protecting the runtime.</span>
-      </div>
-    </div>
-  </div>
-</div>
+<div class="fig" id="three-tests"><h1>Recent topics against the three greenlight tests</h1>
+<div class="chart"><table>
+<tr><th>Topic</th><th>Views</th><th>Real depth</th><th>Surface pulls a cold click</th><th>Descent they can't find alone</th></tr>
+<tr><td class="k">Fishing Encounters</td><td class="num">65K</td><td class="x">✕</td><td class="ok">✓</td><td class="x">✕</td></tr>
+<tr><td class="k">Amazon Incidents</td><td class="num">71K</td><td class="x">✕</td><td class="ok">✓</td><td class="x">✕</td></tr>
+<tr><td class="k">Biblical Horrors</td><td class="num">60K</td><td class="x">✕</td><td class="x">✕</td><td class="x">✕</td></tr>
+</table></div></div>
 
-<!-- 5 · SEQUEL DECAY -->
-<div class="slide" id="sequel-decay">
-  <h1>Every series decays. One didn&rsquo;t.</h1>
-  <div class="sub">Change from the series&rsquo; best volume to its most recent volume</div>
-  <div class="body"><svg id="s-sequel" width="1456" height="500"></svg></div>
-  <div class="foot">Seven multi-volume series, averaging <strong style="color:var(--ink2)">&minus;85%</strong>. &ldquo;Which series earn a next volume and which are exhausted&rdquo; is the strategist&rsquo;s call. It is not being made.</div>
-</div>
+<div class="fig" id="the-35-case-trap"><h1>The runtime is choosing the topics</h1>
+<div class="flow">
+<div class="node">7 levels × 5–7 cases</div><div class="arrow">→</div>
+<div class="node">30+ seconds of<br>footage per case</div><div class="arrow">→</div>
+<div class="node">35–50 filmed<br>incidents needed</div><div class="arrow">→</div>
+<div class="node" style="background:#3a2322;color:var(--red)">“What can we find<br>50 clips of?”</div><div class="arrow">→</div>
+<div class="node" style="background:#3a2322;color:var(--red)">Fishing Encounters<small>65K VIEWS</small></div>
+</div></div>
 
-<!-- 6 · EIGHT-VIDEO CLIFF -->
-<div class="slide" id="the-eight-video-cliff">
-  <h1>Seven works. Eight breaks.</h1>
-  <div class="sub">Total views the network earned per month, by exact upload count &mdash; 2026</div>
-  <div class="body"><svg id="s-cliff" width="1456" height="460"></svg></div>
-  <div style="margin-top:44px;font-size:25px;color:var(--ink);line-height:1.5;background:#212120;border-radius:14px;padding:30px 36px">
-    The premise doc says each channel uploads <strong>about twice a week</strong> &mdash; which is eight a month.
-    <span style="color:var(--ink3)">Your stated cadence is precisely the tier where the numbers collapse.</span>
-  </div>
-</div>
+<div class="fig" id="sequel-decay"><h1>Sequels lose 85% on average</h1>
+<div class="sub">Best volume → latest volume</div>
+<div class="chart"><svg id="c-seq" width="1448" height="500"></svg></div>
+<div class="src">Average of the seven declines: −84.7%. The one riser was a genuinely new topic.</div></div>
 
-<!-- 7 · CONVERGENCE -->
-<div class="slide" id="convergence">
-  <h1>Four times the audience, the same reach</h1>
-  <div class="sub">Two separate measures, shown separately &mdash; the difference in shape is the finding</div>
-  <div class="body" style="display:grid;grid-template-columns:1fr 1fr;gap:64px;margin-top:46px">
-    <div><div class="eyebrow" style="margin-bottom:24px">Subscribers</div><svg id="s-subs" width="640" height="330"></svg></div>
-    <div><div class="eyebrow" style="margin-bottom:24px">Average views per video</div><svg id="s-views" width="640" height="330"></svg></div>
-  </div>
-  <div style="margin-top:46px;font-size:26px;color:var(--ink);line-height:1.5;background:#212120;border-radius:14px;padding:32px 36px">
-    Three channels cannot land on one number by coincidence. One shared cause &mdash; not three separate problems.
-  </div>
-</div>
+<div class="fig" id="the-eight-video-cliff"><h1>Seven uploads a month is the peak. Eight is the cliff.</h1>
+<div class="sub">2026, all three channels · average total views in a month, by uploads that month</div>
+<div class="chart"><svg id="c-cliff" width="1448" height="520"></svg></div></div>
 
-<!-- 7b · THE ASK -->
-<div class="slide" id="the-ask">
-  <h1>Fifteen times Chilling Scares. Nine times GOHA.</h1>
-  <div class="sub">What the network asks a viewer for each month, against the rest of the niche</div>
-  <div class="body"><svg id="s-ask" width="1456" height="300"></svg></div>
-  <div style="display:grid;grid-template-columns:1fr 1fr 1.5fr;gap:24px;margin-top:38px">
-    <div class="card"><div class="big" style="color:var(--red);font-size:46px">59 min</div>
-      <div class="lab">Abyssal Detective average</div></div>
-    <div class="card"><div class="big" style="color:var(--aqua);font-size:46px">~28 min</div>
-      <div class="lab">where this niche&rsquo;s million-view outliers cluster</div></div>
-    <div class="card"><div style="font-size:20px;color:var(--ink);line-height:1.55;padding-top:4px">
-      60% of a 35-minute video and 35% of a 60-minute video are the same 21 minutes watched.<br>
-      <span style="color:var(--ink3)">YouTube rewards the percentage &mdash; the shorter video wins on identical watch time delivered.</span>
-    </div></div>
-  </div>
-  <div class="foot">18.5 uploads/month across three channels at a weighted 54.8 min average = 1,014 minutes.</div>
-</div>
+<div class="fig" id="convergence"><h1>A 4× audience gap, one floor</h1>
+<div class="chart" style="display:flex;gap:110px"><svg id="c-subs" width="660" height="420"></svg><svg id="c-views" width="660" height="420"></svg></div></div>
 
-<!-- 8 · PER CHANNEL -->
-<div class="slide" id="per-channel">
-  <h1>Each channel&rsquo;s own problem &mdash; and why its baseline is falling</h1>
-  <div class="sub">In the order the brief asks for them</div>
-  <div class="body" style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:34px">
+<div class="fig" id="the-ask"><h1>Seventeen hours a month vs an hour or less</h1>
+<div class="sub">Monthly viewing asked of someone who watches every upload · average duration × uploads per month</div>
+<div class="chart"><svg id="c-ask" width="1448" height="430"></svg></div>
+<div class="src">Runtime: Abyssal Detective averages 59 min. Million-view videos in this niche average ~28 min.</div></div>
 
-    <div class="card" style="border-top:3px solid var(--aqua);padding:24px 26px">
-      <div class="cardttl" style="color:var(--aqua);margin-bottom:10px">Abyssal Observer</div>
-      <div style="font-size:44px;font-weight:800;color:var(--aqua);letter-spacing:-1.8px">15.6&times;</div>
-      <div style="font-size:15px;color:var(--ink3);margin-top:4px">named shows vs generic topics</div>
-      <div style="margin-top:18px;padding-top:16px;border-top:1px solid var(--grid);font-size:17px;color:var(--ink2);line-height:1.55">
-        <strong style="color:var(--ink)">It broke its own rule.</strong>
-        <div class="quote" style="margin-top:8px;font-size:16px">&ldquo;If you remove the real-life consequence and only the show is left, it is not an AO topic.&rdquo;</div>
-        <div style="margin-top:10px">Marvel 39.5K · Anime 45.6K · Chinese Shows 54.4K · Directors 60.2K &mdash; show-first, consequence thinned to nothing.</div>
-      </div>
-      <div style="margin-top:16px;padding:14px 16px;background:#12352a;border-radius:10px;font-size:16px;color:var(--ink);line-height:1.5">
-        <strong style="color:var(--aqua)">Why it&rsquo;s falling:</strong> it drifted off a rule that was already written down.
-        Healthiest channel here, and the fastest to fix.
-      </div>
-    </div>
+<div class="fig" id="ao-rule"><h1>AO: keep the consequence, get 15.6× the views</h1>
+<div class="sub">Views per video</div>
+<div class="chart"><svg id="c-ao" width="1448" height="640"></svg></div></div>
 
-    <div class="card" style="border-top:3px solid var(--red);padding:24px 26px">
-      <div class="cardttl" style="color:var(--red);margin-bottom:10px">Abyssal Detective</div>
-      <div style="font-size:44px;font-weight:800;color:var(--red);letter-spacing:-1.8px">&minus;93%</div>
-      <div style="font-size:15px;color:var(--ink3);margin-top:4px">from peak &mdash; the steepest fall</div>
-      <div style="margin-top:18px;padding-top:16px;border-top:1px solid var(--grid);font-size:17px;color:var(--ink2);line-height:1.55">
-        <strong style="color:var(--ink)">Widest permission, furthest drift.</strong>
-        Internet, geography, footage lanes, disasters, books, signs, audios, retail &mdash; almost
-        anything is technically in-territory.
-        <div style="margin-top:10px">Longest channel at <strong style="color:var(--ink)">59 min</strong> against a ~28 min outlier band, and it carries the Patreon Level 8.</div>
-      </div>
-      <div style="margin-top:16px;padding:14px 16px;background:#2a1d1d;border-radius:10px;font-size:16px;color:var(--ink);line-height:1.5">
-        <strong style="color:var(--red)">Why it&rsquo;s falling:</strong> the three-test filter never had grounds to refuse anything.
-        <em>Fishing Encounters</em> passed a greenlight that couldn&rsquo;t say no.
-      </div>
-    </div>
+<div class="fig" id="per-channel"><h1>Why each baseline is falling</h1>
+<div class="chart"><table>
+<tr><th style="width:24%">Channel</th><th style="width:26%">Peak → Sep 2026</th><th style="width:10%">Change</th><th>Cause</th></tr>
+<tr><td class="k">Abyssal Observer</td><td class="num">1,390,590 → 141,082</td><td class="num" style="color:var(--red);font-weight:700">−90%</td><td>Show-only topics getting past its own rule</td></tr>
+<tr><td class="k">Abyssal Detective</td><td class="num">2,035,346 → 138,757</td><td class="num" style="color:var(--red);font-weight:700">−93%</td><td>Widest territory, so nothing gets refused</td></tr>
+<tr><td class="k">Abyssal Detective 2</td><td class="num">601,402 → 133,382</td><td class="num" style="color:var(--red);font-weight:700">−78%</td><td>Runs later volumes of AD1's spent topics</td></tr>
+</table></div></div>
 
-    <div class="card" style="border-top:3px solid var(--amber);padding:24px 26px">
-      <div class="cardttl" style="color:var(--amber);margin-bottom:10px">Abyssal Detective 2</div>
-      <div style="font-size:44px;font-weight:800;color:var(--amber);letter-spacing:-1.8px">28&rarr;55%</div>
-      <div style="font-size:15px;color:var(--ink3);margin-top:4px">on-territory, early half &rarr; recent half</div>
-      <div style="margin-top:18px;padding-top:16px;border-top:1px solid var(--grid);font-size:17px;color:var(--ink2);line-height:1.55">
-        <strong style="color:var(--ink)">Doing the right thing under the old sign.</strong>
-        A real repositioning into footage-format, half done. Vol. N numbering fell <strong style="color:var(--ink)">80% &rarr; 25%</strong>
-        &mdash; but the description still says &ldquo;Vol. 3+&rdquo;.
-      </div>
-      <div style="margin-top:16px;padding:14px 16px;background:#2e2413;border-radius:10px;font-size:16px;color:var(--ink);line-height:1.5">
-        <strong style="color:var(--amber)">Why it&rsquo;s falling:</strong> it&rsquo;s structurally downstream &mdash; Vol 3&ndash;5 of topics
-        AD1 spent at Vol 1&ndash;2. Sequel decay is &minus;85%, so it imports AD1&rsquo;s curve one volume later.
-      </div>
-    </div>
-  </div>
-  <div class="foot">Peak &rarr; now: AO 1,390,590 &rarr; 141,082 (&minus;90%) · AD 2,035,346 &rarr; 138,757 (&minus;93%) · AD2 601,402 &rarr; 133,382 (&minus;78%)</div>
-</div>
+<div class="fig" id="ad2-shift"><h1>AD2's repositioning is working</h1>
+<div class="sub">Earlier 40 videos vs latest 40</div>
+<div class="legend"><span><i style="background:var(--mute)"></i>Earlier half</span><span><i style="background:var(--aqua)"></i>Latest half</span></div>
+<div class="chart"><svg id="c-ad2" width="1448" height="270"></svg></div></div>
 
-<!-- 9 · FIVE CHANGES -->
-<div class="slide" id="five-changes">
-  <h1>Five changes</h1>
-  <div class="sub">Four are tactical. The fifth is the other half of what this test measures.</div>
-  <div class="body" style="margin-top:40px">
-    <table>
-      <tr><th style="width:46px"></th><th style="width:330px">Change</th><th>What it means</th><th style="width:250px">Evidence</th></tr>
-      <tr><td class="k" style="color:var(--aqua);font-size:24px;font-weight:800">1</td>
-        <td class="k">Enforce the three-test filter<br>at greenlight, in writing</td>
-        <td>Depth, surface click, non-self-servable descent. All three yes or no slot &mdash; and the no gets written down with its reason.</td>
-        <td>It already exists in the brief. It stopped being applied.</td></tr>
-      <tr><td class="k" style="color:var(--aqua);font-size:24px;font-weight:800">2</td>
-        <td class="k">Cap at seven per channel.<br>Never eight.</td>
-        <td>A ceiling one notch below current cadence, not a cut in output.</td>
-        <td>7 &rarr; 3.01M total/mo · 8 &rarr; 1.09M</td></tr>
-      <tr><td class="k" style="color:var(--aqua);font-size:24px;font-weight:800">3</td>
-        <td class="k">Kill visible volume numbers,<br>starting with AD2</td>
-        <td>Same topics, standalone titles. &ldquo;Dashcam Vol. 5&rdquo; becomes &ldquo;The Dashcam Footage From Russia Nobody Can Explain.&rdquo;</td>
-        <td>Sequels decay &minus;85% best volume to latest</td></tr>
-      <tr><td class="k" style="color:var(--aqua);font-size:24px;font-weight:800">4</td>
-        <td class="k">Three title frameworks<br>in rotation</td>
-        <td>Reserve &ldquo;Iceberg&rdquo; for 1&ndash;2 premium uploads per channel per month so it means something again.</td>
-        <td>The one non-iceberg title did 407K, ~3&times; current average</td></tr>
-      <tr><td class="k" style="color:var(--red);font-size:24px;font-weight:800">5</td>
-        <td class="k" style="color:var(--red)">Change what a segment ends on</td>
-        <td>A segment stops ending on the footage and ends on <strong>the document that already existed</strong>. Levels still escalate on harm; depth comes from the record, not from volume.</td>
-        <td style="color:var(--red)">All three pitches are this one change, applied three times</td></tr>
-    </table>
-  </div>
-</div>
+<div class="fig" id="five-changes"><h1>Five changes</h1>
+<div class="chart"><table>
+<tr><th style="width:5%">#</th><th style="width:47%">Change</th><th>Evidence</th></tr>
+<tr><td class="k">1</td><td class="k">Three-test filter at greenlight, in writing</td><td>All three recent flops fail it</td></tr>
+<tr><td class="k">2</td><td class="k">Cap at seven uploads per channel a month</td><td class="num">7 → 3.01M total · 8 → 1.09M</td></tr>
+<tr><td class="k">3</td><td class="k">Drop volume numbers, AD2 first</td><td>Sequels lose 85%</td></tr>
+<tr><td class="k">4</td><td class="k">Rotate three title frameworks</td><td>98% one formula · the exception did 407K</td></tr>
+<tr><td class="k" style="color:var(--aqua)">5</td><td class="k" style="color:var(--aqua)">End every segment on the document</td><td>The basis of all three pitches</td></tr>
+</table></div>
+<div class="src">1–4 measurable within two months: per-video average against today's 133–141K.</div></div>
 
-<!-- 10 · NEXT FORMAT -->
-<div class="slide" id="next-format">
-  <h1>What I&rsquo;d want to test, once I&rsquo;d earned it</h1>
-  <div class="sub">A hypothesis, not a day-one recommendation — I have never shipped a video on these channels</div>
-  <div class="body" style="display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:40px">
-    <div class="card">
-      <div class="cardttl" style="color:var(--ink3)">The iceberg today</div>
-      <div style="font-size:22px;color:var(--ink2);line-height:1.6">
-        Depth means <strong style="color:var(--ink)">more incidents</strong>.<br><br>
-        35&ndash;50 cases · 45&ndash;60 min<br>
-        Each level = a worse set of stories.
-        <div style="margin-top:16px;color:var(--red)">Needs a topic broad enough to yield 50 filmed incidents.</div>
-      </div>
-    </div>
-    <div class="card" style="border:1px solid #2c4a3d">
-      <div class="cardttl" style="color:var(--aqua)">The hypothesis</div>
-      <div style="font-size:22px;color:var(--ink2);line-height:1.6">
-        Depth means <strong style="color:var(--ink)">further into one incident</strong>.<br><br>
-        1 case · 7 levels · 25&ndash;35 min<br>
-        L1 what the public knows &rarr; L4 what came out at the inquest &rarr;
-        <strong style="color:var(--ink)">L7 what is in the record nobody has read.</strong>
-      </div>
-    </div>
-  </div>
-  <div style="margin-top:32px;display:grid;grid-template-columns:repeat(4,1fr);gap:20px">
-    <div class="card"><div style="font-size:20px;color:var(--aqua);font-weight:700">Frees topic choice</div>
-      <div class="lab" style="color:var(--ink2)">No 50-clip constraint, so selection goes back to morbid curiosity</div></div>
-    <div class="card"><div style="font-size:20px;color:var(--aqua);font-weight:700">Lands at ~28 min</div>
-      <div class="lab" style="color:var(--ink2)">Where the million-view outliers in this niche actually cluster</div></div>
-    <div class="card"><div style="font-size:20px;color:var(--aqua);font-weight:700">Defensible</div>
-      <div class="lab" style="color:var(--ink2)">A solo creator cannot run inquest records at volume. You have a team.</div></div>
-    <div class="card" style="background:#2a1d1d"><div style="font-size:20px;color:var(--red);font-weight:700">The risk I can&rsquo;t price</div>
-      <div class="lab" style="color:var(--ink2)">Lower case density — if the single case doesn&rsquo;t hold, nothing else carries the video</div></div>
-  </div>
-  <div class="foot">All five invariants hold. Test cost: <strong>one video, one channel, one month</strong>, measured against that channel’s own baseline.</div>
-</div>
+<div class="fig" id="next-format"><h1>One format worth testing</h1>
+<div class="sub">One video, one channel, one month</div>
+<div class="chart"><table>
+<tr><th style="width:28%"></th><th style="width:36%">Today</th><th style="color:var(--aqua)">To test</th></tr>
+<tr><td class="k">Cases per video</td><td class="num">35–50</td><td class="num" style="color:var(--ink)">1</td></tr>
+<tr><td class="k">Runtime</td><td class="num">45–60 min</td><td class="num" style="color:var(--ink)">25–35 min</td></tr>
+<tr><td class="k">Depth means</td><td>More incidents</td><td style="color:var(--ink)">Further into one incident</td></tr>
+<tr><td class="k">Main risk</td><td>Needs 35–50 filmable incidents</td><td style="color:var(--ink)">The single case has to hold</td></tr>
+</table></div></div>
 
-<!-- 11 · FIVE INVARIANTS -->
-<div class="slide" id="five-invariants">
-  <h1>What makes it an Abyssal video</h1>
-  <div class="sub">Your five &mdash; and the one doing the actual work</div>
-  <div class="body"><svg id="s-mind" width="1456" height="520"></svg></div>
-  <div class="foot">The moment a topic is something the viewer <em>could</em> comfortably find alone, you stop closing morbid
-  curiosity and start competing on production value with people who have more time than you.</div>
-</div>
+<div class="fig" id="five-invariants"><h1>What makes it an Abyssal video</h1>
+<div class="chart"><svg id="c-mind" width="1448" height="470"></svg></div></div>
 
-<!-- 11b · THE DOCUMENT AXIS -->
-<div class="slide" id="the-document-axis">
-  <h1>Every segment ends on the paperwork</h1>
-  <div class="sub">Not a new topic. A new signature.</div>
-  <div class="body" style="display:flex;gap:34px;margin-top:40px">
-    <div class="card" style="flex:1;opacity:.72">
-      <div class="cardttl" style="color:var(--ink3)">Today &mdash; the segment ends on the footage</div>
-      <div style="font-size:19px;color:var(--ink2);line-height:1.75;margin-top:6px">
-        the clip &rarr; the toll &rarr; next clip<br><br>
-        <span style="color:var(--ink3)">Severity is the only thing stacking.</span>
-      </div>
-      <div style="margin-top:20px;padding-top:18px;border-top:1px solid var(--grid);font-size:17px;color:var(--red);line-height:1.5">
-        So you need fifty clips to make the stack tall.
-      </div>
-    </div>
-    <div class="card" style="flex:1.45;border:1px solid #2c4a3d">
-      <div class="cardttl" style="color:var(--aqua)">Instead &mdash; the segment ends on the document</div>
-      <div style="font-size:19px;color:var(--ink);line-height:1.7;margin-top:6px">
-        the clip &rarr; the toll &rarr; <strong>&ldquo;and here is the report, filed nineteen months earlier&rdquo;</strong>
-        <div style="margin-top:14px;color:var(--ink2)">Levels still escalate on harm, which is abundant.
-        The document is the signature of every case, not the definition of the level.</div>
-      </div>
-      <div style="margin-top:20px;padding-top:18px;border-top:1px solid var(--grid);font-size:17px;color:var(--aqua);line-height:1.5">
-        Depth stops coming from volume and starts coming from the record — and unlike a document-defined ladder, it actually fills.
-      </div>
-    </div>
-  </div>
-  <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:34px">
-    <div class="card"><div style="font-size:18px;color:var(--aqua);font-weight:700;line-height:1.3">Fixes obscurity</div>
-      <div class="lab" style="color:var(--ink2);font-size:15px">The surface can be familiar. Inquiry reports are not on YouTube.</div></div>
-    <div class="card"><div style="font-size:18px;color:var(--aqua);font-weight:700;line-height:1.3">Moral frame becomes structural</div>
-      <div class="lab" style="color:var(--ink2);font-size:15px">Institutions held to account is the spine, not the outro</div></div>
-    <div class="card"><div style="font-size:18px;color:var(--aqua);font-weight:700;line-height:1.3">Escalates harder</div>
-      <div class="lab" style="color:var(--ink2);font-size:15px">Three deaths someone predicted beats a hundred nobody did</div></div>
-    <div class="card"><div style="font-size:18px;color:var(--aqua);font-weight:700;line-height:1.3">Defensible</div>
-      <div class="lab" style="color:var(--ink2);font-size:15px">Anyone can pull clips. Pulling inquest files at volume needs a team.</div></div>
-    <div class="card"><div style="font-size:18px;color:var(--aqua);font-weight:700;line-height:1.3">Better Patreon</div>
-      <div class="lab" style="color:var(--ink2);font-size:15px">&ldquo;The document we couldn&rsquo;t put on YouTube&rdquo;</div></div>
-  </div>
-  <div class="foot">I got this wrong once: making the <em>level</em> mean the document reads beautifully and fails arithmetic — &ldquo;they knew and did it anyway&rdquo; is the rarest state there is, and the spec needs 5–7 cases at every tier.</div>
-</div>
+<div class="fig" id="the-document-axis"><h1>Every segment ends on the paperwork</h1>
+<div class="flow" style="margin-top:52px"><div class="rowlab">Today</div>
+<div class="node">Footage</div><div class="arrow">→</div><div class="node">Toll</div><div class="arrow">→</div><div class="node" style="color:var(--ink3)">Next clip</div></div>
+<div class="flow" style="margin-top:22px"><div class="rowlab" style="color:var(--aqua)">Change</div>
+<div class="node">Footage</div><div class="arrow">→</div><div class="node">Toll</div><div class="arrow">→</div><div class="node" style="background:#13352a;color:var(--aqua)">The document that already existed</div></div>
+<div class="chart" style="margin-top:48px"><table>
+<tr><th style="width:34%">Channel</th><th>The document</th></tr>
+<tr><td class="k">Abyssal Detective</td><td>The engineering report</td></tr>
+<tr><td class="k">Abyssal Detective 2</td><td>The inspection certificate</td></tr>
+<tr><td class="k">Abyssal Observer</td><td>The background check</td></tr>
+</table></div>
+<div class="src">Levels still escalate on harm. The document is how every case ends, not what defines the level.</div></div>
 
-<!-- 12 · REALITY TV CASTING -->
-<div class="slide" id="pitch-casting">
-  <h1>AO &mdash; &ldquo;the Most Disturbing Reality TV Casting Iceberg&rdquo;</h1>
-  <div class="sub"><strong style="color:#199e70">The document: the background check.</strong> &nbsp;7 levels · <strong style="color:#c3c2b7">~42 cases, one person each</strong> · 50 min · anchors verified, inventory is week one; levels run on seriousness of offence</div>
-  <div class="body"><svg id="s-ice-cast" width="1456" height="400"></svg></div>
-  <div class="foot"><span style="color:#c3c2b7">HOOK</span> &nbsp;&ldquo;Eleven months after this tape, he was arrested for murder. The network said it ran a full background check. It did. The conviction was already in it.&rdquo;</div>
-</div>
+<div class="fig" id="pitch-collapses"><h1>AD · The Most Disturbing Structural Collapses Iceberg</h1>
+<div class="meta"><b>The engineering report</b> &nbsp;·&nbsp; 7 levels &nbsp;·&nbsp; ~44 cases &nbsp;·&nbsp; 55 min</div>
+<div class="chart" id="l-col"></div></div>
 
-<!-- 13 · STRUCTURAL COLLAPSES -->
-<div class="slide" id="pitch-collapses">
-  <h1>AD &mdash; &ldquo;the Most Disturbing Structural Collapses Iceberg&rdquo;</h1>
-  <div class="sub"><strong style="color:#199e70">The document: the engineering report.</strong> &nbsp;7 levels · <strong style="color:#c3c2b7">~44 cases</strong> · 55 min · anchors verified, inventory is week one &mdash; levels run on scale and who was inside; every segment lands on the report</div>
-  <div class="body"><svg id="s-ice-col" width="1456" height="400"></svg></div>
-  <div class="foot"><span style="color:#c3c2b7">HOOK</span> &nbsp;&ldquo;Nineteen months before this, a structural engineer wrote a report about this building. Somebody read it. Nobody did anything.&rdquo;</div>
-</div>
+<div class="fig" id="pitch-lifts"><h1>AD2 · The Most Disturbing Lift &amp; Cable Failures Iceberg</h1>
+<div class="meta"><b>The inspection certificate</b> &nbsp;·&nbsp; 7 levels &nbsp;·&nbsp; ~40 cases &nbsp;·&nbsp; 48 min</div>
+<div class="chart" id="l-lift"></div></div>
 
-<!-- 14 · ELEVATORS -->
-<div class="slide" id="pitch-lifts">
-  <h1>AD2 &mdash; &ldquo;the Most Disturbing Lift &amp; Cable Failures Iceberg&rdquo;</h1>
-  <div class="sub"><strong style="color:#199e70">The document: the inspection certificate.</strong> &nbsp;7 levels · <strong style="color:#c3c2b7">~40 cases</strong> · 48 min · anchors verified, inventory is week one &mdash; elevators, escalators, funiculars, cable cars, ski lifts, mine hoists; levels run on harm</div>
-  <div class="body"><svg id="s-ice-lift" width="1456" height="400"></svg></div>
-  <div class="foot"><span style="color:#c3c2b7">HOOK</span> &nbsp;&ldquo;There is a certificate in the lobby of your building with a date on it. You have never once looked at it. Every person in this video was killed by a machine that had one too.&rdquo;</div>
-</div>
+<div class="fig" id="pitch-casting"><h1>AO · The Most Disturbing Reality TV Casting Iceberg</h1>
+<div class="meta"><b>The background check</b> &nbsp;·&nbsp; 7 levels &nbsp;·&nbsp; ~42 cases, one person each &nbsp;·&nbsp; 50 min</div>
+<div class="chart" id="l-cast"></div></div>
 
 <script>
-const C={red:'#e66767',blue:'#3987e5',aqua:'#199e70',amber:'#c98500',
-         ink:'#ffffff',ink2:'#c3c2b7',ink3:'#8a8880',grid:'#2e2e2c',surface:'#1a1a19'};
+const C={blue:'#3987e5',aqua:'#199e70',amber:'#c98500',red:'#e66767',ink:'#fff',ink2:'#c3c2b7',ink3:'#8a8880',grid:'#2e2e2c',bg:'#1a1a19',mute:'#4a4945'};
 const NS='http://www.w3.org/2000/svg';
-function el(t,a={}){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e;}
-function txt(s,x,y,o={}){const t=el('text',Object.assign({x,y,fill:C.ink2,'font-size':17},o));t.textContent=s;return t;}
-const fmt=n=>n.toLocaleString('en-US');
+const el=(t,a={})=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e;};
+const tx=(svg,s,x,y,o={})=>{const t=el('text',Object.assign({x,y,fill:C.ink2,'font-size':18},o));t.textContent=s;svg.appendChild(t);return t;};
+const K=v=>v>=1e6?(v/1e6).toFixed(2).replace(/0$/,'')+'M':v>=1e3?Math.round(v/1e3)+'K':String(v);
+const rbar=(svg,x,y,w,h,fill,dir='r')=>{ // rounded data-end, square at baseline
+  const r=Math.min(4,w/2,h/2); let d;
+  if(dir==='r') d=`M${x},${y}h${w-r}q${r},0 ${r},${r}v${h-2*r}q0,${r} -${r},${r}h-${w-r}z`;
+  else if(dir==='l') d=`M${x+w},${y}h-${w-r}q-${r},0 -${r},${r}v${h-2*r}q0,${r} ${r},${r}h${w-r}z`;
+  else d=`M${x},${y+h}v-${h-r}q0,-${r} ${r},-${r}h${w-2*r}q${r},0 ${r},${r}v${h-r}z`;
+  svg.appendChild(el('path',{d,fill}));};
 
-/* COLLAPSE */
+// 1 collapse
 (function(){
-  const svg=document.getElementById('s-collapse');
-  const d=[{n:'Abyssal Detective',p:2035346,c:138757,pct:'−93%'},
-           {n:'Abyssal Observer',p:1390590,c:141082,pct:'−90%'},
-           {n:'Abyssal Detective 2',p:601402,c:133382,pct:'−78%'}];
-  const L=300,W=740,max=2100000,H=155,PCTX=1420;
-  d.forEach((r,i)=>{const y=i*H+24;
-    svg.appendChild(txt(r.n,L-24,y+46,{fill:C.ink,'font-size':22,'font-weight':600,'text-anchor':'end'}));
-    let w=r.p/max*W;
-    svg.appendChild(el('rect',{x:L,y:y+10,width:w,height:34,rx:4,fill:C.blue}));
-    svg.appendChild(txt(fmt(r.p),L+w+16,y+34,{fill:C.ink2,'font-size':19}));
-    w=r.c/max*W;
-    svg.appendChild(el('rect',{x:L,y:y+54,width:Math.max(w,3),height:34,rx:4,fill:C.red}));
-    svg.appendChild(txt(fmt(r.c),L+Math.max(w,3)+16,y+78,{fill:C.ink2,'font-size':19}));
-    svg.appendChild(txt(r.pct,PCTX,y+62,{fill:C.red,'font-size':44,'font-weight':800,'text-anchor':'end'}));});
+const AD1=[["2024-10",552251],["2024-11",1610295],["2024-12",992020],["2025-01",1591864],["2025-02",917264],["2025-03",2035346],["2025-04",1290425],["2025-05",606122],["2025-06",430328],["2025-07",473586],["2025-08",896587],["2025-09",601935],["2025-10",313102],["2025-11",286277],["2025-12",506158],["2026-01",420292],["2026-02",334253],["2026-03",539597],["2026-04",263582],["2026-05",151275],["2026-06",142267],["2026-07",199391],["2026-08",127950],["2026-09",138757]];
+const AD2=[["2025-06",438167],["2025-07",208013],["2025-08",214199],["2025-09",220107],["2025-10",601402],["2025-11",117466],["2025-12",215069],["2026-01",410304],["2026-02",548438],["2026-03",421041],["2026-04",402089],["2026-05",168153],["2026-06",89952],["2026-07",84402],["2026-08",130827],["2026-09",133382]];
+const AO=[["2025-01",693116],["2025-02",737419],["2025-03",481416],["2025-04",732808],["2025-05",400668],["2025-06",376459],["2025-07",266624],["2025-08",207279],["2025-09",296746],["2025-10",219029],["2025-11",440700],["2025-12",528545],["2026-01",370368],["2026-02",1390590],["2026-03",481107],["2026-04",349382],["2026-05",180491],["2026-06",217328],["2026-07",112457],["2026-08",141764],["2026-09",141082]];
+const svg=document.getElementById('c-collapse'),L=90,R=1120,T=10,B=510,max=2200000;
+const mi=m=>{const[y,mo]=m.split('-').map(Number);return (y-2024)*12+mo-10;};
+const X=m=>L+mi(m)/23*(R-L),Y=v=>B-v/max*(B-T);
+[0,500000,1000000,1500000,2000000].forEach(v=>{svg.appendChild(el('line',{x1:L,x2:R,y1:Y(v),y2:Y(v),stroke:C.grid}));tx(svg,v?(v/1e6)+'M':'0',L-16,Y(v)+6,{'text-anchor':'end',fill:C.ink3,'font-size':16});});
+['2024-10','2025-01','2025-04','2025-07','2025-10','2026-01','2026-04','2026-07'].forEach(m=>{const[y,mo]=m.split('-');tx(svg,['Jan','Apr','Jul','Oct'][[1,4,7,10].indexOf(+mo)]+' '+y.slice(2),X(m),B+34,{'text-anchor':'middle',fill:C.ink3,'font-size':16});});
+const S=[[AD1,C.blue,'AD','−93%'],[AO,C.aqua,'AO','−90%'],[AD2,C.amber,'AD2','−78%']];
+S.forEach(([d,c])=>{svg.appendChild(el('path',{d:'M'+d.map(p=>X(p[0])+','+Y(p[1])).join('L'),fill:'none',stroke:c,'stroke-width':2.5,'stroke-linejoin':'round'}));});
+S.forEach(([d,c])=>{const pk=d.reduce((a,b)=>b[1]>a[1]?b:a);svg.appendChild(el('circle',{cx:X(pk[0]),cy:Y(pk[1]),r:7,fill:c,stroke:C.bg,'stroke-width':2.5}));
+  tx(svg,'peak '+pk[1].toLocaleString('en-US'),X(pk[0]),Y(pk[1])-18,{'text-anchor':'middle',fill:C.ink,'font-size':17,'font-weight':600});});
+const ends=[[AO,C.aqua,'Observer','−90%'],[AD1,C.blue,'Detective','−93%'],[AD2,C.amber,'Detective 2','−78%']];
+ends.forEach(([d,c])=>{const e=d[d.length-1];svg.appendChild(el('circle',{cx:X(e[0]),cy:Y(e[1]),r:6,fill:c,stroke:C.bg,'stroke-width':2}));});
+tx(svg,'SEP 2026',R+30,B-176,{fill:C.ink3,'font-size':14,'font-weight':700,'letter-spacing':1.2});
+ends.forEach(([d,c,n,p],i)=>{const e=d[d.length-1],yy=B-130+i*44;
+  svg.appendChild(el('rect',{x:R+30,y:yy-13,width:13,height:13,rx:3,fill:c}));
+  tx(svg,n,R+52,yy,{fill:C.ink,'font-size':18,'font-weight':600});
+  tx(svg,e[1].toLocaleString('en-US'),R+236,yy,{fill:C.ink2,'font-size':17,'text-anchor':'end'});
+  tx(svg,p,R+322,yy,{fill:C.red,'font-size':18,'font-weight':700,'text-anchor':'end'});});
 })();
 
-/* SCATTER */
-(function(){
-  const svg=document.getElementById('s-scatter');
-  const AD1=[["2024-10",3,552251],["2024-11",3,1610295],["2024-12",6,992020],["2025-01",5,1591864],
-  ["2025-02",6,917264],["2025-03",6,2035346],["2025-04",5,1290425],["2025-05",6,606122],
-  ["2025-06",7,430328],["2025-07",6,473586],["2025-08",6,896587],["2025-09",4,601935],
-  ["2025-10",4,313102],["2025-11",6,286277],["2025-12",5,506158],["2026-01",6,420292],
-  ["2026-02",4,334253],["2026-03",7,539597],["2026-04",7,263582],["2026-05",7,151275],
-  ["2026-06",8,142267],["2026-07",6,199391],["2026-08",8,127950],["2026-09",5,138757]];
-  const AD2=[["2025-06",1,438167],["2025-07",4,208013],["2025-08",5,214199],["2025-09",5,220107],
-  ["2025-10",3,601402],["2025-11",4,117466],["2025-12",4,215069],["2026-01",3,410304],
-  ["2026-02",6,548438],["2026-03",6,421041],["2026-04",5,402089],["2026-05",6,168153],
-  ["2026-06",7,89952],["2026-07",8,84402],["2026-08",8,130827],["2026-09",4,133382]];
-  const AO=[["2025-01",1,693116],["2025-02",3,737419],["2025-03",4,481416],["2025-04",4,732808],
-  ["2025-05",7,400668],["2025-06",5,376459],["2025-07",8,266624],["2025-08",7,207279],
-  ["2025-09",5,296746],["2025-10",5,219029],["2025-11",3,440700],["2025-12",4,528545],
-  ["2026-01",4,370368],["2026-02",7,1390590],["2026-03",6,481107],["2026-04",5,349382],
-  ["2026-05",6,180491],["2026-06",8,217328],["2026-07",8,112457],["2026-08",7,141764],
-  ["2026-09",5,141082]];
-  const all=[...AD1,...AD2,...AO];
-  const PL=92,PB=70,W=850,H=560,maxY=2150000;
-  const xs=u=>PL+((u-1)/7)*(W-PL-26), ys=v=>(H-PB)-(v/maxY)*(H-PB-46);
-  svg.appendChild(txt('Avg views per video',PL-58,22,{fill:C.ink3,'font-size':16}));
-  [0,500000,1000000,1500000,2000000].forEach(v=>{
-    svg.appendChild(el('line',{x1:PL,y1:ys(v),x2:W,y2:ys(v),stroke:C.grid,'stroke-width':1}));
-    svg.appendChild(txt(v===0?'0':(v/1000000)+'M',PL-14,ys(v)+6,{fill:C.ink3,'font-size':16,'text-anchor':'end'}));});
-  for(let u=1;u<=8;u++) svg.appendChild(txt(u,xs(u),H-PB+32,{fill:C.ink3,'font-size':18,'text-anchor':'middle'}));
-  svg.appendChild(txt('Uploads that month',(PL+W)/2,H-PB+66,{fill:C.ink3,'font-size':17,'text-anchor':'middle'}));
-  all.forEach(p=>svg.appendChild(el('circle',{cx:xs(p[1]),cy:ys(p[2]),r:7,
-    fill:p[0].startsWith('2026')?C.red:C.blue,'fill-opacity':0.82,stroke:C.surface,'stroke-width':2})));
+// 2 volume
+function vpanel(id,title,rows,max,fmt){const svg=document.getElementById(id),B=360,H=300,bw=150,gap=120,x0=110;
+ tx(svg,title,0,0,{fill:C.ink,'font-size':21,'font-weight':650});
+ svg.appendChild(el('line',{x1:40,x2:640,y1:B,y2:B,stroke:C.grid}));
+ rows.forEach((r,i)=>{const h=r.v/max*H,x=x0+i*(bw+gap);rbar(svg,x,B-h,bw,h,r.c||C.blue,'u');
+  tx(svg,fmt(r.v),x+bw/2,B-h-16,{'text-anchor':'middle',fill:C.ink,'font-size':24,'font-weight':700});
+  tx(svg,r.n,x+bw/2,B+34,{'text-anchor':'middle',fill:C.ink2,'font-size':18});});}
+vpanel('c-vol1','Views per video',[{n:'≤5 uploads/month',v:284952},{n:'≥7 uploads/month',v:282666}],300000,v=>v.toLocaleString('en-US'));
+vpanel('c-vol2','Total views per month',[{n:'≤5 uploads/month',v:1217434,c:C.mute},{n:'≥7 uploads/month',v:2046597}],2200000,v=>(v/1e6).toFixed(2)+'M');
+
+// generic horizontal bars
+function hbars(id,rows,max,opt={}){const svg=document.getElementById(id),LW=opt.lw||360,W=opt.w||920,RH=opt.rh||56,BH=opt.bh||32;let y=opt.top||0;
+ rows.forEach(r=>{if(r.head){tx(svg,r.head,0,y+22,{fill:r.hc||C.ink3,'font-size':15,'font-weight':700,'letter-spacing':1.3});y+=46;return;}
+  const w=Math.max(3,r.v/max*W);tx(svg,r.n,LW-20,y+BH/2+7,{'text-anchor':'end',fill:r.bold?C.ink:C.ink2,'font-size':20,'font-weight':r.bold?700:500});
+  rbar(svg,LW,y,w,BH,r.c);tx(svg,r.lab,LW+w+14,y+BH/2+7,{fill:C.ink,'font-size':20,'font-weight':650});
+  if(r.note)tx(svg,r.note,opt.nx||LW+W+170,y+BH/2+7,{fill:C.ink3,'font-size':17,'text-anchor':'end'});y+=RH;});}
+
+hbars('c-curio',[
+ {head:'BUILT-IN MORBID CURIOSITY',hc:C.aqua},
+ {n:'Footage Caught on Camera',v:4031577,c:C.aqua,lab:'4.03M'},{n:'CCTV Incidents',v:3173932,c:C.aqua,lab:'3.17M'},{n:'Internet Mysteries',v:2203917,c:C.aqua,lab:'2.20M'},
+ {head:'NONE TO CLOSE',hc:C.red},
+ {n:'Amazon Incidents',v:71000,c:C.red,lab:'71K'},{n:'Fishing Encounters',v:65000,c:C.red,lab:'65K'},{n:'Biblical Horrors',v:60000,c:C.red,lab:'60K'},{n:'Chinese Shows',v:54395,c:C.red,lab:'54K'}],4200000,{lw:340,w:960});
+
+// sequels (diverging, one common scale)
+(function(){const svg=document.getElementById('c-seq'),LW=360,S=4.4,Z=LW+96*S+12,RH=54,BH=32;
+ const d=[['AD1 · CCTV',-96,'3.17M → 132K'],['AD1 · Dashcam',-95,'1.19M → 61K'],['AD2 · Theme Park',-92,'1.19M → 91K'],['AD1 · Warning Signs',-90,'907K → 90K'],['AD2 · Live TV Moments',-87,'791K → 107K'],['AO · Talent Show Accidents',-83,'455K → 77K'],['AO · TV Accidents',-50,'381K → 192K'],['AD2 · Things on Asian Internet',94,'602K → 1.17M']];
+ svg.appendChild(el('line',{x1:Z,x2:Z,y1:-6,y2:d.length*RH+14,stroke:C.ink3}));
+ d.forEach(([n,v,note],i)=>{const y=i*RH+(i===7?14:0),w=Math.abs(v)*S,lab=(v<0?'−':'+')+Math.abs(v)+'%';
+  tx(svg,n,LW-20,y+BH/2+7,{'text-anchor':'end',fill:C.ink2,'font-size':19});
+  if(v<0){rbar(svg,Z-w,y,w,BH,C.red,'l');tx(svg,lab,Z-w+14,y+BH/2+7,{fill:'#1a1a19','font-size':19,'font-weight':800});
+    tx(svg,note,Z+16,y+BH/2+7,{fill:C.ink3,'font-size':17});}
+  else{rbar(svg,Z,y,w,BH,C.aqua,'r');tx(svg,lab,Z+w-14,y+BH/2+7,{fill:'#1a1a19','font-size':19,'font-weight':800,'text-anchor':'end'});
+    tx(svg,note,Z+w+16,y+BH/2+7,{fill:C.ink3,'font-size':17});}});
 })();
 
-/* CURIOSITY */
-(function(){
-  const svg=document.getElementById('s-curiosity');
-  const d=[{n:'Footage Caught on Camera',v:4031577,g:1},{n:'CCTV Incidents',v:3173932,g:1},
-           {n:'Internet Mysteries',v:2203917,g:1},{n:'Amazon Incidents',v:71000,g:0},
-           {n:'Fishing Encounters',v:65000,g:0},{n:'Biblical Horrors',v:60000,g:0},
-           {n:'Chinese Shows',v:54395,g:0}];
-  const L=430,W=800,max=4200000,H=62;
-  d.forEach((r,i)=>{const y=i*H+16,w=Math.max(r.v/max*W,4),col=r.g?C.aqua:C.red;
-    svg.appendChild(txt(r.n,L-22,y+34,{fill:r.g?C.ink:C.ink2,'font-size':20,'font-weight':600,'text-anchor':'end'}));
-    svg.appendChild(el('rect',{x:L,y:y+12,width:w,height:34,rx:4,fill:col}));
-    svg.appendChild(txt(fmt(r.v),L+w+16,y+36,{fill:C.ink,'font-size':19,'font-weight':600}));});
-  svg.appendChild(txt('Early — the curiosity was already there',L,H*3+6,{fill:C.aqua,'font-size':16}));
-})();
+// cliff
+(function(){const svg=document.getElementById('c-cliff'),B=400,H=360,bw=150,gap=92,x0=110,max=3300000;
+ const d=[[4,1117337,279334,3],[5,1289138,257828,4],[6,2073354,345559,7],[7,3006220,429460,6],[8,1086975,135872,6]];
+ svg.appendChild(el('line',{x1:60,x2:1320,y1:B,y2:B,stroke:C.grid}));
+ d.forEach(([n,v,p,m],i)=>{const h=v/max*H,x=x0+i*(bw+gap),c=n===7?C.aqua:n===8?C.red:C.mute;rbar(svg,x,B-h,bw,h,c,'u');
+  tx(svg,(v/1e6).toFixed(2)+'M',x+bw/2,B-h-16,{'text-anchor':'middle',fill:C.ink,'font-size':26,'font-weight':700});
+  tx(svg,n+' uploads',x+bw/2,B+36,{'text-anchor':'middle',fill:C.ink,'font-size':20,'font-weight':600});
+  tx(svg,K(p)+' per video',x+bw/2,B+64,{'text-anchor':'middle',fill:C.ink3,'font-size':17});
+  tx(svg,m+' channel-months',x+bw/2,B+88,{'text-anchor':'middle',fill:C.ink3,'font-size':15});});})();
 
-/* SEQUEL */
-(function(){
-  const svg=document.getElementById('s-sequel');
-  const d=[{n:'AD1 · CCTV',v:-96,d:'3,173,932 → 131,744   (Vol 4)'},
-           {n:'AD1 · Dashcam',v:-95,d:'1,189,689 → 61,002   (Vol 6)'},
-           {n:'AD2 · Theme Park',v:-92,d:'1,194,153 → 91,033   (Vol 5)'},
-           {n:'AD1 · Warning Signs',v:-90,d:'906,763 → 89,947   (Vol 2)'},
-           {n:'AD2 · Live TV Moments',v:-87,d:'791,394 → 106,570   (Vol 5)'},
-           {n:'AO · Talent Show Accidents',v:-83,d:'455,466 → 77,091   (Vol 3)'},
-           {n:'AO · TV Accidents',v:-50,d:'381,204 → 192,451   (Vol 3)'},
-           {n:'AD2 · Things on Asian Internet',v:94,d:'602,000 → 1,170,000   (Vol 2)'}];
-  const NAMEX=400,ZERO=760,SC=3.15,H=58,DETX=1150;
-  d.forEach((r,i)=>{const y=i*H+18,neg=r.v<0,w=Math.abs(r.v)*SC;
-    svg.appendChild(txt(r.n,NAMEX,y+30,{fill:neg?C.ink:C.aqua,'font-size':19,'font-weight':600,'text-anchor':'end'}));
-    svg.appendChild(el('rect',{x:neg?ZERO-w:ZERO,y:y+10,width:w,height:30,rx:4,fill:neg?C.red:C.aqua}));
-    svg.appendChild(txt((r.v>0?'+':'−')+Math.abs(r.v)+'%',(neg?ZERO-w:ZERO)+14,y+32,{fill:'#fff','font-size':19,'font-weight':800}));
-    svg.appendChild(txt(r.d,DETX,y+31,{fill:C.ink3,'font-size':16}));});
-  svg.appendChild(el('line',{x1:ZERO,y1:4,x2:ZERO,y2:d.length*H+14,stroke:C.grid,'stroke-width':1.5}));
-})();
+// convergence
+vpanelC('c-subs','Subscribers',[['AD',494,C.blue],['AO',274,C.aqua],['AD2',123,C.amber]],520,v=>v+'K');
+vpanelC('c-views','Avg views per video, Sep 2026',[['AD',138.757,C.blue],['AO',141.082,C.aqua],['AD2',133.382,C.amber]],160,v=>Math.round(v*1000).toLocaleString('en-US'));
+function vpanelC(id,title,rows,max,fmt){const svg=document.getElementById(id),B=350,H=290,bw=130,gap=70,x0=60;
+ tx(svg,title,0,0,{fill:C.ink,'font-size':21,'font-weight':650});svg.appendChild(el('line',{x1:30,x2:640,y1:B,y2:B,stroke:C.grid}));
+ rows.forEach(([n,v,c],i)=>{const h=v/max*H,x=x0+i*(bw+gap);rbar(svg,x,B-h,bw,h,c,'u');
+  tx(svg,fmt(v),x+bw/2,B-h-14,{'text-anchor':'middle',fill:C.ink,'font-size':22,'font-weight':700});
+  tx(svg,n,x+bw/2,B+32,{'text-anchor':'middle',fill:C.ink2,'font-size':19});});}
 
-/* CLIFF */
-(function(){
-  const svg=document.getElementById('s-cliff');
-  const d=[{n:'4',v:1117337,p:279334},{n:'5',v:1289138,p:257828},{n:'6',v:2073354,p:345559},
-           {n:'7',v:3006220,p:429460},{n:'8',v:1086975,p:135872}];
-  const max=3250000,base=330,BW=170,GAP=110,X0=130;
-  d.forEach((r,i)=>{const x=X0+i*(BW+GAP),h=r.v/max*base;
-    const col=r.n==='7'?C.aqua:(r.n==='8'?C.red:C.blue);
-    svg.appendChild(el('rect',{x,y:base-h,width:BW,height:h,rx:4,fill:col}));
-    svg.appendChild(txt((r.v/1000000).toFixed(2)+'M',x+BW/2,base-h-18,{fill:C.ink,'font-size':28,'font-weight':700,'text-anchor':'middle'}));
-    svg.appendChild(txt(r.n+' uploads',x+BW/2,base+34,{fill:C.ink2,'font-size':21,'text-anchor':'middle','font-weight':600}));
-    svg.appendChild(txt(fmt(r.p)+' / video',x+BW/2,base+60,{fill:C.ink3,'font-size':17,'text-anchor':'middle'}));});
-  svg.appendChild(el('line',{x1:60,y1:base,x2:1430,y2:base,stroke:C.grid,'stroke-width':1}));
-  const x7=X0+3*(BW+GAP)+BW,x8=X0+4*(BW+GAP);
-  svg.appendChild(el('path',{d:`M${x7+16} 40 L${x8-16} 40`,stroke:C.red,'stroke-width':2,'stroke-dasharray':'5 5'}));
-  svg.appendChild(txt('−64%',(x7+x8)/2,28,{fill:C.red,'font-size':26,'font-weight':800,'text-anchor':'middle'}));
-})();
+// ask
+hbars('c-ask',[
+ {n:'Abyssal Network (all three)',v:16.9,c:C.red,lab:'16.9 hrs',bold:1,note:'133–141K'},
+ {n:'Chilling Scares',v:1.0,c:C.mute,lab:'1.0',note:'3.24M'},{n:'Nexpo',v:1.0,c:C.mute,lab:'1.0',note:'3.22M'},
+ {n:'The Paint Explainer',v:0.94,c:C.mute,lab:'0.9',note:'1.88M'},{n:'Nick Crowley',v:0.81,c:C.mute,lab:'0.8',note:'2.59M'},{n:'SIRIUS',v:0.32,c:C.mute,lab:'0.3',note:'2.81M'}],17,{lw:340,w:720,rh:62,top:40,nx:1440});
+(function(){const s=document.getElementById('c-ask');tx(s,'AVG VIEWS / VIDEO',1440,20,{'text-anchor':'end',fill:C.ink3,'font-size':14,'font-weight':700,'letter-spacing':1.2});})();
 
-/* CONVERGENCE */
-function vbars(id,data,color,suffix,maxV){
-  const svg=document.getElementById(id),bw=118,gapx=80,base=272;
-  data.forEach((d,i)=>{const x=i*(bw+gapx)+60,h=d.v/maxV*base;
-    svg.appendChild(el('rect',{x,y:base-h,width:bw,height:h,rx:4,fill:color}));
-    svg.appendChild(txt(d.v+suffix,x+bw/2,base-h-18,{fill:C.ink,'font-size':26,'font-weight':700,'text-anchor':'middle'}));
-    svg.appendChild(txt(d.n,x+bw/2,base+32,{fill:C.ink3,'font-size':19,'text-anchor':'middle'}));});
-  svg.appendChild(el('line',{x1:34,y1:base,x2:620,y2:base,stroke:C.grid,'stroke-width':1}));
-}
-vbars('s-subs',[{n:'AD1',v:494},{n:'AO',v:274},{n:'AD2',v:123}],C.blue,'K',560);
-vbars('s-views',[{n:'AD1',v:138},{n:'AO',v:127},{n:'AD2',v:110}],C.red,'K',560);
+// AO rule
+hbars('c-ao',[
+ {head:'CONSEQUENCE KEPT  ·  AVERAGE 777,580',hc:C.aqua},
+ {n:'TLC',v:1440848,c:C.aqua,lab:'1.44M'},{n:'To Catch a Predator',v:953849,c:C.aqua,lab:'954K'},{n:'Intervention',v:631353,c:C.aqua,lab:'631K'},
+ {n:'My Strange Addiction',v:613773,c:C.aqua,lab:'614K'},{n:'90 Day Fiancé',v:527895,c:C.aqua,lab:'528K'},{n:'Extreme Cheapskates',v:497762,c:C.aqua,lab:'498K'},
+ {head:'SHOW ONLY  ·  AVERAGE 49,930',hc:C.red},
+ {n:'Directors Behind Famous Films',v:60218,c:C.red,lab:'60K'},{n:'Chinese Shows',v:54395,c:C.red,lab:'54K'},{n:'Anime Based on Real Events',v:45563,c:C.red,lab:'46K'},{n:'Marvel',v:39545,c:C.red,lab:'40K'}],1500000,{lw:380,w:900,rh:50,bh:30});
 
-/* THE ASK */
-(function(){
-  const svg=document.getElementById('s-ask');
-  const d=[{n:'Abyssal Network (all three)',v:17.0,c:C.red},{n:'GOHA Moments',v:1.8,c:C.blue},
-           {n:'Chilling Scares',v:1.1,c:C.aqua},{n:'Nexpo',v:1.0,c:C.blue},{n:'SIRIUS',v:0.3,c:C.blue}];
-  const L=400,W=820,max=18,H=56;
-  d.forEach((r,i)=>{const y=i*H+10,w=Math.max(r.v/max*W,4);
-    svg.appendChild(txt(r.n,L-22,y+30,{fill:r.c===C.red?C.ink:C.ink2,'font-size':19,
-      'font-weight':r.c===C.red?700:500,'text-anchor':'end'}));
-    svg.appendChild(el('rect',{x:L,y:y+10,width:w,height:30,rx:4,fill:r.c}));
-    svg.appendChild(txt(r.v.toFixed(1)+' hrs',L+w+16,y+32,{fill:C.ink,'font-size':19,'font-weight':700}));});
-})();
+// AD2 shift
+(function(){const svg=document.getElementById('c-ad2'),LW=420,W=860,BH=34;
+ [['On-territory footage & setting topics',28,55],['Titles carrying a volume number',80,25]].forEach(([n,a,b],i)=>{const y=i*150;
+  tx(svg,n,LW-24,y+BH+10,{'text-anchor':'end',fill:C.ink,'font-size':20,'font-weight':600});
+  rbar(svg,LW,y,a/100*W,BH,C.mute);tx(svg,a+'%',LW+a/100*W+14,y+BH/2+7,{fill:C.ink2,'font-size':20,'font-weight':600});
+  rbar(svg,LW,y+BH+8,b/100*W,BH,C.aqua);tx(svg,b+'%',LW+b/100*W+14,y+BH+8+BH/2+7,{fill:C.ink,'font-size':22,'font-weight':700});});})();
 
-/* ICEBERG LADDERS */
-function iceberg(id,levels){
-  const svg=document.getElementById(id),CHIPW=168,ROWH=55,TX=200,CNTX=1430;
-  levels.forEach((lv,i)=>{
-    const t=i/(levels.length-1),y=i*ROWH,l=64-t*38;
-    svg.appendChild(el('rect',{x:0,y,width:CHIPW,height:45,rx:5,fill:`hsl(210 68% ${l}%)`}));
-    svg.appendChild(txt(lv.l,CHIPW/2,y+29,{fill:t>0.5?'#ffffff':'#0b1420','font-size':16,'font-weight':800,'text-anchor':'middle'}));
-    svg.appendChild(txt(lv.t,TX,y+20,{fill:C.ink,'font-size':19,'font-weight':600}));
-    svg.appendChild(txt(lv.d,TX,y+41,{fill:C.ink3,'font-size':15}));
-    if(lv.c) svg.appendChild(txt(lv.c,CNTX,y+29,{fill:C.ink3,'font-size':17,'text-anchor':'end'}));
-  });
-}
-iceberg('s-ice-cast',[
- {l:'LEVEL 1',t:'Financial crime',d:'Chrisleys — 12 and 7 years, bank fraud and tax evasion · Giudices — 41 counts · Sorrentino · Abby Lee Miller',c:'6 cases'},
- {l:'LEVEL 2',t:'Drugs and driving offences',d:'',c:'6'},
- {l:'LEVEL 3',t:'Domestic violence',d:'',c:'6'},
- {l:'LEVEL 4',t:'Violent crime',d:'Geoffrey Paschel, 90 Day Fiancé — aggravated assault and kidnapping · Elyse Alway, ANTM — 12 years',c:'6'},
- {l:'LEVEL 5',t:'Sexual offences',d:'Stephen Bear — voyeurism and disclosing private sexual images; jailed again 2026 for breaching the order',c:'6'},
- {l:'LEVEL 6',t:'Offences against children',d:'Josh Duggar · Michael Skupin, Survivor — four counts of possessing CSAM. Hardest monetization call in the video.',c:'6'},
- {l:'LEVEL 7',t:'Murder — and the shows that were pulled',d:'James Timothy Norman — federal murder-for-hire, $450,000 policy · Ryan Jenkins — prior 2007 Canadian assault conviction, VH1 pulled the series mid-run',c:'6'}]);
-iceberg('s-ice-col',[
- {l:'LEVEL 1',t:'Cranes, scaffolding, facades',d:'Spectacular footage, small tolls',c:'6 cases'},
- {l:'LEVEL 2',t:'Bridges',d:'Genoa’s Morandi bridge — 43 dead, on dashcam · FIU — 6 dead, on a traffic camera',c:'6'},
- {l:'LEVEL 3',t:'Fell mid-construction',d:'Onto the people who were building them',c:'6'},
- {l:'LEVEL 4',t:'Public venues',d:'Hyatt Regency — 114 dead. A walkway redesign approved over the phone that doubled the load on a connection nobody recalculated.',c:'6'},
- {l:'LEVEL 5',t:'Occupied residential',d:'Surfside — 98 dead. A 2018 report describing major structural damage to the slab, three years out.',c:'6'},
- {l:'LEVEL 6',t:'Industrial',d:'Rana Plaza — 1,134 dead. Cracks photographed the day before; workers ordered back in.',c:'6'},
- {l:'LEVEL 7',t:'Dams and tailings',d:'Where the toll stops being countable',c:'8'}]);
-iceberg('s-ice-lift',[
- {l:'LEVEL 1',t:'Malfunctions, nobody hurt',d:'Only unsettling',c:'5 cases'},
- {l:'LEVEL 2',t:'Entrapments',d:'Hours in a sealed box, on camera',c:'6'},
- {l:'LEVEL 3',t:'Injuries',d:'Rome 2018 — escalator accelerated under CSKA Moscow fans: 24 injured, one man partially lost a foot. 11 indicted in 2023 for manslaughter and fraud.',c:'6'},
- {l:'LEVEL 4',t:'Survived the unsurvivable',d:'José Vergara Acevedo, Santiago — 31 floors in 15 seconds, into the roof at ~80 km/h. He lived.',c:'6'},
- {l:'LEVEL 5',t:'Single fatalities',d:'Samuel Waisbren, 30 — door-zone restrictor disabled, building fined $1,300 for exactly that, still unfixed · JauMarcus McFarland, 18 — permit expired the previous August',c:'6'},
- {l:'LEVEL 6',t:'Multiple dead in one failure',d:'',c:'6'},
- {l:'LEVEL 7',t:'Mass casualty',d:'Stresa–Mottarone 2021 — cable snapped, emergency brake clamped open as routine practice to avoid downtime. 14 dead, three arrested. · Vaal Reefs 1995 — 104 men.',c:'5'}]);
+// mindmap
+(function(){const svg=document.getElementById('c-mind'),CX=250,CY=225,BX=640;
+ const n=[['Real and verified',25],['Disturbing but survivable',125],['Forbidden or obscure',225,1],['A moral frame',325],['A human guide',425]];
+ n.forEach(([t,y,h])=>{svg.appendChild(el('path',{d:`M${CX+160},${CY} C${CX+280},${CY} ${BX-110},${y} ${BX},${y}`,fill:'none',stroke:h?C.aqua:'#3a3a37','stroke-width':h?3:2}));
+  svg.appendChild(el('circle',{cx:BX,cy:y,r:h?8:5,fill:h?C.aqua:'#5a5852'}));
+  tx(svg,t,BX+26,y+8,{fill:h?C.aqua:C.ink,'font-size':h?28:24,'font-weight':700});
+  if(h)tx(svg,'the product — the other four are quality control on it',BX+26,y+42,{fill:C.ink2,'font-size':19});});
+ svg.appendChild(el('rect',{x:CX-160,y:CY-48,width:320,height:96,rx:14,fill:'#242423',stroke:'#3a3a37'}));
+ tx(svg,'An Abyssal video',CX,CY+9,{'text-anchor':'middle',fill:C.ink,'font-size':27,'font-weight':800});})();
 
-(function(){
-  const svg=document.getElementById('s-mind');
-  const CX=300, CY=260;
-  const nodes=[
-    {t:'Real and verified',       s:'court records, inquests, news',      y:40 },
-    {t:'Disturbing but survivable',s:'the guide takes the hit',           y:150},
-    {t:'Forbidden or obscure',    s:'something the viewer could not—or should not—find alone', y:260, hero:true},
-    {t:'A moral frame',           s:'victims honoured, institutions held to account', y:370},
-    {t:'A human guide',           s:'a voice, not a narrator',            y:480}
-  ];
-  const BX=620;
-  nodes.forEach(n=>{
-    const col = n.hero?C.aqua:C.grid;
-    const d=`M ${CX+150} ${CY} C ${CX+250} ${CY}, ${BX-90} ${n.y}, ${BX} ${n.y}`;
-    svg.appendChild(el('path',{d,fill:'none',stroke:n.hero?C.aqua:'#3a3a37','stroke-width':n.hero?3:2}));
-    svg.appendChild(el('circle',{cx:BX,cy:n.y,r:n.hero?8:5,fill:n.hero?C.aqua:'#55534c'}));
-    const t=txt(n.t,BX+24,n.y-4,{fill:n.hero?C.aqua:C.ink,'font-size':n.hero?27:24,'font-weight':700});
-    svg.appendChild(t);
-    if(n.s){ svg.appendChild(txt(n.s,BX+24,n.y+26,{fill:C.ink3,'font-size':19})); }
-  });
-  svg.appendChild(el('rect',{x:CX-150,y:CY-56,width:300,height:112,rx:14,fill:'#212120',stroke:'#3a3a37'}));
-  svg.appendChild(txt('An Abyssal video',CX,CY-8,{fill:C.ink,'font-size':27,'font-weight':800,'text-anchor':'middle'}));
-  svg.appendChild(txt('five invariants',CX,CY+24,{fill:C.ink3,'font-size':20,'text-anchor':'middle'}));
-  svg.appendChild(txt('THE PRODUCT',BX+24,CY-36,{fill:C.aqua,'font-size':14,'font-weight':700,'letter-spacing':1.4}));
-  svg.appendChild(txt('the other four are quality control on it',BX+24,CY+52,{fill:C.ink2,'font-size':19,'font-style':'italic'}));
-})();
-</script>
-</body></html>
+// ladders
+function ladder(id,rows){const box=document.getElementById(id);
+ box.insertAdjacentHTML('beforeend','<div class="lhead"><div>LEVEL</div><div></div><div style="text-align:right">CASES</div></div>');
+ rows.forEach((r,i)=>{const l=66-i*6.5;
+  box.insertAdjacentHTML('beforeend',`<div class="lrow"><div class="chip" style="background:hsl(212 70% ${l}%);color:${i>=3?'#fff':'#0e0e0d'}">L${i+1}</div><div><div class="lvn">${r[0]}</div>${r[1]?`<div class="lvd">${r[1]}</div>`:''}</div><div class="cnt">${r[2]}</div></div>`);});}
+ladder('l-col',[['Cranes, scaffolding, facades','Spectacular footage, small tolls',6],['Bridges','Genoa Morandi — 43 dead · FIU footbridge — 6 dead',6],['Fell mid-construction','Onto the people building them',6],['Public venues','Hyatt Regency — 114 dead',6],['Occupied homes','Surfside — 98 dead',6],['Industrial','Rana Plaza — 1,134 dead',6],['Dams and tailings','Where the toll stops being countable',8]]);
+ladder('l-lift',[['Malfunctions, nobody hurt','',5],['Entrapments','Hours in a sealed box, on camera',6],['Injuries','Rome 2018 — 24 injured, 11 indicted',6],['Survivors','Santiago — 31 floors in 15 seconds, survived',6],['Single deaths','Samuel Waisbren · JauMarcus McFarland',6],['Several deaths, one failure','',6],['Mass casualty','Mottarone 2021 — 14 dead · Vaal Reefs 1995 — 104 dead',5]]);
+ladder('l-cast',[['Financial crime','Todd & Julie Chrisley — 12 and 7 years, pardoned 2025 · the Giudices',6],['Drugs and driving offences','',6],['Domestic violence','',6],['Violent crime','Geoffrey Paschel, 90 Day Fiancé',6],['Sexual offences','Stephen Bear',6],['Offences against children','Josh Duggar',6],['Murder','James Timothy Norman · Ryan Jenkins',6]]);
+</script></body></html>
