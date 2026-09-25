@@ -64,6 +64,12 @@ td{padding:26px 0;border-bottom:1px solid var(--grid)} td.x{color:var(--red);fon
 <div><div class="big" style="font-size:80px">59 min</div><div class="lab">AD average</div></div>
 <div><div class="big" style="font-size:80px;color:var(--aqua)">~28 min</div><div class="lab">million-view videos</div></div></div></div></div>
 
+<div class="fig" id="the-title"><h1>The one non-iceberg title</h1>
+<div class="c">
+<div class="tile"><div class="big">407K</div><div class="lab">4chan Threads That Triggered FBI Investigations</div></div>
+<div class="tile"><div class="big" style="color:var(--aqua)">+42%</div><div class="lab">vs AD's average this year</div></div>
+</div></div>
+
 <div class="fig" id="observer"><h1>Observer</h1>
 <div class="c">
 <div class="tile"><div class="big" style="font-size:72px">4.67M · 2.40M</div><div class="lab">February: Talent Show, TV Accidents</div></div>
@@ -171,7 +177,6 @@ hb('c3',[{n:'Footage Caught on Camera',v:4031577,c:C.aqua,l:'4.03M'},{n:'CCTV In
  svg.appendChild(el('line',{x1:0,x2:808,y1:B,y2:B,stroke:C.grid}));
  [['Detective',263583,151275,C.blue,'−43%'],['Observer',349382,180491,C.aqua,'−48%'],['Detective 2',402090,168153,C.amber,'−58%']].forEach(([n,a,m,c,p],i)=>{
   const x=x0+i*gap;[[a,C.mute,'Apr'],[m,c,'May']].forEach(([v,f,l],j)=>{const h=v/max*H,xx=x+j*(bw+14);rbar(svg,xx,B-h,bw,h,f,'u');
-   tx(svg,Math.round(v/1000)+'K',xx+bw/2,B-h-14,{'text-anchor':'middle',fill:j?C.ink:C.ink3,'font-size':24,'font-weight':750});
    tx(svg,l,xx+bw/2,B+32,{'text-anchor':'middle',fill:C.ink3,'font-size':20});});
   tx(svg,n,x+bw+7,B+76,{'text-anchor':'middle',fill:C.ink2,'font-size':26});
   tx(svg,p,x+bw+7,B+140,{'text-anchor':'middle',fill:C.ink,'font-size':52,'font-weight':800});});
@@ -181,12 +186,12 @@ hb('c8',[{n:'Abyssal (all three)',v:16.9,c:C.red,l:'16.9'},{n:'Chilling Scares',
 
 (function(){const svg=document.getElementById('c9'),B=250,H=200,max=500000,bw=110,gap=48;
  [['Mar',497696],['Apr',286402],['May',192986],['Jun',83301],['Jul',122004]].forEach(([m,v],i)=>{const h=v/max*H,x=20+i*(bw+gap);rbar(svg,x,B-h,bw,h,C.red,'u');
-  tx(svg,Math.round(v/1000)+'K',x+bw/2,B-h-12,{'text-anchor':'middle',fill:C.ink,'font-size':24,'font-weight':750});
+  if(m==='Mar'||m==='May')tx(svg,Math.round(v/1000)+'K',x+bw/2,B-h-12,{'text-anchor':'middle',fill:C.ink,'font-size':24,'font-weight':750});
   tx(svg,m,x+bw/2,B+34,{'text-anchor':'middle',fill:C.ink3,'font-size':22});});})();
 
 function ladder(id,rows){const box=document.getElementById(id);
  rows.forEach((r,i)=>{const l=66-i*6.5;box.insertAdjacentHTML('beforeend',`<div class="row" style="padding:17px 0"><div class="chip" style="background:hsl(212 70% ${l}%);color:${i>=3?'#fff':'#0e0e0d'}">L${i+1}</div><div class="ln">${r[0]}</div><div class="an">${r[1]}</div></div>`);});}
-ladder('l1',[['Cranes, scaffolding',''],['Mid-construction',''],['Bridges','Morandi · 43'],['Public venues','Hyatt · 114'],['Homes','Surfside · 98'],['Industrial','Rana Plaza · 1,134'],['Dams & tailings','']]);
+ladder('l1',[['Cranes, scaffolding, facades',''],['Mid-construction',''],['Bridges','Morandi · 43'],['Public venues','Hyatt · 114'],['Homes','Surfside · 98'],['Industrial','Rana Plaza · 1,134'],['Dams & tailings','']]);
 ladder('l2',[['Malfunctions',''],['Entrapments',''],['Survivors','31 floors'],['Injuries','Rome · 24'],['Single deaths','Waisbren'],['Several deaths',''],['Mass casualty','Mottarone · 14']]);
 ladder('l3',[['Financial crime','Chrisleys'],['Drugs & driving',''],['Domestic violence',''],['Violent crime','Paschel'],['Sexual offences','Bear'],['Against children','Duggar'],['Murder','Norman · Jenkins']]);
 </script></body></html>
