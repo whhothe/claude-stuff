@@ -29,7 +29,7 @@ I think I know why, and it's what I'd say you're protecting for the wrong reason
 
 → series
 
-A few other things I found. On series — of the 26 that have had a follow-up, 20 lost more than half their audience by the latest volume. Footage Caught on Camera went from 4.03 million to 261,000 by its fifth. Warning Signs went from 907,000 to 90,000 in one. But a few held up or grew. Movie Accidents is still near 490,000 on its fourth, Cheapskates' second beat its first, and Movies Based on Real Events more than tripled. So some series have more in them and most don't, and that call can be made series by series, from the data.
+A few other things I found. On series — of the 26 that have had a follow-up, 20 lost more than half their audience by the latest volume. Footage Caught on Camera is down 94 percent by its fifth — 4.03 million to 261,000. Warning Signs is down 90 in one volume. But a few held up or grew. Movie Accidents is only 9 percent off its first by its fourth, Cheapskates' second beat its first by 18 percent, and Movies Based on Real Events more than tripled — up 262. So some series have more in them and most don't, and that call can be made series by series, from the data.
 
 → same-month
 

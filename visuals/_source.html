@@ -23,12 +23,8 @@ table{border-collapse:collapse;width:100%;font-size:28px} th{font-size:17px;lett
 td{padding:26px 0;border-bottom:1px solid var(--grid)} td.x{color:var(--red);font-weight:800;font-size:34px}
 </style></head><body>
 
-<div class="fig" id="the-collapse"><h1>2025 → this summer</h1><div class="k">Avg views per video, by upload month · through July 2026</div>
-<div class="c"><svg id="c1" width="808" height="470"></svg>
-<div style="display:flex;justify-content:space-between;margin-top:44px">
-<div><div class="big" style="font-size:72px">−81%</div><div class="lab"><span class="dot" style="background:var(--blue)"></span>Detective</div></div>
-<div><div class="big" style="font-size:72px">−56%</div><div class="lab"><span class="dot" style="background:var(--aqua)"></span>Observer</div></div>
-<div><div class="big" style="font-size:72px">−56%</div><div class="lab"><span class="dot" style="background:var(--amber)"></span>Detective 2</div></div></div></div></div>
+<div class="fig" id="the-collapse"><h1>2025 → this summer</h1><div class="k">Avg views per video · summer = May–July 2026</div>
+<div class="c"><svg id="c1" width="808" height="700"></svg></div></div>
 
 <div class="fig" id="what-it-is-not"><h1>It's not…</h1>
 <div class="c">
@@ -143,15 +139,16 @@ const rbar=(svg,x,y,w,h,fill,dir='r')=>{const r=Math.min(5,w/2,h/2);let d;
  else if(dir==='l') d=`M${x+w},${y}h-${w-r}q-${r},0 -${r},${r}v${h-2*r}q0,${r} ${r},${r}h${w-r}z`;
  else d=`M${x},${y+h}v-${h-r}q0,-${r} ${r},-${r}h${w-2*r}q${r},0 ${r},${r}v${h-r}z`;svg.appendChild(el('path',{d,fill}));};
 
-// collapse
-(function(){const AD1=[552251,1610295,992020,1591864,917264,2035346,1290425,606122,430328,473586,896587,601935,313102,286277,506158,420292,334253,539597,263582,151275,142267,199391];
-const AD2=[438167,208013,214199,220107,601402,117466,215069,410304,548438,421041,402089,168153,89952,84402];
-const AO=[693116,737419,481416,732808,400668,376459,266624,207279,296746,219029,440700,528545,370368,1390590,481107,349382,180491,217328,112457];
-const svg=document.getElementById('c1'),L=60,R=800,T=10,B=420,max=2100000,X=i=>L+i/21*(R-L),Y=v=>B-v/max*(B-T);
-[0,1000000,2000000].forEach(v=>{svg.appendChild(el('line',{x1:L,x2:R,y1:Y(v),y2:Y(v),stroke:C.grid}));tx(svg,v?v/1e6+'M':'0',L-14,Y(v)+7,{'text-anchor':'end',fill:C.ink3,'font-size':20});});
-[['Oct 24',0],['Oct 25',12],['Jul 26',21]].forEach(([s,i])=>tx(svg,s,X(i),B+38,{'text-anchor':i==21?'end':i==0?'start':'middle',fill:C.ink3,'font-size':20}));
-[[AD1,0,C.blue],[AO,3,C.aqua],[AD2,8,C.amber]].forEach(([d,o,c])=>{svg.appendChild(el('path',{d:'M'+d.map((v,i)=>X(i+o)+','+Y(v)).join('L'),fill:'none',stroke:c,'stroke-width':3.5,'stroke-linejoin':'round'}));});
-})();
+// collapse: 2025 vs May–Jul 2026 pairs
+(function(){const svg=document.getElementById('c1'),B=520,H=440,max=850000,bw=92,x0=40,gap=270;
+ svg.appendChild(el('line',{x1:0,x2:808,y1:B,y2:B,stroke:C.grid}));
+ [['Detective',830,160,C.blue,'−81%'],['Observer',390,170,C.aqua,'−56%'],['Detective 2',250,110,C.amber,'−56%']].forEach(([n,a,m,c,p],i)=>{
+  const x=x0+i*gap;[[a,C.mute,'2025'],[m,c,'May–Jul']].forEach(([v,f,l],j)=>{const h=v*1000/max*H,xx=x+j*(bw+14);rbar(svg,xx,B-h,bw,h,f,'u');
+   tx(svg,v+'K',xx+bw/2,B-h-14,{'text-anchor':'middle',fill:j?C.ink:C.ink3,'font-size':24,'font-weight':750});
+   tx(svg,l,xx+bw/2,B+32,{'text-anchor':'middle',fill:C.ink3,'font-size':20});});
+  tx(svg,n,x+bw+7,B+76,{'text-anchor':'middle',fill:C.ink2,'font-size':26});
+  tx(svg,p,x+bw+7,B+140,{'text-anchor':'middle',fill:C.ink,'font-size':52,'font-weight':800});});
+ svg.setAttribute('height',B+150);})();
 
 function hb(id,rows,max,o={}){const svg=document.getElementById(id),LW=o.lw||300,W=o.w||380,RH=o.rh||66,BH=o.bh||36;let y=0;
  rows.forEach(r=>{if(r.gap){y+=r.gap;return;}const w=Math.max(4,Math.abs(r.v)/max*W);
